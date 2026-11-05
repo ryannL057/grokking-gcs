@@ -1,0 +1,8 @@
+family,act,task,seed,base,gcs_source,final_train_acc,final_test_acc,n_gcs_points,attn_peak_x,attn_peak_late_045,mlp_recover75_x,mlp_recover75_by_070,full_locator_like_pattern
+2layer_registry,GeLU,sub,42,experiments/gelu_2layer_sub_p113_s42_20260306_122317,saved_full,1.0,0.04329343326994071,100,0.32323232323232326,False,0.9191919191919192,False,False
+2layer_registry,SiLU,sub,123,experiments/silu_2layer_sub_p113_s123_20260306_011557,saved_full,1.0,0.040272961181340196,100,0.32323232323232326,False,,False,False
+3layer_registry,GeLU,div,42,experiments/gelu_3layer_div_p113_s42_20260306_114753,saved_full,1.0,0.944920993227991,200,0.5778894472361809,True,0.31155778894472363,True,True
+clock_low_wd,SiLU,add,42,experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s42_30k,reduced_recompute,1.0,0.004362904127978521,9,0.8733624454148472,True,,False,False
+clock_low_wd,SiLU,add,123,experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s123_30k,reduced_recompute,1.0,0.016668531155610247,9,0.8733624454148472,True,,False,False
+clock_low_wd,SiLU,add,777,experiments/silu_1layer_add_wd01_s777_40k,saved_full,1.0,0.015773576462691577,200,0.9447236180904522,True,,False,False
+short_horizon,SiLU,add,123,experiments/silu_1layer_add_s123_20260213_000145,saved_full,1.0,0.37755901107506434,75,0.9459459459459459,True,0.972972972972973,False,False

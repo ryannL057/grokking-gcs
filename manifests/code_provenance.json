@@ -1,0 +1,499 @@
+[
+  {
+    "source": "core/data.py",
+    "source_sha256": "f58df04235ebeacf5a61df41988d24d9edc2af39a811fcc147ba869e20634de7",
+    "destination": "src/gcs/core/data.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "core/training.py",
+    "source_sha256": "0f6e82e90fbdfaf05bc782aaadbfb03c54536a46d9afe5a7f6713e663676b148",
+    "destination": "src/gcs/core/training.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "core/__init__.py",
+    "source_sha256": "8689b22d1bf2a4f5b40765d47e7573087d3090a204b5cff72005cfa89d568d74",
+    "destination": "src/gcs/core/__init__.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "destination": "src/gcs/core/models.py",
+    "changes": "Model entrypoint now exports the pinned MIT TransformerLens adapter and the authors' MLP variants. The previous model implementation is not included in this snapshot.",
+    "historical_source": "core/models.py",
+    "historical_source_sha256": "d75ce79dce5c93f66151e58a7a44b6c1afa76e9707a830357877be95baded8d3",
+    "source": "Local package entrypoint"
+  },
+  {
+    "source": "core/constants.py",
+    "source_sha256": "0f1784540c8b6bf86cd655f9a164a0f2e0a62f0cda6a31afcf2637c00f12ad2d",
+    "destination": "src/gcs/core/constants.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/__init__.py",
+    "source_sha256": "4e1bb089a65cafc09dcb0e951e7c3e8bdf73dfc246c8295269a274377f74f9ca",
+    "destination": "src/gcs/analysis/__init__.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/geometry.py",
+    "source_sha256": "61829457c194746c78624a2dc414ff328903f44c3e2dc4d138b7795f67801f2e",
+    "destination": "src/gcs/analysis/geometry.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/paths.py",
+    "source_sha256": "5dd8b5e38775f177936d76aecca5b8d5920b8df8d9d0efb9e7e0438a32e46eb9",
+    "destination": "src/gcs/analysis/paths.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/gmn_tsa.py",
+    "source_sha256": "6fed36d941c2c9c9ffbea071a1b2221ff357bce348e69982eb5aff4eeb42d4d1",
+    "destination": "src/gcs/analysis/gmn_tsa.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/reference_geometry.py",
+    "source_sha256": "002736be88d4694344dc26817f47727f763774f583a03eaefd6881b264645745",
+    "destination": "src/gcs/analysis/reference_geometry.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/batched_gcs.py",
+    "source_sha256": "34bb72bb07ac43b104da6567267e2e41c24ef06a7f55293111972a16ade119cd",
+    "destination": "src/gcs/analysis/batched_gcs.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "Local PyTorch gradient/vmap implementation of centroid alignment",
+    "destination": "src/gcs/analysis/grokalign.py",
+    "changes": "Replace the old reference-following implementation; keep sampling, product-norm floor, method citation and result schema. Fail on incomplete direct trajectories.",
+    "method_reference": "https://github.com/ThomasWalker1/GrokAlign",
+    "upstream_source_dependency": false
+  },
+  {
+    "source": "analysis/direct_jacobian_graph.py",
+    "source_sha256": "7689b5374be2923c498ba614985d90819c2fde05e7b668f726dc0068d95a6135",
+    "destination": "src/gcs/analysis/direct_jacobian_graph.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "analysis/direct_jacobian_sensitivity.py",
+    "source_sha256": "98e055b06efc4d71133b5b40f0cce975c909d19d967da1c8cfee1978357173f1",
+    "destination": "src/gcs/analysis/direct_jacobian_sensitivity.py",
+    "changes": "Import namespace only; algorithm unchanged."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/conservative_revision_20261103/figures_work/fig4/scripts/paper_style.py",
+    "source_sha256": "671e95e0155b7d0198d31b4f332f1cab17042ee45466663f0e62278f22103e05",
+    "destination": "src/gcs/reproduce/plots/paper_style.py",
+    "changes": "Use portable DejaVu Serif by default; optional author-supplied Times font directory. Colors/layout retained."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure1_candidate_a_20261103/figure1_reproduction/scripts/plot_figure1_ab.py",
+    "source_sha256": "cec6be59668116df542f09bb3e03a541173b9768cb04ef9ce01c91f514430838",
+    "destination": "src/gcs/reproduce/plots/figure1.py",
+    "changes": "Data/output root made explicit; scientific plotting unchanged."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure1_candidate_a_20261103/figure1_reproduction/scripts/plot_figure1_conclusion.py",
+    "source_sha256": "b14fae49d4d1709e706dd519864f0740ab45e96bea29ac3e9ee47ed995c3e2e4",
+    "destination": "src/gcs/reproduce/plots/plot_figure1_conclusion.py",
+    "changes": "Keep only helpers used by the current two-panel Figure 1."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure2_style_20261103/plot_figure2_house.py",
+    "source_sha256": "4989d280dedd530bbbc6cf2bbd213a5e5a5a799f6b3af110de7258fbd55c82c1",
+    "destination": "src/gcs/reproduce/plots/figure2.py",
+    "changes": "Data/output root made explicit; scientific plotting unchanged."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/conservative_revision_20261103/figures_work/fig4/scripts/plot_functional_compatibility_tminus.py",
+    "source_sha256": "313e7c8bf9c614e5e4c146796d65791a78d32b70e99aeb7d3e36dd5e0e745c46",
+    "destination": "src/gcs/reproduce/plots/figure3.py",
+    "changes": "Explicit render root; omit obsolete donor-report dependency and font-specific overlap assertion. All numerical assertions retained."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/figure_reproduction/figure4_curve_simplification_20261104/plot_appendix_house.py",
+    "source_sha256": "86235c27b6c92ab9db7a1da72802fc0a70ca3eef951957d149d4e3344e2f7e4b",
+    "destination": "src/gcs/reproduce/plots/appendix.py",
+    "changes": "Combine final Figure 4 simplification with final Figure 12 common normalization; other numerical plotting unchanged."
+  },
+  {
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/scripts/null_schedule_baselines.py",
+    "source_sha256": "0ecfabc483331f19eeb4f0812de5bd4c9991bd67d0a4bd149d618349692fcd3a",
+    "destination": "src/gcs/reproduce/null_rules.py",
+    "changes": "Namespace/entrypoint portability only; preserve original statistical functions."
+  },
+  {
+    "source": "scripts/evaluate_mechanistic_yield_selector_audit.py",
+    "source_sha256": "68facf640a8bf9f687f9ebd8262ed2459b39c3b2e711be46410c51c2522e3d46",
+    "destination": "src/gcs/reproduce/mechanistic.py",
+    "changes": "Namespace/entrypoint portability only; preserve original statistical functions."
+  },
+  {
+    "source": "analysis/mechanistic_yield_selector_audit.py",
+    "source_sha256": "e6fd7f3a4a54835c18d3ec8669c4d4c0009cad348812b80123a926d37a8ef03c",
+    "destination": "src/gcs/reproduce/mechanistic_statistics.py",
+    "changes": "Namespace/entrypoint portability only; preserve original statistical functions."
+  },
+  {
+    "source": "analysis/direct_jacobian_sensitivity.py",
+    "source_sha256": "98e055b06efc4d71133b5b40f0cce975c909d19d967da1c8cfee1978357173f1",
+    "destination": "src/gcs/reproduce/direct_statistics.py",
+    "changes": "Namespace/entrypoint portability only; preserve original statistical functions."
+  },
+  {
+    "source": "scripts/run_near_solved_endpoint_queue_20260724.py",
+    "source_sha256": "2260e6c6062b35e97719a8e6781a0e7321c9ef7b0cf7974717bc6fa3a16fbf5c",
+    "destination": "src/gcs/legacy/run_near_solved_endpoint_queue_20260724.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/select_near_solved_endpoints_20260724.py",
+    "source_sha256": "a401e401dc31ab21ffe8ca0e277d23f7b830bc790f6be544ebe18fdcdb6fc4bb",
+    "destination": "src/gcs/legacy/select_near_solved_endpoints_20260724.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/diagnostics_common.py",
+    "source_sha256": "6c3baab50b00756e572d2dc6d2aad6de87faef4cc8df534e3efabeaacdc1e657",
+    "destination": "src/gcs/legacy/diagnostics_common.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "analysis/near_solved_provenance.py",
+    "source_sha256": "3ac55581a9effe9e87ff9d2fd9039a522f452461f501bff2d6d2d880a7b82077",
+    "destination": "src/gcs/analysis/near_solved_provenance.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/reanalyze_gcs.py",
+    "source_sha256": "3e22a42dc3e8745b49c0d8225529515ffb40fd558e8fa436dacf1c2b9985b226",
+    "destination": "src/gcs/legacy/reanalyze_gcs.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained.",
+    "release_corrections": "Enforce float64 before state loading, including standalone processes."
+  },
+  {
+    "source": "scripts/run_selected_donor_surgery.py",
+    "source_sha256": "f25cb9142ebe11aa59e4e08b4a31929c330742894e24e4308f1d240353a41c68",
+    "destination": "src/gcs/legacy/run_selected_donor_surgery.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/circuit_case_study_addition.py",
+    "source_sha256": "65821cfe408850f9a86c37ce7e36d3846c64d949847a2d150f6879ed8deed061",
+    "destination": "src/gcs/legacy/circuit_case_study_addition.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/measure_equivariance.py",
+    "source_sha256": "00b345da287bea04a98809f2e5aa183ab7058742c08004d87c7f3dab840dc38d",
+    "destination": "src/gcs/legacy/measure_equivariance.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/compare_gcs_nanda_measures.py",
+    "source_sha256": "7cc5c32cefcf9f63368970fd0be5266c55061f0d4d2de42d2e6c4af4670973f5",
+    "destination": "src/gcs/legacy/compare_gcs_nanda_measures.py",
+    "changes": "Portable archived runner now invokes gcs.analysis.fourier from the MIT demo route; output schema and measurement conventions retained."
+  },
+  {
+    "source": "vis/config.py",
+    "source_sha256": "0f63c614cd0969bdb74030d6252d3b6047644a340c7c0183a92e565f69115941",
+    "destination": "src/gcs/vis/config.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/extract_diagnostics.py",
+    "source_sha256": "5b2694cf17cb9d6f9ac254df9e3eea7bec40cd231a5a86833b761f338658d47f",
+    "destination": "src/gcs/legacy/extract_diagnostics.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/run_method_neutral_order_check_v2_20260726.py",
+    "source_sha256": "0c73d3931f5e3c2597550940e3fcc7984cef935f6ed88fc63b5911d20e01a2d1",
+    "destination": "src/gcs/legacy/run_method_neutral_order_check_v2_20260726.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_direct_jacobian_selector_sensitivity.py",
+    "source_sha256": "871f566d8fac1beecd9456ad444fca90f8e44d14dbf6a0241e25b7e96f8842ce",
+    "destination": "src/gcs/legacy/evaluate_direct_jacobian_selector_sensitivity.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_workflow_selection_heldout.py",
+    "source_sha256": "077d1573ef8eb7e6a9c951f459ef1edbe81bf83dc07e5258b1ece844ea149ebe",
+    "destination": "src/gcs/legacy/evaluate_workflow_selection_heldout.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_grokalign_selector_benchmark.py",
+    "source_sha256": "80dd87fe10a425ba0786629b12f57ab0eae26e8f60e0d2375ce3192927a485d0",
+    "destination": "src/gcs/legacy/evaluate_grokalign_selector_benchmark.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/run_gcs_nkd_selector_sensitivity.py",
+    "source_sha256": "4aa26a3e520164c99f6b52ac46a2a0234af67e9d8d8da5e55ea61e9eb72711ca",
+    "destination": "src/gcs/legacy/run_gcs_nkd_selector_sensitivity.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained. Relocate frozen manifest paths through SHA-bound source-root metadata; keep cohort checks and record mapping identity in phase/gate outputs."
+  },
+  {
+    "source": "scripts/run_hybrid_reference_pilot_20260724.py",
+    "source_sha256": "04421ff750ac592a05efcfab8c0f5d0a48be445a49f5553ec14259776ddc2c95",
+    "destination": "src/gcs/legacy/run_hybrid_reference_pilot_20260724.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/run_earlier_layer_reference_pilot.py",
+    "source_sha256": "265ad15fb8c2e9e877d8fa24f58492c55b364d1cedc4abda38a58d245e5e7c59",
+    "destination": "src/gcs/legacy/run_earlier_layer_reference_pilot.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/run_answer_only_graph_control.py",
+    "source_sha256": "52e966ad2302c9ecb99f558a55949a1036e242100f521ae64d8faf5e5857574f",
+    "destination": "src/gcs/legacy/run_answer_only_graph_control.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/recompute_gcs_existing_geometry.py",
+    "source_sha256": "0cc06d5c050a4e6cbe044d6c7f129d89a415d807d457afbc3c0ca83cd5041538",
+    "destination": "src/gcs/legacy/recompute_gcs_existing_geometry.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/gcs_method_sanity_checks.py",
+    "source_sha256": "45f7a1e5b2cf304a0d31940f7498e2faf9304a2e5a4093ee5aec06b5b625fb45",
+    "destination": "src/gcs/legacy/gcs_method_sanity_checks.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/recompute_gcs_aggregation_baselines.py",
+    "source_sha256": "a3ee9666664fa8df59e769327b4dbc71bdcc0e7b7377ddf20ba9169115a4cd44",
+    "destination": "src/gcs/legacy/recompute_gcs_aggregation_baselines.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_task_reference_ablation.py",
+    "source_sha256": "1e7dfee5aea184ec47b2d4a87deef5145f0a12b031c5db51001c0eb08e808794",
+    "destination": "src/gcs/legacy/evaluate_task_reference_ablation.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/cross_seed_reference.py",
+    "source_sha256": "0971ea3194fdcb48c12f6b394a8ca216db18936d6c0a22133644a2262a971a21",
+    "destination": "src/gcs/legacy/cross_seed_reference.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/ablation_reference.py",
+    "source_sha256": "b62ecd113b1fdf01b794ba4471fcae073d0b66f17b0631ccb926a536e0869931",
+    "destination": "src/gcs/legacy/ablation_reference.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/ablation_k.py",
+    "source_sha256": "e62e0c17d17bc92fae52fbc046f891cf76309e98f4e0d1c407c45e80920033fa",
+    "destination": "src/gcs/legacy/ablation_k.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/ablation_n.py",
+    "source_sha256": "586388edf8aca82605dedd80cbc458c8884e3bb0644781ccce17f1b6e434d81a",
+    "destination": "src/gcs/legacy/ablation_n.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained.",
+    "release_corrections": "Correct legacy moving-reference sweep to paper fixed-final-reference protocol; save each N-specific geometry, use metadata-aware float64 loader and task split."
+  },
+  {
+    "source": "scripts/ablation_d.py",
+    "source_sha256": "ed5ca4a7489146620a6db75aa8b92ea3bc636d17649aa0923bc08571ef16f1bc",
+    "destination": "src/gcs/legacy/ablation_d.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/analyze_path_purity_controls.py",
+    "source_sha256": "8d9bbd726ac9b96208936a09f5f40dcf6bf0136cb74f7704634ccaa1315dcfce",
+    "destination": "src/gcs/legacy/analyze_path_purity_controls.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/continuation_surgery_recovery.py",
+    "source_sha256": "deafd117a4dcbef47ff626dc763a819c5f04a7c480cad958f6e6e762953e4d0a",
+    "destination": "src/gcs/legacy/continuation_surgery_recovery.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/checkpoint_surgery_modular.py",
+    "source_sha256": "5d884ba8e51180cabcd0f0ec61d06ee7bd4e824784c5ba1d11ec8423f84b3d59",
+    "destination": "src/gcs/legacy/checkpoint_surgery_modular.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/activation_patch_commutative.py",
+    "source_sha256": "ae6721d6f51bf96cb16eeb4cb7ed8051e97b0ff828312780f1cde79f472f1b2e",
+    "destination": "src/gcs/legacy/activation_patch_commutative.py",
+    "changes": "Portable archived runner now uses the compatible hook dictionary; preserve an explicit zero attention rate rather than replacing it with a default."
+  },
+  {
+    "source": "scripts/train_group_comp.py",
+    "source_sha256": "19ef4a06ee95e2ae77a0dcc5ae7cd4fd7d320a3cfbf66e54ce4a070e9cee753b",
+    "destination": "src/gcs/legacy/train_group_comp.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/train_transformer.py",
+    "source_sha256": "a555269ad2cc8b4d0e04575773963e089b40bb5f1ed7d61db6d47c1f91b80c8e",
+    "destination": "src/gcs/legacy/train_transformer.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained.",
+    "release_corrections": "Add explicit config/checkpoint/GCS schedules and configurable canonical-layer alias; named primary wrapper selects last layer while retaining all-layer geometry construction order."
+  },
+  {
+    "source": "vis/__init__.py",
+    "source_sha256": "b98a88a7bf0ed8ef95d4db1fc4b19362f8a523dd6dd9eca28b2250542fba2a9e",
+    "destination": "src/gcs/vis/__init__.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "vis/plots.py",
+    "source_sha256": "ac023395b7e2ebcebdd7b8e522b32ebdf1e7d626ef392e78527e7ea96fd0cf02",
+    "destination": "src/gcs/vis/plots.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "vis/unified_figures.py",
+    "source_sha256": "9891a1ad3f5fe97186f24c19c109d2bc7104c3adab0ac399a880345324fa9faf",
+    "destination": "src/gcs/vis/unified_figures.py",
+    "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_near_solved_endpoint_queue_20260724.py",
+    "source_sha256": "3fe0366a1347c0ab8bce7d7a882c2c3aef49b0fba88c95191e9b60bb20cbb800",
+    "destination": "src/gcs/legacy/evaluate_near_solved_endpoint_queue_20260724.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/evaluate_earlier_layer_reference_pilot.py",
+    "source_sha256": "18cf42958362af0bf336d8b40606701926c6bce6f8046611f6ad752e3574c35a",
+    "destination": "src/gcs/legacy/evaluate_earlier_layer_reference_pilot.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/analyze_gcs_dynamic_proximity_controls.py",
+    "source_sha256": "e12f72bd38e5c1438265f8a2317e333a8cf45e14c5b8002d68ca2aef115216b2",
+    "destination": "src/gcs/legacy/analyze_gcs_dynamic_proximity_controls.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/analyze_gcs_final_state_residuals.py",
+    "source_sha256": "af6f78eafde596f4dc135adf8c87a0bd977a806621d63e04798464cdc8153445",
+    "destination": "src/gcs/legacy/analyze_gcs_final_state_residuals.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/run_rebuttal_donor_yield_surgery.py",
+    "source_sha256": "72735ffa370fc2a72d05fb891876e24492d8076744d9f252eb153c21f27acc64",
+    "destination": "src/gcs/legacy/run_rebuttal_donor_yield_surgery.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/run_all_window_intervention_yield.py",
+    "source_sha256": "2ae896965a05272adb03c4f9a4a56f2969a14ab4429a8ad146dd57a1ccb9e06b",
+    "destination": "src/gcs/legacy/run_all_window_intervention_yield.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/measure_equivariance_manifest.py",
+    "source_sha256": "7e49fb459c1a1dab7d1dcf0d88ca95d87a8c311e529193f5e3e2df597b4c8289",
+    "destination": "src/gcs/legacy/measure_equivariance_manifest.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/run_direct_jacobian_graph_baseline.py",
+    "source_sha256": "3c056be3532805e3d7256265a417b0036fcf28892a5b12c71fa97fb6b1044dd8",
+    "destination": "src/gcs/legacy/run_direct_jacobian_graph_baseline.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/compute_workflow_selector_aux_baselines.py",
+    "source_sha256": "fe664f31b5a5b9b12db53d3e8b9ad271760554f77ec6fbe668734bd7ab5774fb",
+    "destination": "src/gcs/legacy/compute_workflow_selector_aux_baselines.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/analyze_reference_knn_structure.py",
+    "source_sha256": "3801a67097eace8fbbd91c367342fea9609a842e1fe0b0d9d0d50a4309b3196e",
+    "destination": "src/gcs/legacy/analyze_reference_knn_structure.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/run_shuffled_reference_control.py",
+    "source_sha256": "81766e6eae5d53049a8bc0d85dd527e6abdf79ad5ffa36d1e0d0ee867a6f45d6",
+    "destination": "src/gcs/legacy/run_shuffled_reference_control.py",
+    "changes": "Namespace imports and explicit data root; scientific routines retained."
+  },
+  {
+    "source": "scripts/resume_training.py",
+    "source_sha256": "4a9f7440148ec2c3b7b8b12e82d205d93eb540f51df9824a55542702d3ab7acc",
+    "destination": "src/gcs/legacy/resume_training.py",
+    "changes": "Package imports, callable argument parser, explicit GCS schedule. Original reseed, fresh optimizer and last-layer reference sequence preserved."
+  },
+  {
+    "source": "scripts/systematic_grokalign_comparison.py",
+    "source_sha256": "5dd39794151d12fdbccba9409a63024d5c0656db40c10e12f90b2198ac36e14f",
+    "destination": "src/gcs/legacy/systematic_grokalign_comparison.py",
+    "changes": "Namespaced imports; shared float64 metadata-aware loader; complete selector-cache adapter, original GrokAlign computation and sampling retained."
+  },
+  {
+    "source": "scripts/sitewise_temporal_symmetry_acquisition.py",
+    "source_sha256": "9f8947fc0876595ae49bced4fd7a8a9a44f148c8b840cfcaaab0ad9063a1ff9c",
+    "destination": "src/gcs/legacy/sitewise_temporal_symmetry_acquisition.py",
+    "changes": "Namespace imports and explicit data root; retain original sitewise measurements."
+  },
+  {
+    "source": "scripts/analyze_swap_symmetry_sites.py",
+    "source_sha256": "9196a90ca5481b3a4b1a2267746ad0ec3c1bcddd94aff985c2ad7549096189f7",
+    "destination": "src/gcs/legacy/analyze_swap_symmetry_sites.py",
+    "changes": "Namespace imports and explicit data root; retain original sitewise measurements."
+  },
+  {
+    "source": "scripts/summarize_cross_prime_equivariance.py",
+    "source_sha256": "3ebcf07c6337c2bb88abcea7606ded2d8b2cc0f136fa90bbb4379774d1dbeeed",
+    "destination": "src/gcs/legacy/summarize_cross_prime_equivariance.py",
+    "changes": "Namespace imports and explicit data root; dependency of the sitewise swap calibration runner, with original measurement and loader routines retained under the package float64 policy."
+  },
+  {
+    "source": "TransformerLens Grokking Demo / installed TransformerLens dependency",
+    "destination": "src/gcs/core/lens_model.py",
+    "upstream_commit": "a634e5757cd2ae43add9beb492be7a2dfb443a30",
+    "upstream_repository": "https://github.com/TransformerLensOrg/TransformerLens",
+    "license": "MIT",
+    "changes": "Local checkpoint/path/initialization adapter around the installed MIT TransformerLens 2.16.1 backend."
+  },
+  {
+    "source": "TransformerLens Grokking Demo / installed TransformerLens dependency",
+    "destination": "src/gcs/core/hooks.py",
+    "upstream_commit": "a634e5757cd2ae43add9beb492be7a2dfb443a30",
+    "upstream_repository": "https://github.com/TransformerLensOrg/TransformerLens",
+    "license": "MIT",
+    "changes": "Local callback/cache adapters around MIT TransformerLens hook infrastructure."
+  },
+  {
+    "source": "TransformerLens Grokking Demo / installed TransformerLens dependency",
+    "destination": "src/gcs/analysis/fourier.py",
+    "upstream_commit": "a634e5757cd2ae43add9beb492be7a2dfb443a30",
+    "upstream_repository": "https://github.com/TransformerLensOrg/TransformerLens",
+    "license": "MIT",
+    "changes": "Fourier projection/loss design from the MIT demo; local PyTorch kernels preserve historical precision, frequency range and inactive-neuron basis-index convention."
+  },
+  {
+    "source": "core/models.py (authors' MLP variants)",
+    "source_sha256": "d75ce79dce5c93f66151e58a7a44b6c1afa76e9707a830357877be95baded8d3",
+    "destination": "src/gcs/core/mlp_models.py",
+    "changes": "Relocate the owned MLP variants; use MIT hooks and a new embedding-layout adapter. Preserve architectures and initialization."
+  }
+]

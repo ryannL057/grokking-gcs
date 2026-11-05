@@ -1,0 +1,50 @@
+{
+  "run_id": "relu_mul_s777",
+  "cell": "VL",
+  "source": "new_continuation",
+  "reached_99": true,
+  "first_observed_99_updates": 3100,
+  "event_observed": true,
+  "censoring_updates": null,
+  "final_accuracy": 1.0,
+  "final_test_ce": 0.00013486355036740458,
+  "budget_updates": 10900,
+  "initial_accuracy": 0.15896632732967894,
+  "initial": {
+    "run_id": "relu_mul_s777",
+    "cell": "VL",
+    "status": "prepared",
+    "initial_path": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/VL/initial.pt",
+    "initial_sha256": "6b2b6a0ff08d768f3f40d612faa1c266134df9cf7e85acabde3cbf68dc532b3b",
+    "donor_sha256": "4903d2c6109e895aaf2b58df030fc2533540ab2e4a3ccee6720f732a180f0432",
+    "host_sha256": "e94ce7888e1087225c464beb854d789406fd89f018fbc5f4a274e3cb7e49c2d3",
+    "tensor_sha256": {
+      "embed.W_E": "8b14714d852a297813e8b9a0477b2caa10983c6fd1fecd3a22f18378928fd390",
+      "pos_embed.W_pos": "3a6859c980072e4654bf781b113ec810d60eddad66e8a60936f2d704e66e97f2",
+      "blocks.0.attn.W_K": "ce5a038c75523cf08cca29c0efdbcc671808702c6fcdc6a4037eb362b6c788d0",
+      "blocks.0.attn.W_Q": "4fc1af6a7529f4a6a689137331d702df7c44c005ebd4d042bd4dd003bc19472a",
+      "blocks.0.attn.W_V": "676a3aeb0ebbc0ba0886e5f73d3794d10f6aa5975f370717e14cb47ad14248db",
+      "blocks.0.attn.W_O": "d44b7a22b3efacddc54782ae2ac77be5c443aff8b1e354eeb07df0ff860876da",
+      "blocks.0.attn.mask": "57f6515b724307bc0efee981475de668b80b51d4694b8439c73ba8544f05f162",
+      "blocks.0.mlp.W_in": "0b9d228c891a0b09b7bb997c6e7667c531c2b68c5c59103ed279eb757fc32680",
+      "blocks.0.mlp.b_in": "09d092c93474e1a0eed3b22de8a465094c999a8d740d5531c9cc50c855682f63",
+      "blocks.0.mlp.W_out": "6b06517e003050e06a233b7418fc41aac14c3f28001f54774a9f977bdf781f4d",
+      "blocks.0.mlp.b_out": "d055b62535130002e2fa992201c36e735fd52d4d163adba8fa7461a4a634df05",
+      "unembed.W_U": "10ba633981b4c488aa70e66448144d21757544d3042bfb281535f59ea2194892"
+    }
+  },
+  "freeze_sha256": "b72f1e3014abd656c38f25cd44a040fe628cb393d977b52cc69709c295d560d0",
+  "endpoint_path": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/VL/checkpoints/updates_10900.pt",
+  "endpoint_sha256": "c94257ef35235e1e4d0c34dfd45885eff796340506cb17fa5bac6ad40f2bf668",
+  "frozen_exact": {
+    "blocks.0.mlp.W_in": true,
+    "blocks.0.mlp.b_in": true,
+    "blocks.0.mlp.W_out": true,
+    "blocks.0.mlp.b_out": true
+  },
+  "torch": "2.7.1+cu126",
+  "device": "NVIDIA GeForce RTX 4090",
+  "completed_utc": "2026-10-10T15:04:38.971404+00:00",
+  "elapsed_this_process_seconds": 694.796226646984,
+  "peak_cuda_bytes": 296364544
+}

@@ -1,0 +1,2049 @@
+[
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/neighbor_count.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/neighbor_count.npz",
+    "source_sha256": "fc988a349688f4f15769ec30aa290f0dd6b40020dadf9a0d5a1094bb9f0c9f31"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/matched_mlp.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/matched_mlp.npz",
+    "source_sha256": "29caf56ec47c93a7aeb9020f6d0acbd4b73e959e7775037d8c770608b63b014f"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/detached_attention.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/detached_attention.npz",
+    "source_sha256": "41b7d7710fbd32eeb8329e4e854d6f8a5dd4323521e7ef9072782af2653969db"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/reference_trajectories.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/reference_trajectories.npz",
+    "source_sha256": "e4a0cce667c0d2d795b624a47f46a395222317dbea42339bda6bed78cd1978c2"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/attention_maps.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/attention_maps.npz",
+    "source_sha256": "ae73a3d890ea636b97a160a4aa3aa00a968877a4680459bd08cd608ff96b74fc"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/cohort_attention.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/cohort_attention.npz",
+    "source_sha256": "e17737e6664d4e24040010d30cca9dd8735d3fa48ead402360d6f53d8002d0ff"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_appendix_figures/cohort_mlp.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_appendix_figures/cohort_mlp.npz",
+    "source_sha256": "3b8b8d0316cf37869142f52c3d53061e8c7442fa20dc0f0f5de241f392e75526"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_depth_curves/provenance.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_depth_curves/provenance.json",
+    "source_sha256": "f6caab79902e29969e38b4a26ee81b92f55fcd00401fd4b0a22a62801628aac7"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_depth_curves/depth_curves.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_depth_curves/depth_curves.npz",
+    "source_sha256": "f1a56491f7e3cd397e4d4afec8d1c52376fab77b1e18e3201b72db3212397ec3"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_display_repairs/provenance.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_display_repairs/provenance.json",
+    "source_sha256": "e13adf1e1e89f45d7191cd1cb055639398ecb37be6765a5529dacb12f74e8580"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_display_repairs/probe_artists.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_display_repairs/probe_artists.npz",
+    "source_sha256": "f1765ca6cd09b87472801e39b03efffaf01db466151da962352ca39a07619995"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_display_repairs/attention_controls.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_display_repairs/attention_controls.npz",
+    "source_sha256": "e926392dac7e417c8c2b7531aa3607c8758da289d4bf6e88331af9ef01614372"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_display_repairs/probe_aggregate.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_display_repairs/probe_aggregate.csv",
+    "source_sha256": "a1e2c94d0ea6443cbc34b208f1fe2a27bf31038ede0f5e03014cd694a0ec2d21"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/cka_case_study_heads.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/cka_case_study_heads.csv",
+    "source_sha256": "40c47bc825bcb09828c26a2db3d63604a2ee28c4e688b936d53cfcfecb38a867"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/cka_case_study_sites.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/cka_case_study_sites.csv",
+    "source_sha256": "75294fc566869201cc161b19be98c7c14cd2ab02cf95714be80bb616d99bf88b"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/gcs_case_study_sites.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/gcs_case_study_sites.csv",
+    "source_sha256": "cb53cc6d8b7e1fcff651ff8c7e7c31873bfd1debb0782b835bd6c19a4eddab92"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/l2_case_study_heads.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/l2_case_study_heads.csv",
+    "source_sha256": "0706289b27e9047b69f9cdd3d1974fadc0a6cfc3baedc731ccda4894e9f37a4b"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/gcs_case_study_heads.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/gcs_case_study_heads.csv",
+    "source_sha256": "b7ecf49eb3d40893f562fb3c8708387f806c7babfe07291a6dca8e713e2fb1c6"
+  },
+  {
+    "path": "results/reference/source_data/reviewed_window_example/l2_case_study_sites.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/reviewed_window_example/l2_case_study_sites.csv",
+    "source_sha256": "10eea73a52b08a78940381ceeda607dc2e64df51768a556b7196de15c7e3467e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/provenance.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/provenance.json",
+    "source_sha256": "3feeff52e242673f8e9204ff85414de4b73604e87f1314109afefd60d1237b8f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/per_run.csv",
+    "source_sha256": "3d7195ca8bd34dc50867ef8e73cffd27162b38d51e8271108266c295410219ce"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/verified_results.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/verified_results.json",
+    "source_sha256": "4fa5adb3b15cfc73c4f3b5b49c0e9c54bfd0d6d83b78d2793abc0c96d2fcf35a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LL.json",
+    "source_sha256": "4f5ca43a394785408a3ddcb5e9d1b96ac5d4d17a13cabcfcb689d3a26ebbf3e2"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V.json",
+    "source_sha256": "65e292243b3d88ed014776c966e64b44c47a6999155189eeba5bb039bf293026"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0L.json",
+    "source_sha256": "a0eae6cdd26c7d1925a954c98e802dd18898833f9a29680133765138ec23480d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/V_unfrozen.json",
+    "source_sha256": "b1c02080d21668a2681326771197c618093bb0bb80fa9d0ca48f5d7c26068759"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LV.json",
+    "source_sha256": "12292f1a667c189ff1030473bde050f188f41c573c3f0746cbbb5e47f0569f27"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/L_attn_frozen.json",
+    "source_sha256": "131949ff0d48b9f2f4ae42c32558702bf8b65d21406bc391c5b20d425fff3cf1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V_long.json",
+    "source_sha256": "f2ded39dba0bc67886466bc1f93919aebc64c4c9bb3b0699d9b417bc195fcbf5"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VL.json",
+    "source_sha256": "dc8b72be7be235dc1257c681d0c1a0073fb52bb6d12cba76b9e1d0ea4566478a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VV.json",
+    "source_sha256": "9bc96e4c3f535c92a984112a8eb85e4f8d27d0abb153614dbc716edb66815d19"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LL.json",
+    "source_sha256": "0a55f13c381ac9a26e6d2dd7e9e298b1cc9de250e7d113dd5074fde36a0b9825"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V.json",
+    "source_sha256": "a7d4f68c4bc1349c0f0959011b84ed889275af692d9e565eb64b6a128639dcc1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0L.json",
+    "source_sha256": "97a300414602fc8b91f4b6fb84eadf9c9ceb9f4e5222077804858741af3d02ec"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/V_unfrozen.json",
+    "source_sha256": "f55df04dbfd6145d573c2ed128bde0bd087817e1e5976fc9d3e080cd42dd3ed6"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LV.json",
+    "source_sha256": "4d3e36e909718f88966daca89234f621b7b619dc5b12e79a3c688478801bee82"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/L_attn_frozen.json",
+    "source_sha256": "a3e073de0d534a5c4fab01a3217204a47a06def00ccf6c340df0387a0ccfb907"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V_long.json",
+    "source_sha256": "a766693840e3db49edb7aaa264cafd22a95c218193478bc7fc0aa2680a03390b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VL.json",
+    "source_sha256": "fe7e018927ece23ed29c78c13bd065ac0ff7f3903f594c27020dfa0683fb4428"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VV.json",
+    "source_sha256": "8cd0fd34b9033936e48d48f535fc2f82076045f18a7c3129c8040406390f2f7e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LL.json",
+    "source_sha256": "b93967203b208719152961ab47280f3f175c5c1b7dbf4ba87fcedadaa8d9099f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V.json",
+    "source_sha256": "ad9b7f1e096497c58a09ae9957d73d1f9b354b9b428feaac762fcfddbcc24aac"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0L.json",
+    "source_sha256": "29da67891743b0103c4ef8c8c28e4603d7a7e402d43415a4fcbad59cda2f2dc6"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/V_unfrozen.json",
+    "source_sha256": "d0ed9d732e8abe9124f00268b8dda69092bbeffa778fc70d20bc4e7e5b3e2dd7"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LV.json",
+    "source_sha256": "590f6b0bb1d581581939b48e030bd8a364644f0b883bba8ef12c400141e4d7e8"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/L_attn_frozen.json",
+    "source_sha256": "ae7ab8cecf6120450aa1c727344338dbbc342a00a7c3480c711f334df9014930"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V_long.json",
+    "source_sha256": "16ff9012f056df97130bbe8f67c6915f262777c5d0bf473929f6853134da2c6f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VL.json",
+    "source_sha256": "e54ec8f17eafe37a7222c1ffb33804626ae5fc391db2444893fb1949a55c53bc"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VV.json",
+    "source_sha256": "b6ca2e71fd8bbcbc6a60c3633d2f1b13557cdffb9821736bab175f092130727f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LL.json",
+    "source_sha256": "59fc5a303a72c6ac00480b1209d7a0d01b6a4c22f8e99ab6194c8190e1caaa46"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V.json",
+    "source_sha256": "9e242f5cf7f284ed9c3f510cf5b8ec0dd956939cb28e235623887afd4f47b6b1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0L.json",
+    "source_sha256": "d9fabe4832f0eceaef4bb67d71c78774cd07520d67234113a565d249921c60c1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/V_unfrozen.json",
+    "source_sha256": "f69a129ce1835b18071725e6ce28cd89d2a4eff97a2db6d186c3e9b9c056d8f3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LV.json",
+    "source_sha256": "2b2f263bd563a8a361d747042e73cf39363e46a5af3228b48f3f8dc67f66fe3c"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/L_attn_frozen.json",
+    "source_sha256": "d8a4e357259e24f669ac03abae3ee1282d2d88f24b68c18d87f15d770216c074"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V_long.json",
+    "source_sha256": "0eb939f593be9d535abd2d8cd7ef0382e9e1fb4c7e05a9ba223970666b1e37e8"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VL.json",
+    "source_sha256": "24f849d223d6d257c46f39190b7eaad976fa15a55d282f1bcc94934cb4dec540"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VV.json",
+    "source_sha256": "537499a241a4cd94f26fe845e7169574603560158f823e0e3096730f872b7a52"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LL.json",
+    "source_sha256": "a9717b842b73de8ee82950c6b31c23f6280f72d986e026d135a9a4d4849a1fc3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V.json",
+    "source_sha256": "044ce09bbd0921c449a464019d1bc945c24c2a1cc90c372ead6747260ad2901f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0L.json",
+    "source_sha256": "49fda9067568b3f40046aa2d9a50a83423f55005095e7c26511ceece953b5ffc"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/V_unfrozen.json",
+    "source_sha256": "c4e14304c4a070558a380ebd6c30da588c3b82cf58e81af608a6fd231ac6a747"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LV.json",
+    "source_sha256": "64f6a83886675d135a02ff05f5b024b23053bd93c481f2a69a44b4b6edd1ebef"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/L_attn_frozen.json",
+    "source_sha256": "0c553b2eedebf4be97acabb2ccf908519b31f82c40f5775d58f98e8ecc662b92"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V_long.json",
+    "source_sha256": "56f3d481560e329574e5941b46e2bbfa2870372e1c7035f0c09b9468fb751183"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VL.json",
+    "source_sha256": "21c9371b89668ae4250bddd3318766740b7ccdc14f04d6291ca4e7c2e0c33fa7"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VV.json",
+    "source_sha256": "67d79e519c14223b529d88b69514dd56a32ecfcb0e342b7fb87622450ab2dc25"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LL.json",
+    "source_sha256": "f2026c53ea03d258c17d9ff0d921fc92a28e35ff291f0ae9e66bf85bc83c512d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V.json",
+    "source_sha256": "c98df273ef63d5d84f284ed701936ae986cfe05e1642bb4e9080e937cf956fa0"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0L.json",
+    "source_sha256": "858e7b0729151a5c649381ed946f2f36ca96be952a6d8ca77100de2374f2ad3e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/V_unfrozen.json",
+    "source_sha256": "55737eefda7862fbf4ddba7bb3fbfbcba8476156a663c829332811fecbeb2aae"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LV.json",
+    "source_sha256": "875c475972987339107d0862ff12f2a38e887a199098bb6b7cc799b3aa53aca9"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/L_attn_frozen.json",
+    "source_sha256": "92169995b6ff6468476e447066ed9bd24c33eec21643353ad5a48792faf6bb09"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V_long.json",
+    "source_sha256": "2452b52618f4754e42b8aade5fec4b0384d562d62e58887c65407f1c21d7cd3b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VL.json",
+    "source_sha256": "69c74231a3b2575c3499d864e040d71d770dda86c9a116cb6d13dcd6dd238dd2"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VV.json",
+    "source_sha256": "11bb44b92e74a30f65b4fe903f2b12dec7d7299f61271e9c3dc12d54aa7d5f15"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LL.json",
+    "source_sha256": "f15284528b773e21ee818369f50e97a6c83fc60282fd77c648c2798ebbc99c62"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V.json",
+    "source_sha256": "3c215b195212e9102c84632666b041d1b8368d9861a5b784b85b16318da7161b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0L.json",
+    "source_sha256": "7a09c81c84e61a6a55660158c3007f3967435c2172ad898f8791f93021cc7c11"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/V_unfrozen.json",
+    "source_sha256": "737cb6b17e380051057946b7af670f5e95755f23a8280aeb53bbe30983720671"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LV.json",
+    "source_sha256": "cab1c872528d4949839d26b49a9792dde07d198732be48285ec63126495ae931"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/L_attn_frozen.json",
+    "source_sha256": "8b8608553d49a969583cf1e7c3f4486665df54abad3d71ba4e35cc12b7858ab4"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V_long.json",
+    "source_sha256": "32478990a768decd6dad27b05893b6514392433114d7b2a06ffa47ee8ed22a9d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VL.json",
+    "source_sha256": "74f12d74c95e1443a091a70806eef741f8b7a8a267431aa247d31c3a39089e61"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VV.json",
+    "source_sha256": "cac183d56bafbd488aa22d95714c7c0ad5ad0df8f73b5b45e400bbb095c08176"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LL.json",
+    "source_sha256": "7b523bde21a26d0b6571f254740f721e4ac128c5df6531be8e8f7f1da3552fe1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V.json",
+    "source_sha256": "b591a02d67d4c7e45ff153ee54835e5b602b13c33d98368a42d6270c15d6ed7f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0L.json",
+    "source_sha256": "e75d2f50dc76db44bfb2eecc388e97bd552227d92e28b391b879685b1255f48a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/V_unfrozen.json",
+    "source_sha256": "436e6a012648e1ee6d4a340384de14122c7a88e9dfb49bb181260f5f06705a15"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LV.json",
+    "source_sha256": "7b4c73e880141b1e4286b18c17ffa6353617e592e8c1fc95cddcdf135294703a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/L_attn_frozen.json",
+    "source_sha256": "54d965180819472fd7552554844ab06e4964e4352f11a641d5f8d1616c1421d8"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V_long.json",
+    "source_sha256": "edf263e38f41f3589e436c1c7ebb489131e7ad04a5a2299af00fd4a16da42728"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VL.json",
+    "source_sha256": "1343b0dcb710692cf7318d588597abaa941e82566215dea4f9c267079a11a7d9"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VV.json",
+    "source_sha256": "4007d9fa1c1635275fb1f14a90944f867ba13e50467280978bb9066e3c4f87be"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LL.json",
+    "source_sha256": "600285bbd37a6cebac1328f5bc3bc0d69b9247c58907703830761131e7f18c45"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V.json",
+    "source_sha256": "f17edb4dc2333115c96d5868f8906ddc1ad3d49c983efba3e4f284a151b2a36b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0L.json",
+    "source_sha256": "3027d94075b6a3392b8fab6a47403262ca0049d7ffb62224ad8fa3434ef03306"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/V_unfrozen.json",
+    "source_sha256": "e3df2d82610124a38a99fb7a9ccc8cac93b943fca7fda28122b6ef0af821cd73"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LV.json",
+    "source_sha256": "d40131db05fdabb39ca40bebe7a873e5cd2aa3769eeb8dce44a6b8997775eb4c"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/L_attn_frozen.json",
+    "source_sha256": "244d04a78764aae3dc9fc12ad11ce8a97b634f058bd48e4d55c3f0ea6de3ee9a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V_long.json",
+    "source_sha256": "a7e2b791f41672886731eb3e6c741afe3425bef1280bd302a710696a87ac0cff"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VL.json",
+    "source_sha256": "53234fa2b1f9d097629546e08908a353bd99bf03b7b3e873b20f18aeca7c6123"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VV.json",
+    "source_sha256": "f90c159f36a7ff42030e68c47a7884957bd5f2f70edaac23154d9a84d63d57be"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LL.json",
+    "source_sha256": "ed7f00008236f8505da683b80535c48ea04290ecdda4276eef7ef50d380b9319"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V.json",
+    "source_sha256": "941c02ee2b154db3a7364c96ed4bdda0f4ed8cff701d0842d9d0bf616a42d5ee"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0L.json",
+    "source_sha256": "043856fb0bf5fc84ceef89996708eb978c2f311a8054159f48d3b1e05af01332"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/V_unfrozen.json",
+    "source_sha256": "26bc2ff7d74baf1fc38a2b6d6449c5bab56c5125c8a3784177ed1e32d8cdf4d3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LV.json",
+    "source_sha256": "8adb38434ddf84de862968cb891d30ee1f68dcecb5bac51f24780683e191a223"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/L_attn_frozen.json",
+    "source_sha256": "43dc106b39d2c19c07c921f76e3c93352fd474282db1839cd74e1f862f1a20a8"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V_long.json",
+    "source_sha256": "1c71b57f0661b5f7e8c2e56594bbf7de14e2e5d19dfbbf6cccffacb2a12bc6d7"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VL.json",
+    "source_sha256": "747afcfc6a7d89b1303ea5f90e0400580537eb198c9b1e5e15d1e33133eb31ee"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VV.json",
+    "source_sha256": "22e04a4b3619c61879eb929f4dc3050439c1373a3077fe77ba39557c58d2830a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LL.json",
+    "source_sha256": "14804679551b5cb919852ec27d4999a364417e780f3ac880fd3bbf4ae686af54"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V.json",
+    "source_sha256": "30636da312bb9cc6518a844c36d82014631c4d1e0bba6b255375925a37f372c1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0L.json",
+    "source_sha256": "8712f5cd5adb16832dcabd1e326238f06379513286aec72316e88a2a9d549cdd"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/V_unfrozen.json",
+    "source_sha256": "7c367cbd61bb5fc1cf1791eeda1c6a6c440a916f730840075a665d0eeea71508"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LV.json",
+    "source_sha256": "8d62a87521136315373028e6601f86b8026a71868b05746885d11a05725106d0"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/L_attn_frozen.json",
+    "source_sha256": "66dd5664f42f5563064fbdeb1b5f274117f71d67f5dd2f643bc24c3f31e8f368"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V_long.json",
+    "source_sha256": "567c0270e405bc25445235dee6a24b15b084caea2904bbb6694568a3e995577e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VL.json",
+    "source_sha256": "6940b8142a6e055d04b354763c42cbaf467932ce3ce49cbc37f9983146c2aff4"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VV.json",
+    "source_sha256": "5a3a6b3951d46edbfa734000a97b671edab6ba21b2c6b31855c9823c618f3f30"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LL.json",
+    "source_sha256": "bb58ac322fd7c27781c42e76f4f8f895ed3f69a2a08ab45480669511f22c04d3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V.json",
+    "source_sha256": "a4f0b0a9625062834aaa675f25e98dd0fb02c9a16880d92b4733fa7fd900271f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0L.json",
+    "source_sha256": "5af4292f02fa36bc13e95259cbf5b3f6c21d8e46c16dd74ff59f9afaca46da13"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/V_unfrozen.json",
+    "source_sha256": "ffb0cde80939b819425bd627826dcce032adad0d0241c9b0a9958dc36de6b1bd"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LV.json",
+    "source_sha256": "c37297a9377c4d378b1e31d6e9aef1e34d63b0c4a00d42ec12eae14d33c5db8e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/L_attn_frozen.json",
+    "source_sha256": "b989c38de379cde72b8c5f9240313dfce70304356bd3a8df44b16ba72b4fae53"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V_long.json",
+    "source_sha256": "262e34afea2300c0cacf918730218d55af06f3331371167898af06981dc5f626"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VL.json",
+    "source_sha256": "ef727c3d22ad98c55772ca458dae8eb37af796cb2cf628eb1ffa5992b0cb5565"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VV.json",
+    "source_sha256": "e15fe9eb86eb3c18f572626fc3b6d2354b75348169618d1e6f07751dab953072"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LL.json",
+    "source_sha256": "6540959a0794ada4b84a9e74f996fba7f79e35def03ffb8fe2d262beebcc9e53"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V.json",
+    "source_sha256": "a580d56c7e46f85201258191b25a0b010adfb3fa4f692b2863860648449decef"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0L.json",
+    "source_sha256": "cc8c501c2b40a3b83d614045a15503c9693f84d7349dc51ee5ea71a5c482b482"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/V_unfrozen.json",
+    "source_sha256": "9b1b7fb52857c0e3f139d9c9a49396e518f0495dc1bd9e87d19751aeb2ca612e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LV.json",
+    "source_sha256": "2f8c60fc3f8fc4b4458317b6e94812a020b95d0d28e8f99c56028211bbf50281"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/L_attn_frozen.json",
+    "source_sha256": "9bd83e3989270f8dc9a3707627eca9d9238702ee0e9412606dd51347c59b4c72"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V_long.json",
+    "source_sha256": "715681355c68960e14dbd731053a600621a02c3ee1d8bf47b788dd370a12faa3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VL.json",
+    "source_sha256": "8924fe1d31dd31ddaa5a695698aceedc58b9287073427eef33fc90dccd1f4076"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VV.json",
+    "source_sha256": "33c0f473287cb8c4499950c75623313f892f253131586c68513fa12d90525373"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LL.json",
+    "source_sha256": "82083fffeb83ef1c10bdcce255249d0558421489f9a6c359838cefd72a57b8d0"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V.json",
+    "source_sha256": "da7995e02f63e5a4b5bc83912c4f3fe7b4cc9544c87eef6882eef05881dc1a4b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0L.json",
+    "source_sha256": "9eeceeeb82978522125efdab6912b6a043e0090986437f265df698b8e84f3120"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/V_unfrozen.json",
+    "source_sha256": "e71f00aea6c6cb603cc13fbf8caebb8522c30819cef91a074c650b8f8cccfd56"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LV.json",
+    "source_sha256": "76ce0a3a7c8dd7b80caf0e429766c5857043f5c27441f20b8bb78181c17913c1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/L_attn_frozen.json",
+    "source_sha256": "27b38175f1d9366106d5e5166f6d67a173beda408a615d6f4a0e84da7e5d489d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V_long.json",
+    "source_sha256": "ed29531e1650c974819d3a26cbac97c945b17bddffd2216293d7e27decd878a3"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VL.json",
+    "source_sha256": "1b5e92234cc032db730b5438e676cc63ef62d75a49fbdc12db5fbfbe3b1ac19c"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VV.json",
+    "source_sha256": "7f29608f622df15a057ad17eff9c1233279aa7707b18be9052d96e9a7345f25c"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LL.json",
+    "source_sha256": "868f2444a8faa9cbea723fd8c82d5d2d44af77bce63084f29260c936828f3fcc"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V.json",
+    "source_sha256": "271ea1d1c2930187ce8d27daad217ec649fa4e6e25979d56b96217fea5075259"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0L.json",
+    "source_sha256": "616b76c8742c66ab9417587927865d637225c70b062096dee1a0ef4b8a9b6d80"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/V_unfrozen.json",
+    "source_sha256": "30c52d7ccce4f6128512f20fae1c108e416349142ec078e6a19a812722680bc0"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LV.json",
+    "source_sha256": "0830f7cebc677b7dbba67eb48ce35d461232ec617fbad0650257a0c5e526c392"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/L_attn_frozen.json",
+    "source_sha256": "fdcd72fdc5afd653fcd052a6ae15056421111bbb51aa33b946bd685c7cf9953d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V_long.json",
+    "source_sha256": "47a14111b04c51c55c5a78cdd9e9fdd806099bf6e863a077efa1aa34737ae97d"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VL.json",
+    "source_sha256": "eb668847e8868c1fe47ba87533b8ef091a34658cc5dd01faa81ba29ec0c1a8ef"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VV.json",
+    "source_sha256": "034fa0ec8cc5b8ed16cd7f34362894029b71e536a95fd9080c7bcf1258a21282"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LL.json",
+    "source_sha256": "09d920ac1ccedca03e6358c68f3e7fa89829eba632ff6b12e76b4dbaf5de8895"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V.json",
+    "source_sha256": "1ac3048990d19a0f2143b67d96a9098826d21e35c3d26c236a0e077dd07eeeb8"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0L.json",
+    "source_sha256": "98ac28690f34755b2ce9bc8eb219f5d9ad8bed66c5f357756a0849efb3cbe283"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/V_unfrozen.json",
+    "source_sha256": "5c1d9272abac5e905a781572395ddc9b457988d80d4c5920029f99179298517e"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LV.json",
+    "source_sha256": "101dc75dcbe8b0bd4cef4e23fc6ae7c905f8dc48e3b4d52c71801808215afb0a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/L_attn_frozen.json",
+    "source_sha256": "cbc130756134759ca0f0d2341e35f7580aa37d32abf35ef99c5e84e4e5bea4bd"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V_long.json",
+    "source_sha256": "69ff2fdb9b674cb49b12e626930436a102d3dbcb1551c7dcbbdea38a3c904f75"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VL.json",
+    "source_sha256": "5254dca80ab65d581ca562ac2d4fb105a33459707b47b8e043c0ff6ce35f757f"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VV.json",
+    "source_sha256": "33ecce655607e527dae9831485198a422562d1090818e1ab0f3e40d9e2ef060b"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LL.json",
+    "source_sha256": "a808f21ab0606481bc723d597d29cdf375081e4eb8f92ea4d921f7c04735e476"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V.json",
+    "source_sha256": "2b40e1fc9fa7ada8d8eda227ab480deb80ae0fb0fd9cf1996d021685cdf185f1"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0L.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0L.json",
+    "source_sha256": "c17d3784887853b6a8c4fdb563aaa0f733959560dcd4ba0cbc8832a12a81462a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/V_unfrozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/V_unfrozen.json",
+    "source_sha256": "5c239735620b393ec7757c3b4e3c16a7fa54743eff08f51d8b6cbed61644702a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LV.json",
+    "source_sha256": "e44f60e78839bec666ff7339facde2a9d852e354fc3930825ea422ab6869c90a"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/L_attn_frozen.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/L_attn_frozen.json",
+    "source_sha256": "672f3279464b5581354cec87d159de06077779bb5fd7870f880c0533fb8866ba"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V_long.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V_long.json",
+    "source_sha256": "8e86ac7c1b425f38cae7fab97ee858e39822569549fa6ae20d0fbb1772f122cf"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VL.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VL.json",
+    "source_sha256": "5602e7bc45130d3418c3ae48448f8faba4a1cfa239f872635dec144ef1ae6291"
+  },
+  {
+    "path": "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VV.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/delivery/camera_ready_neurips_funding_ack_20261104/manuscript_source/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VV.json",
+    "source_sha256": "e097502209e3fc4f44bcad5654d9fc69604c43a1fc5b8e876e229a35df674009"
+  },
+  {
+    "path": "results/reference/source_data/round10/activation_patch_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round10/activation_patch_per_run.csv",
+    "source_sha256": "b34c6b1172c931d70feab0e8facdb4aea2941bc63b9ba2dcf9afcd984101e323"
+  },
+  {
+    "path": "results/reference/source_data/round10/figure3_provenance.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round10/figure3_provenance.json",
+    "source_sha256": "5de0d8f91cfdbae4c3216dcb1c85dc8b2d5723afd59271e7d8f4914bbca93b8b"
+  },
+  {
+    "path": "results/reference/source_data/round12/threshold_grid_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/threshold_grid_per_run.csv",
+    "source_sha256": "00cbd0ce91cef77b6d1bfddb3b54373bfcca64f25bbe97c3501c256563174336"
+  },
+  {
+    "path": "results/reference/source_data/round12/manifest.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/manifest.json",
+    "source_sha256": "85d62ece2b9aad25c3f19ed4b22f5e8e6fde964286553918ccd39442096fb8d1"
+  },
+  {
+    "path": "results/reference/source_data/round12/threshold_grid_counts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/threshold_grid_counts.csv",
+    "source_sha256": "c0352ed856f0644bd5d1322242ee22cb51acd6e48563218436aa5d7827dc0927"
+  },
+  {
+    "path": "results/reference/source_data/round12/summary.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/summary.json",
+    "source_sha256": "943bf4aec6712cd8207e43b29b480d84dd74aaf8a873998d1db786208dc2fccf"
+  },
+  {
+    "path": "results/reference/source_data/round12/counts_by_depth.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/counts_by_depth.csv",
+    "source_sha256": "3a90d23f36c8d0a1d65096870c644600729ddc4a5890aa908de8cc3ac534d90a"
+  },
+  {
+    "path": "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/schedule_raw_trajectories.csv",
+    "source_sha256": "de43c4bc768431fe44eb0c9c59498a8f41f1af6b2407b02f4928c98a7d41f3bc"
+  },
+  {
+    "path": "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round12/schedule_protocol_per_run.csv",
+    "source_sha256": "769b3beb54580ccda3dd5d51e3c72927857162260c1011d6dbaec7897fcfe3b4"
+  },
+  {
+    "path": "results/reference/source_data/round13/reference_adjacencies.npz",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/reference_adjacencies.npz",
+    "source_sha256": "92913820388f17a3ec0d6294f1304c0397e1490b91ce1168f2e0556ab6ad93bb"
+  },
+  {
+    "path": "results/reference/source_data/round13/symmetry_null_within_task.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/symmetry_null_within_task.csv",
+    "source_sha256": "438069d46646d0ccaa29f829e9855012f7d81c841263757d7c9b5c704b5f403f"
+  },
+  {
+    "path": "results/reference/source_data/round13/signed_timing_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/signed_timing_per_run.csv",
+    "source_sha256": "83245d42105269ecff32f1a74656e6130b989dd17fac4f7ac51d41e8a7fabb5d"
+  },
+  {
+    "path": "results/reference/source_data/round13/manifest.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/manifest.json",
+    "source_sha256": "20d0da133718fe445a6b1fb7731b2be76f671fc138c4e6a0999893db2b43bde0"
+  },
+  {
+    "path": "results/reference/source_data/round13/aggregation_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/aggregation_per_run.csv",
+    "source_sha256": "3d5062a012405cf17166147ee031a5a3149bd074955a2ed4359176f50acc370d"
+  },
+  {
+    "path": "results/reference/source_data/round13/symmetry_null_pooled.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/symmetry_null_pooled.csv",
+    "source_sha256": "1627cbdd7f830143c69bd1379e9bdcd6ee67d49f24eb1ca39b6acfd5b9ec5c36"
+  },
+  {
+    "path": "results/reference/source_data/round13/cross_seed_joint_per_pair.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/cross_seed_joint_per_pair.csv",
+    "source_sha256": "9fc5fc8fe1d1ce49a470d6e94e0184c91abe5797725d0f058b7f4c818a7d1321"
+  },
+  {
+    "path": "results/reference/source_data/round13/fourier_trend_controls.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/fourier_trend_controls.csv",
+    "source_sha256": "dac91447fb3044ebb8b2c049a86e23bd992465eb8b9242aa02be4360ea9b3266"
+  },
+  {
+    "path": "results/reference/source_data/round13/crossed_shape_rules_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/crossed_shape_rules_per_run.csv",
+    "source_sha256": "f4678fa07e38ef48bd74bfd6d74da2df9ccf7803bae382bdf974eae8d04bed51"
+  },
+  {
+    "path": "results/reference/source_data/round13/reference_joint_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/reference_joint_per_run.csv",
+    "source_sha256": "f034ea46292b50b1b55bb48a42b9e5f4375467408c2d6cfc8473eda691c3b1e4"
+  },
+  {
+    "path": "results/reference/source_data/round13/summary.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/summary.json",
+    "source_sha256": "5ffff79e4ebd5a06d2b93dbebd449ad72ed5d3fc9e98ecd045419b24f5802987"
+  },
+  {
+    "path": "results/reference/source_data/round13/graph_uniform_weight_curves.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/graph_uniform_weight_curves.csv",
+    "source_sha256": "6c9982d5170a34f3ea3804b7fcdf301440277ea3d944cb4098b1d958a665d2f5"
+  },
+  {
+    "path": "results/reference/source_data/round13/signed_timing_summary.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/signed_timing_summary.csv",
+    "source_sha256": "f56bc9976a056ebfbf3065e5c5a4b20435e637ac37688f2acf11fce1d82c0c5b"
+  },
+  {
+    "path": "results/reference/source_data/round13/graph_uniform_weight_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/graph_uniform_weight_per_run.csv",
+    "source_sha256": "d00d42b828ff277dc8740cafdba01574e0832319cc1a1b5b0d46961dd1dd20a5"
+  },
+  {
+    "path": "results/reference/source_data/round13/aggregation_trajectories.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13/aggregation_trajectories.csv",
+    "source_sha256": "f4f914c32e556b2b8519ac38da6125459b8259d7576af9ae2571213ce4be7c62"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/silu_mul_s123.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/silu_mul_s123.csv",
+    "source_sha256": "684d28833d475d7e6f4748a4782d49658d29a7a9af8be724d9601140f648a0b5"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_mul_s123.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_mul_s123.csv",
+    "source_sha256": "8e0642b42328142590f1a6e97f3ed407a1000413c92041381c6e8e25c3d6d0d8"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_add_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_add_s777.csv",
+    "source_sha256": "e8b8d3199249355223164cabe9320c56894d2a41b9e863d063e0242aec1ce14e"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_mul_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_mul_s777.csv",
+    "source_sha256": "4c30fe44146dfa5bfc83b4e1842625780e0841948f660ee54fd831842e09fddd"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_mul_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_mul_s42.csv",
+    "source_sha256": "f8ca49aeefc434103b1984a4c75a2caed091df97bdc4eaca90301014c53d2f57"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/manifest.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/manifest.json",
+    "source_sha256": "6d1022adfbb406ec984f1966f1be9d8ab22f511cacc3c905af5ff51d8ef41605"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/baseline_parity.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/baseline_parity.csv",
+    "source_sha256": "1ef8660d5cb42954d03306dacbea942fe871ee117dcec35cb1d4f583c2a12d9b"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_mul_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_mul_s42.csv",
+    "source_sha256": "e8f1839756a81cb5c9228dacae6769d6d5bfd5baf96ca3352f991c6b892858d4"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/silu_add_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/silu_add_s777.csv",
+    "source_sha256": "50addcbd1d9f2340ea308e5cb6092a71a8747ada906f48d98756c901f08a9821"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/per_run.csv",
+    "source_sha256": "04555f80483b0a60c8f8186fb55ddc74c07a964feb1453ef8b7317c056b2f14c"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_mul_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_mul_s777.csv",
+    "source_sha256": "4d8e8572f7071bcb9dc80ce8cee5bbb361f2319940032529906e68f9ed84375b"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/silu_add_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/silu_add_s42.csv",
+    "source_sha256": "e7ce5887b89e6d7e5160c5833928dff0e3bee046d0fda7a124f6ce4b4a4be3e7"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_add_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_add_s777.csv",
+    "source_sha256": "858b9ba0ff222c2685b3086cfdff3404edcabfa22544c21c113caab561097cae"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_add_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_add_s42.csv",
+    "source_sha256": "540472d96ee063383d0bb38e22fcd34559b254363243a748306f24f617c2a9ad"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/summary.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/summary.json",
+    "source_sha256": "66c9b914ae15e91fd374065ad548e29f25c77667a49ffc57db3fd49eef9233b2"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_add_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_add_s42.csv",
+    "source_sha256": "f9305ce98075abf8610e2625b39b6e82d5db9c0854543e6a4876a1b0be7c7ddd"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/donor_selection.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/donor_selection.csv",
+    "source_sha256": "4ddec83054d578a805600538212dcbb4315ac57d908a4e07d38dcbe36e0591cd"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/silu_mul_s42.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/silu_mul_s42.csv",
+    "source_sha256": "7d3cde584cec75c7cb91c7987617c091b16f73773f626d179c25c438f0b1ec85"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_mul_s123.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_mul_s123.csv",
+    "source_sha256": "db47f3b101e89e993aa452e8cd372e76f905605ef8055d06ae68a7b7e4055d42"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/relu_add_s123.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/relu_add_s123.csv",
+    "source_sha256": "f8a5d3434f305fc49381d06a574f7da3db2840ef9fd0977ff31a9b764d955d75"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/gelu_add_s123.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/gelu_add_s123.csv",
+    "source_sha256": "3224757566430871b5ca512f4f26db1b0782e9b0aee8d32b5f3b0a5843740452"
+  },
+  {
+    "path": "results/reference/source_data/round13_donors/silu_mul_s777.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round13_donors/silu_mul_s777.csv",
+    "source_sha256": "968420b85bd03f6749c8c7e1017d21fbf91a1824fc6965eaf77a799b0af3f023"
+  },
+  {
+    "path": "results/reference/source_data/round25/N1_random_anchor_replicate_counts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/N1_random_anchor_replicate_counts.csv",
+    "source_sha256": "b7173e25c98a7e611687c9d59b54737d5718cbc35d26bddfbe75d16d75ae37c4"
+  },
+  {
+    "path": "results/reference/source_data/round25/manifest.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/manifest.json",
+    "source_sha256": "1a451bd2280ed118147ac678493fd5aea3326b31097833527eff2fb8ed512586"
+  },
+  {
+    "path": "results/reference/source_data/round25/N3_permutation_replicate_counts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/N3_permutation_replicate_counts.csv",
+    "source_sha256": "c7322bdc47ab420b209341235d0be1609d56bd3754a621524d05b20769b48e2a"
+  },
+  {
+    "path": "results/reference/source_data/round25/order_summary.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/order_summary.json",
+    "source_sha256": "a232243d17626695c94075f30985ab8c6105cea5101c6f55695986f4779d911b"
+  },
+  {
+    "path": "results/reference/source_data/round25/N2_iaaft_replicate_counts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/N2_iaaft_replicate_counts.csv",
+    "source_sha256": "719bd21333b7f799a59de9c856d42b1d536d29dc925f6706cea09474fe1d13a5"
+  },
+  {
+    "path": "results/reference/source_data/round25/summary.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round25/summary.json",
+    "source_sha256": "0bcec595b834c7eef4b9265c7200a3f254e353d1170a2cdc62eee9babb4187d9"
+  },
+  {
+    "path": "results/reference/source_data/round34_figure_data/fig4c_points.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round34_figure_data/fig4c_points.csv",
+    "source_sha256": "271fdf3eb1d9837a6480a033fb4db7d5e25bcf5fc368c4950828188b7003c0fc"
+  },
+  {
+    "path": "results/reference/source_data/figure1_example_selection.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure1_candidate_a_20261103/figure1_reproduction/source_data/figure1_example_selection.json",
+    "source_sha256": "b2dc76591f46b96d29b545b697e5692ba9eb5c07e2aae444576cb572d7e1bff1"
+  },
+  {
+    "path": "results/reference/source_data/figure1_run_trajectories.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure1_candidate_a_20261103/figure1_reproduction/source_data/figure1_run_trajectories.csv",
+    "source_sha256": "d39fc0ce1ff5cb5db02583e7e064fe6d3ef1c5c40be8294ab7cf16c30f93cf6b"
+  },
+  {
+    "path": "results/reference/source_data/figure1_summary.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/audit/figure1_candidate_a_20261103/figure1_reproduction/source_data/figure1_summary.csv",
+    "source_sha256": "1bfa2f413677a01574485b893d3e2878ac9118f50b72b6b7006804021c87c6be"
+  },
+  {
+    "path": "results/reference/primary/main_claim_stats.csv",
+    "source": "supplementary_artifact/main_claim_stats.csv",
+    "source_sha256": "53ba5494f9551ee875c2c33a0884ec2ddf316d9c917421392b5344e34f8c36ed"
+  },
+  {
+    "path": "results/reference/primary/surgery_stats.csv",
+    "source": "supplementary_artifact/surgery_stats.csv",
+    "source_sha256": "c9491da640393b7df3bf117cdee3216807d95920005b971cf6f5f77f6a9377a8"
+  },
+  {
+    "path": "results/reference/evidence/workflow/joined.csv.gz",
+    "source": "experiments/grokalign_selector_benchmark_20260503/window_scores_joined.csv",
+    "source_sha256": "f3fd298b582a96f5d7e09812d4af5cbd9c344bf208e858031773e92b134786fe"
+  },
+  {
+    "path": "results/reference/evidence/workflow/published.csv",
+    "source": "experiments/grokalign_selector_benchmark_20260503/main_table_grokalign_selector_w11.csv",
+    "source_sha256": "a7e89f2ebc6a07f7b269e7bb352fe891493b1404733cc19cd78761263be59d9d"
+  },
+  {
+    "path": "results/reference/evidence/workflow/direct_j.csv",
+    "source": "rebuttal_2026/direct_jacobian_selector_paired_audit_20260723/selector_sensitivity_per_run.csv",
+    "source_sha256": "b71d303904e14c08ebbb89d0b94773a3ee764ade23a4a6e15a5c6c4b34a3f2f8"
+  },
+  {
+    "path": "results/reference/evidence/workflow/six_seed.csv.gz",
+    "source": "experiments/workflow_selection_seed_extension_with_aux_full_20260614/window_scores_heldout.csv",
+    "source_sha256": "9798cd57ee87f851a9eb9554def03fe6c5850900d6757f851177d98a54c3f5c0"
+  },
+  {
+    "path": "results/reference/evidence/workflow/extension_manifest.csv",
+    "source": "experiments/workflow_seed_extension_20260610/runs_manifest.csv",
+    "source_sha256": "50436939a089020860d022d1b90fbf26e3e84c7d00a70f41d57d5894fb4f738d"
+  },
+  {
+    "path": "results/reference/evidence/mechanistic/windows.csv",
+    "source": "experiments/rebuttal_all_window_intervention_yield_20260712/analysis/merged_windows.csv",
+    "source_sha256": "8d76d798e764be0acfdf3b4ac5a654cf421f889baf724df433a6cbef1aa4e100"
+  },
+  {
+    "path": "results/reference/evidence/mechanistic/donors.csv",
+    "source": "experiments/rebuttal_donor_yield_gcs_cka_l2_20260706/donor_yield_surgery_per_run.csv",
+    "source_sha256": "3cfdc572324b6a668770376c049cda88915fe62489d6db0a6c53f10ed3910673"
+  },
+  {
+    "path": "results/reference/evidence/mechanistic/dynamic.csv",
+    "source": "experiments/rebuttal_dynamic_proximity_controls_20260713/window_rows.csv",
+    "source_sha256": "c86816dcfc7fdc87aab77a5017f10c3223ed5a365ac3a979a33bc4d4a24a00a3"
+  },
+  {
+    "path": "results/reference/evidence/mechanistic/expected.csv",
+    "source": "rebuttal_2026/mechanistic_yield_selector_audit_20260723/selector_summary.csv",
+    "source_sha256": "a26e689feee9b0e55169d8c61ae4203f586445a68b83adca2c8217a39176c804"
+  },
+  {
+    "path": "results/reference/evidence/interventions/submodules.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/summary_long.csv",
+    "source_sha256": "fc825cd581ea465d4768df67789e4fc785031fc5878b2947c03063c4aedd0f04"
+  },
+  {
+    "path": "results/reference/evidence/interventions/matched.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/matched_null_summary_per_run.csv",
+    "source_sha256": "4f91310d306e544020e535493f87ee75791b6bd244e0068e7ef1a7b00ee4787a"
+  },
+  {
+    "path": "results/reference/evidence/interventions/recovery.csv",
+    "source": "experiments/continuation_surgery_recovery_20260429/continuation_recovery_rows.csv",
+    "source_sha256": "befda7204c7254eb482505f855272e5343e49fa8bce1adde707f86190fe3974b"
+  },
+  {
+    "path": "results/reference/evidence/interventions/selected_donors.csv",
+    "source": "experiments/selected_donor_surgery_20260505/selected_donor_surgery_per_run.csv",
+    "source_sha256": "95a05a8c5f08b826f47fe0fbc24341f52e35438b3118033bb636216733a8d9a4"
+  },
+  {
+    "path": "results/reference/evidence/narrative/robustness_per_run.csv",
+    "source": "experiments/hierarchical_robustness/continuous_per_run.csv",
+    "source_sha256": "f1173ba64b4f8858ca78b6c88725fee60750784bc3108b8975704eafd243195d"
+  },
+  {
+    "path": "results/reference/evidence/narrative/robustness_summary.csv",
+    "source": "experiments/hierarchical_robustness/hierarchical_summary.csv",
+    "source_sha256": "331bfae7da8f00d623a47ec0611c67cf4ce19dc61e89e07052f968ef2db1327f"
+  },
+  {
+    "path": "results/reference/evidence/narrative/leave_one_factor.csv",
+    "source": "experiments/hierarchical_robustness/leave_one_factor.csv",
+    "source_sha256": "6648637d64393c55baf36b8a6bd1fad3304e93b60f99d5fe7bc68bede9b6b859"
+  },
+  {
+    "path": "results/reference/evidence/narrative/toy_controls.csv",
+    "source": "experiments/gcs_method_sanity_20260502/toy_sanity_rows.csv",
+    "source_sha256": "407f822a7e9824c9e86aa239e05e4547afe0237e5d16ec556fb7f5ff8487a344"
+  },
+  {
+    "path": "results/reference/evidence/narrative/method_control_points.csv",
+    "source": "experiments/gcs_method_sanity_20260502/attention_method_control_points.csv",
+    "source_sha256": "04d3864cd7c814205fe75c93b7538456bfcfe0de05c9f0c3e17e7dd83a405021"
+  },
+  {
+    "path": "results/reference/evidence/narrative/procrustes.csv",
+    "source": "experiments/procrustes_control_20260502/procrustes_subset_path_summary.csv",
+    "source_sha256": "c30bfd1c92955888f57580006e9113bfa0e5766bf752ac5e5f3149e711aba40b"
+  },
+  {
+    "path": "results/reference/evidence/narrative/token_probe.csv",
+    "source": "experiments/token_probe_controls_20260419/token_probe_per_run.csv",
+    "source_sha256": "088a31b52a7747cbf928316fd3e984a0c93a51952b9fa01ee9bbe40d8327731e"
+  },
+  {
+    "path": "results/reference/evidence/narrative/reference_windows.csv",
+    "source": "experiments/reference_stress_path_triad_20260503_prepost_abs/route_windows.csv",
+    "source_sha256": "149ff48618169ef5d39ac59092d1db1879192020385eb47dd3858699fbbdda8e"
+  },
+  {
+    "path": "results/reference/evidence/narrative/answer_only.csv",
+    "source": "experiments/answer_only_graph_control_20260505/per_run.csv",
+    "source_sha256": "4efcf8a96958b417e301c8e9e144e24037110c6510f102e292a983727973ef15"
+  },
+  {
+    "path": "results/reference/evidence/narrative/shuffled_reference.csv",
+    "source": "experiments/shuffled_reference_control_20260428/shuffled_reference_summary_runs.csv",
+    "source_sha256": "8413df28a2f1097728cea013c87c455991496af62720fcdc6d68b81ba3381ec6"
+  },
+  {
+    "path": "results/reference/evidence/narrative/nkd_windows.csv",
+    "source": "experiments/rebuttal_gcs_nkd_selector_sensitivity_20260724/per_run_windows.csv",
+    "source_sha256": "a6886bfa05ec7f31c4148e77f3199144192cbb7fe1120a0e80c4163c173fb1e2"
+  },
+  {
+    "path": "results/reference/evidence/narrative/nkd_variability.csv",
+    "source": "experiments/rebuttal_gcs_nkd_selector_sensitivity_20260724/within_run_variability.csv",
+    "source_sha256": "8d45b69bca5aed9fbe56d7dbee531ba617665bc4d8aeed4511dacfe4d925aa4d"
+  },
+  {
+    "path": "results/reference/evidence/narrative/path_purity.csv",
+    "source": "scripts/path_purity_cohort_summary.csv",
+    "source_sha256": "5121fcf5dd95437898654bde7db1275eacab3b0f0aad3f84d7b60e77f310ebea"
+  },
+  {
+    "path": "results/reference/evidence/narrative/near_solved.csv",
+    "source": "experiments/rebuttal_near_solved_endpoint_queue_20260724/evaluation/per_run_results.csv",
+    "source_sha256": "09cbb93c4bb21af17223878446b86a997d7f7d1e50d78b93449cf14b93707305"
+  },
+  {
+    "path": "results/reference/evidence/narrative/non_grok.csv",
+    "source": "experiments/false_positive_controls_20260502/false_positive_controls.csv",
+    "source_sha256": "f731f219cb6985fcc778b7839c549cf6c7128736ccdeb046500d56a293ecdf44"
+  },
+  {
+    "path": "results/reference/evidence/narrative/method_neutral.csv",
+    "source": "experiments/rebuttal_method_neutral_order_v2_20260726/per_run.csv",
+    "source_sha256": "807bef3545a1e74f3eec96ce6fc3663b3a4ef6cec78e499ea598a6523527252f"
+  },
+  {
+    "path": "results/reference/evidence/narrative/method_neutral_null.csv",
+    "source": "experiments/rebuttal_method_neutral_order_v2_20260726/per_run_null.csv",
+    "source_sha256": "9b4c8ae796d1a7e6484363c963a76484bff06d97b07e1d95e574326957f3dcf4"
+  },
+  {
+    "path": "results/reference/evidence/narrative/cross_prime.json",
+    "source": "experiments/cross_prime_equivariance/summary.json",
+    "source_sha256": "145d57bdf25cc3fdc8959a7ca0013ebc4e4bc93af37fecea1855d8e5ceb46dea"
+  },
+  {
+    "path": "results/reference/evidence/narrative/groups.csv",
+    "source": "experiments/group_scope_relu_gelu_20260429/final_stats_group_all_activations.csv",
+    "source_sha256": "d30492502b07407b1d805b5d2ca8cd3b02a19ae75c348b09dd0cbd3fb65db0bf"
+  },
+  {
+    "path": "results/reference/source_data/round14/cohort_horizons.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round14/cohort_horizons.csv",
+    "source_sha256": "c3b70626b7045ee5bd2cab79fe69bd6e45867d1f79ad2f13ec86741b7961bb01"
+  },
+  {
+    "path": "results/reference/source_data/round14/epoch_sets.json",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round14/epoch_sets.json",
+    "source_sha256": "5dfc46e3bccf18a8b1648e85e60ed86d05e388b4032ffadf16f2d672b6e5b7b9"
+  },
+  {
+    "path": "results/reference/evidence/narrative/layernorm_one_layer.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round8/layernorm_one_layer.csv",
+    "source_sha256": "7b1a762acce01dc52ecb809d06a7c6f6fc4a70c95a109c0a89ce2bff26d8d350"
+  },
+  {
+    "path": "results/reference/evidence/narrative/layernorm_two_layer.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round8/layernorm_two_layer.csv",
+    "source_sha256": "6a400ee6889bfad4a8a1d18ac6945250c8fcc5e59746f791b0e2d9220ed2317e"
+  },
+  {
+    "path": "results/reference/evidence/narrative/s5_full_cohort.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round8/s5_full_cohort.csv",
+    "source_sha256": "3227226a270db56f5f13a3d3e955602e0f1243bf98606ed714bbf35f03bde4b1"
+  },
+  {
+    "path": "results/reference/evidence/narrative/earlier_layer_paths.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/earlier_layer_paths.csv",
+    "source_sha256": "93f1909d55c1df6e000205624fc8a4650f6ebfc92c26d344d239d97328334bab"
+  },
+  {
+    "path": "results/reference/evidence/narrative/earlier_layer_verdicts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/earlier_layer_verdicts.csv",
+    "source_sha256": "e1819978e3ec5f54f30735080d214fbfe53d100ed448698e496cd4eb1d8ca1f0"
+  },
+  {
+    "path": "results/reference/evidence/narrative/hybrid_h1_paths.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/hybrid_h1_paths.csv",
+    "source_sha256": "4db374e72c38c44ba5f8c4036cd890fc7cf3e410995b50b44b394cc019b2f185"
+  },
+  {
+    "path": "results/reference/evidence/narrative/hybrid_h1_verdicts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/hybrid_h1_verdicts.csv",
+    "source_sha256": "46ca23bf4129b2c826f284a537c32b9443de90b253a1b43c08737ac5adc5caa5"
+  },
+  {
+    "path": "results/reference/evidence/narrative/hybrid_h2_paths.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/hybrid_h2_paths.csv",
+    "source_sha256": "1d3d1c77eabc823c75c61ffb9645318a769e24973415dbff84b1f0aecbebe3d1"
+  },
+  {
+    "path": "results/reference/evidence/narrative/hybrid_h2_verdicts.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/hybrid_h2_verdicts.csv",
+    "source_sha256": "bcb4a17188acfe6afcdc0e3df4401a20245ee3933b5addf6a4a7338dca68aca9"
+  },
+  {
+    "path": "results/reference/evidence/narrative/nkd_sensitivity.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/nkd_sensitivity.csv",
+    "source_sha256": "78c8381a6d9f5cf15434f24639186e6e08f33cc7187d8d0c2287b61514793d35"
+  },
+  {
+    "path": "results/reference/evidence/narrative/nkd_variability.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/nkd_variability.csv",
+    "source_sha256": "67533de6570bcc8f85f189b196f53c6591a86643846eb3c3792e31dc40e893a7"
+  },
+  {
+    "path": "results/reference/evidence/narrative/near_solved_per_run.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/diagnostic_audits/near_solved_per_run.csv",
+    "source_sha256": "09cbb93c4bb21af17223878446b86a997d7f7d1e50d78b93449cf14b93707305"
+  },
+  {
+    "path": "results/reference/evidence/interventions/rescue_share.csv",
+    "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round31_cached_checks/b3_per_run.csv",
+    "source_sha256": "351663644256d0b25e28dc568ebbc11f6134d34c5c5df2ef11c95e20e3e84f23"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_silu777_pilot_combined.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_silu777_pilot_combined.csv",
+    "source_sha256": "702431707fe77f3c19d871bacaf88d373b00ff37bc4027c104ecb068305f3f79"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_silu777_pilot_summary.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_silu777_pilot_summary.csv",
+    "source_sha256": "0c68f5cff265c5b22ce06d3e72d528d7475c9522e01ddf8db50fc072d37b4891"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_summary.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_taskref_full_20260426_summary.csv",
+    "source_sha256": "f22a090103b05af2841b5e343ddf48182c70d983505507d081f7f53abb49e359"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_combined.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_taskref_full_20260426_combined.csv",
+    "source_sha256": "c4fc3ceb3d903df0056a7a4e239671238567273b2d7983bf7455aa06fc5e84d3"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_gelu.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_taskref_full_20260426_gelu.csv",
+    "source_sha256": "a54e6aaac2f322794b0cb7f264267fd58b7ed5798994c40d3de7c2b210b7e795"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_silu777_noncomm_pilot.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_silu777_noncomm_pilot.csv",
+    "source_sha256": "634cabe9d8f2360dfe79be01e97402355733d57fa53487e9ae17f9f5e1702aed"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_relu.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_taskref_full_20260426_relu.csv",
+    "source_sha256": "629645668f0905aff3051333c2413ed4eef726aca7f66c5778ec410ac912eb0a"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_silu.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_taskref_full_20260426_silu.csv",
+    "source_sha256": "6641e0fba96f72b124aaf6a8a77030a5c42999c2f8b6350a6f11c7a934a9d4c1"
+  },
+  {
+    "path": "results/reference/evidence/task_reference/task_reference_ablation_silu777_comm_pilot.csv",
+    "source": "experiments/task_reference_ablation/task_reference_ablation_silu777_comm_pilot.csv",
+    "source_sha256": "7392d219df02bfd5b22b94d60928604fdd04fb42ff21af0ec2eaf61e778c83de"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source_sha256": "2e522b371ce1ecdd957476b96096c44a631003330b198594e20963f778f1ebd9"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source_sha256": "bad15b4434d0172777aa4d3f33fc9429cb31c482e323c13b8b9f82b4eff8b0c6"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_add_s123_surgery.csv",
+    "source_sha256": "d6fa45fb9722c07c6e68e54af1e22b821bb9b049a65c31a7f9feef1ab4ac4808"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source_sha256": "f7c06177936792160a1ffc029f1b980ee00eedac7b1dc07719f7d9f45fdefb07"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source_sha256": "067f54a5586aef0e9ecea668058a027ec400fbdce8491ab9fe362458c431a948"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source_sha256": "2d1e026733c83b8ada93232da4c9f93c624ac60b206cbb91ee1cb6f9d01eb2cc"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source_sha256": "bbb8cac3e87fce78fc276d310d2b2f523ab95a0036866364ee76247b5be12c17"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/silu_add_s777_surgery.csv",
+    "source_sha256": "4f5b0fdcc44ba44424c329ca08681a36ba4ba883cc5c676ea5ab0da0d83973f7"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source_sha256": "ad5ee951d7e6a107ec5254431b22e4dbcded4b72a5a0b4231d3799d602378df1"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_add_s777_surgery.csv",
+    "source_sha256": "c21e25ec75686564a284f7ce0620f45c2eb2c9d07255cb11444f85b72c79047c"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source_sha256": "26eebfffb671dbdd76e3848144efd73634c93c26e424545f03303d7ebb1a32d9"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source_sha256": "081f459510f5abe203156418dc2ad52acd64a683700b57fbb474de0a7dc9dcd8"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source_sha256": "d678425b43eda8cb55b38fbb05a754652c65685cc8e4d015b7ca9443315c91f0"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_add_s42_surgery.csv",
+    "source_sha256": "81c18bf659bb667f4bf7a2428483875ccb3de2058b115367e8b590238134887b"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source_sha256": "5abc58dcea77c3a1f3c44d870db892f9895f14f87d4f4068ce13f295e90309d0"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source_sha256": "d92b1a6576d57143ceab4f7bf53d900d86ccd097519e54fb955ade79cfc087b5"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_submodule_cohort_20260419/silu_add_s42_surgery.csv",
+    "source_sha256": "40cc682e27afaca3d0a7ff86a077c810ca2ae46b952e544dbbaacfae205ae7ba"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source_sha256": "d779012d1cedcfd680cd81c9acb6308b777918efc995514437c0f8446b039e6f"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source_sha256": "7ce4ac47fbef9bdd2edfe4bbd25895e96d56048917f11c97afeda6be4e4b683a"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_add_s123_surgery.csv",
+    "source_sha256": "8cade5537600dc2229e0410987dd9efddb431376083ecd3aa2f040da0fa86acc"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source_sha256": "0848adcd72bb1509418a1de9cb8bf82efd792a70f894f82a93038a3775036ed7"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source_sha256": "e9678c655b93aa141cc80fc539f743841fb1daf432b020822c7ff3fc04d50864"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source_sha256": "29b47e44a9f6b6312e494138c604f64e3db220be8d4def69e5d32aac67c4dfe6"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source_sha256": "7d50431b35227d406cd189e44e5da2f95514bd7f2cedad2b2b89de8f9d94acab"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/silu_add_s777_surgery.csv",
+    "source_sha256": "e67e138ab0131193e907c369e0772691916e058e4af31f237479a78ffaa97c02"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source_sha256": "f3ba80b52d3e546837ede75496907f088e34aa5e8912d6643984505825e61ee1"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_add_s777_surgery.csv",
+    "source_sha256": "0f866816c38e83070d727be2b62147a63f88324c5eb012e483824dfe0db0413e"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source_sha256": "193f2a2463d80f7e4aa142c4d3098f7670b2590e7aa92ae9a52260de3318c1ee"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source_sha256": "fbc864595abeb8a9c946a0c6aec5ba37f9832988b8addc5c26d480c1579d81e7"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source_sha256": "783aa33b9141c75e9ccc8cf91827f91b922246e860d75049d6e9829f15dcb799"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_add_s42_surgery.csv",
+    "source_sha256": "3f628446ab6f680d6850feca64eb98c038532e0911a324f8fd6568b1f8ec0199"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source_sha256": "4861b56b4ff842f105aae1935462070b2ef51815523f6f18bf8e53cf9551dada"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source_sha256": "158fbf66b6ecc7c11e0faeaaffc3ea28ccd57b980342a0701af8260e11a3518a"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_matched_null_neuron_cohort_20260419/silu_add_s42_surgery.csv",
+    "source_sha256": "bc61afbd93391915bc3606f42d13acc2b43928cb9164cdbc56958317867804e2"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_add_s777_surgery.csv",
+    "source_sha256": "b701d563426dd14257dfdd4478e6e79c1b1044d40951e76e015c86575749391f"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_mul_s42_surgery.csv",
+    "source_sha256": "e45eef644592e13327507b0c6c0e5b77913cb3facd8ef234665d33f16f7376a2"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_add_s123_surgery.csv",
+    "source_sha256": "e3d90c1acdec40ad1a08b32ebf725ee129df0501c4ac949e566ec6521058eebc"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_mul_s777_surgery.csv",
+    "source_sha256": "e3582217311658c60d3c4a3b28becfb54a8144d38f3f0df6b96b133ddd3e05e7"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_mul_s777_surgery.csv",
+    "source_sha256": "fdb2e177cc9d1357b96d29a3be93f2d832c846941bcb491a15ae433db8ff545b"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/silu_mul_s42_surgery.csv",
+    "source_sha256": "ecd5f2de32fee5fc274afd1b2135c677ff63e34e125a57db39b2bba61d32c3e7"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_mul_s123_surgery.csv",
+    "source_sha256": "b9e5cd5f4efa13a9e4d4f62636be0e139da870ab69ca9372f0c3fd0bcb366a44"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/silu_add_s777_surgery.csv",
+    "source_sha256": "778a8252b426ad5caad6e8ddf8a48f7226df91fb50696a72d6c4bdd856af3a17"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/silu_mul_s123_surgery.csv",
+    "source_sha256": "0145de92a4a886c84a578a259d2d153fbda5830a120168795f3fde956b2c7687"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_add_s777_surgery.csv",
+    "source_sha256": "ec45ec65a65cd601e3335dee2efcdebc819e8283af497dc784b77fd65f8efbdb"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_add_s123_surgery.csv",
+    "source_sha256": "37725bfe3f3b2c934a606eabd87383780ebac5b4e2753e3e88d95503a7d94974"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_mul_s123_surgery.csv",
+    "source_sha256": "0b49669bed24b9e310e02c4ce6284b06758659320a14a2c50bc4a53736a5a9f8"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/silu_mul_s777_surgery.csv",
+    "source_sha256": "4b26b78cccc5660472e209d593d41d5a588be575e8ed0e1018e705ba0645cada"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_add_s42_surgery.csv",
+    "source_sha256": "4be8b8581d6b1281f45cde6c7ffb426fd53fe171ec38ba9dec5dbd93b578bbd9"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/relu_mul_s42_surgery.csv",
+    "source_sha256": "2dd3e44e3916faff701153d8c9293f9fa9507df2ed3ebcdb5807edbecb4d6cb1"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/gelu_add_s42_surgery.csv",
+    "source_sha256": "fffd9f3c7ad153f82d104f57b544fd4eb6d418442d7890ac1bca7aeaf99b9460"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_fixed08_cohort_20260419/silu_add_s42_surgery.csv",
+    "source_sha256": "550ca7a2aaf607992428ec44fc78f79e1d9940a60045f56c98e273d7fe35aae4"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_add_s777_surgery.csv",
+    "source_sha256": "dd6ec09f45a636ac026e399fdc2c5d3726215bd8762e91c185af3d4dc9145cd5"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_mul_s42_surgery.csv",
+    "source_sha256": "d1a8a548473679d24b63882d1bb38e03e4f8973f0b31593626e79e89465e84c6"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_add_s123_surgery.csv",
+    "source_sha256": "ffe971854d554b1a055bdf3dfcdd815ba71dff6e8feab35423682264c104da9c"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_mul_s777_surgery.csv",
+    "source_sha256": "72100322127cf562ba5c3fa283a8e546554009ea02b3f11f50666e31cec9b283"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_mul_s777_surgery.csv",
+    "source_sha256": "f41287a4f8cde38ae04104f93bc0ba4284af6062b1587318d0d0ac24f036127d"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/silu_mul_s42_surgery.csv",
+    "source_sha256": "b256099bba3dc9415cc218f3fb85ce61676651313c7c65b3bd60bec404c63655"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_mul_s123_surgery.csv",
+    "source_sha256": "1870f16fef26a9cec9f59b22f3a021a508267eb93896aee80e689d9ad0668da0"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/silu_add_s777_surgery.csv",
+    "source_sha256": "b0eb4db34b0ed30808e2920ef89e6c6d789247381b1f4850f84d8e04992d9776"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/silu_mul_s123_surgery.csv",
+    "source_sha256": "e2f4d266d6c0171ea5550c8dd0649256e430046e4c70c4e1db61e3f3f306dc37"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_add_s777_surgery.csv",
+    "source_sha256": "236e132497f78af708540c011e9ad70969fce21595b591807a89ea6ada72b3bd"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_add_s123_surgery.csv",
+    "source_sha256": "c14b3c01276c6a6856d02d340d9aa36808a8c5ff7166115bd4550cb312f6879f"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s123_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_mul_s123_surgery.csv",
+    "source_sha256": "756cc0b513dd855aba1e8ef1da7642f291ca549cd67db974d31df95a0bca3780"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s777_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/silu_mul_s777_surgery.csv",
+    "source_sha256": "c39c8c5677257e7a534ba18300d24063c9182bcffa6b70a820616b1bed1cee5f"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_add_s42_surgery.csv",
+    "source_sha256": "c1bb688ceb7062d649c4dca0445d2c40c458e9759ec874772cdb9b0ec97f937c"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/relu_mul_s42_surgery.csv",
+    "source_sha256": "95a53b65e120e2d9d34efc7792a66ef76366b02a848c358e8c1d54b5a0560dc4"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/gelu_add_s42_surgery.csv",
+    "source_sha256": "b56c0d59510f0758d8b15d20689950dd8596157f5d6a43a290e81b8087cdf149"
+  },
+  {
+    "path": "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_add_s42_surgery.csv",
+    "source": "experiments/checkpoint_surgery_donor_memplateau_cohort_20260421/silu_add_s42_surgery.csv",
+    "source_sha256": "8a58d1a9c299871bfaffe96e003e7db4992242c309fb3d0e10566b6ab2f62ca7"
+  },
+  {
+    "path": "results/reference/evidence/fourier/0/comparison_timeseries.csv",
+    "source": "checkpoints/1layer/SiLU/add/nanda_progress_comparison/comparison_timeseries.csv",
+    "source_sha256": "b75028c9477b86b09c0a83398be956fd38179deaf94221dd02db191295397115"
+  },
+  {
+    "path": "results/reference/evidence/fourier/0/comparison_summary.csv",
+    "source": "checkpoints/1layer/SiLU/add/nanda_progress_comparison/comparison_summary.csv",
+    "source_sha256": "c83b47512fc2097b5f355b1c11d22234ccc2ae0a59366731236d7a4e4c310954"
+  },
+  {
+    "path": "results/reference/evidence/fourier/1/comparison_timeseries.csv",
+    "source": "experiments/gelu_1layer_add_p113_s42_20260301_041540/nanda_progress_comparison/comparison_timeseries.csv",
+    "source_sha256": "dd574b82d889ee9b20598d82c343f0b8c9628343b4fbe087d7d5c2e3766ed929"
+  },
+  {
+    "path": "results/reference/evidence/fourier/1/comparison_summary.csv",
+    "source": "experiments/gelu_1layer_add_p113_s42_20260301_041540/nanda_progress_comparison/comparison_summary.csv",
+    "source_sha256": "dca7880c85ecf77914c60259cb78d100fbea08dedbf4cdee1d646beb89f4a8d1"
+  },
+  {
+    "path": "results/reference/evidence/fourier/2/comparison_timeseries.csv",
+    "source": "experiments/relu_1layer_add_s42_20260213_004649/nanda_progress_comparison/comparison_timeseries.csv",
+    "source_sha256": "77b4855cc642cca16b6832f071b63e1f1cd4881872237d9b03e2a3c71ad4e3c5"
+  },
+  {
+    "path": "results/reference/evidence/fourier/2/comparison_summary.csv",
+    "source": "experiments/relu_1layer_add_s42_20260213_004649/nanda_progress_comparison/comparison_summary.csv",
+    "source_sha256": "47fe2d690816087c12a0899a0f8243cd472b4a6a7151e99cedbf7f3992b6d2d7"
+  },
+  {
+    "path": "results/reference/evidence/fourier/3/comparison_timeseries.csv",
+    "source": "experiments/silu_1layer_add_s123_30k/nanda_progress_comparison/comparison_timeseries.csv",
+    "source_sha256": "b3ba104362a6355534976a1ffcb397253793439731a828c832755800f17245d8"
+  },
+  {
+    "path": "results/reference/evidence/fourier/3/comparison_summary.csv",
+    "source": "experiments/silu_1layer_add_s123_30k/nanda_progress_comparison/comparison_summary.csv",
+    "source_sha256": "83e1af88385ed6166f9be0e393bb7076933622b5371fef7732f83c5ecc706bc6"
+  },
+  {
+    "path": "results/reference/evidence/fourier/4/comparison_timeseries.csv",
+    "source": "experiments/silu_1layer_add_s42_20260213_000145/nanda_progress_comparison/comparison_timeseries.csv",
+    "source_sha256": "0c39bbee807465a16b23e9fe43595632c8ebbc3cdde6bb46dd3aafa98e255b49"
+  },
+  {
+    "path": "results/reference/evidence/fourier/4/comparison_summary.csv",
+    "source": "experiments/silu_1layer_add_s42_20260213_000145/nanda_progress_comparison/comparison_summary.csv",
+    "source_sha256": "23f22ca0e8f7a7a333ddbbdbd5e6aba9e3ad025aebf155dfce5b9f10f6b2b0dc"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/earlier/per_run_path_metrics.csv",
+    "source": "experiments/rebuttal_earlier_layer_reference_pilot_20260724/evaluation/per_run_path_metrics.csv",
+    "source_sha256": "c9b2e44c3e02877fbf828c522940cdc7db439bd43f3487cbb668ec2dc8034541"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/earlier/strict_diagnostics.csv",
+    "source": "experiments/rebuttal_earlier_layer_reference_pilot_20260724/evaluation/strict_diagnostics.csv",
+    "source_sha256": "f63d8373dd338d73b4bff0fd06db5cb903cf394c7fc4d2eff0c2d6f3193ad453"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/h1/per_run_path_metrics.csv",
+    "source": "experiments/rebuttal_hybrid_reference_pilot_20260724/h1_midpoint/evaluation/per_run_path_metrics.csv",
+    "source_sha256": "8ca5b9e7cdeb76622dbf01032667f597d06ff2040f44e15f7a03ecb4a2786099"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/h1/strict_diagnostics.csv",
+    "source": "experiments/rebuttal_hybrid_reference_pilot_20260724/h1_midpoint/evaluation/strict_diagnostics.csv",
+    "source_sha256": "cdac310ea457df74032e5bda1244777615c67ff48243d9cc97ca6b33d94f55b6"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/h2/per_run_path_metrics.csv",
+    "source": "experiments/rebuttal_hybrid_reference_pilot_20260724/h2_hybrid_graph/evaluation/per_run_path_metrics.csv",
+    "source_sha256": "4b2d5ae81d98467bc17cf9137464cdf0d42ff578f09164aeb59188eaff13f27f"
+  },
+  {
+    "path": "results/reference/evidence/reference_variants/h2/strict_diagnostics.csv",
+    "source": "experiments/rebuttal_hybrid_reference_pilot_20260724/h2_hybrid_graph/evaluation/strict_diagnostics.csv",
+    "source_sha256": "568743a8a4dae8b5f440822cc8edaeb31e157ebc034502697b17653b1b42c828"
+  },
+  {
+    "path": "results/reference/evidence/narrative/method_control_runs.csv",
+    "source": "experiments/gcs_method_sanity_20260502/attention_method_control_runs.csv",
+    "source_sha256": "b1dc65bc8a9b57818ff9e7935bcfb5236885e2fd9ead318c635dc806ba626a02"
+  },
+  {
+    "path": "configs/archive_protocols/scripts/manifests/earlier_layer_reference_pilot_20260724.csv",
+    "source": "scripts/manifests/earlier_layer_reference_pilot_20260724.csv",
+    "source_sha256": "4810abe9b04ad649e681036b6f85ec7dc5908e0ec5791b6feaab98ad879dffdf"
+  },
+  {
+    "path": "configs/archive_protocols/scripts/manifests/reference_stress_manifest.csv",
+    "source": "scripts/manifests/reference_stress_manifest.csv",
+    "source_sha256": "ec4a3036a2f2aa273896197f2cf26c3e987ad795cc8fb83509dc5f4092c9cc54"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/EARLIER_LAYER_REFERENCE_PILOT_PROTOCOL_20260724.md",
+    "source": "rebuttal_2026/EARLIER_LAYER_REFERENCE_PILOT_PROTOCOL_20260724.md",
+    "source_sha256": "78f384bc38243285fe768f4bc6fc7586376cd72a62c88f6e38817d9abd874dc0"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/HYBRID_REFERENCE_PILOT_PROTOCOL_20260724.md",
+    "source": "rebuttal_2026/HYBRID_REFERENCE_PILOT_PROTOCOL_20260724.md",
+    "source_sha256": "b90951dceb7f27f936709c8236eefa8f13acefc54e36d63b788ebbd750467aae"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/SELECTOR_NKD_SENSITIVITY_PROTOCOL_20260724.md",
+    "source": "rebuttal_2026/SELECTOR_NKD_SENSITIVITY_PROTOCOL_20260724.md",
+    "source_sha256": "e43d2a18935b7809d5812ed5c92f50dfe43e64ca1eb9c9b548b962f2fe293158"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/DIRECT_JACOBIAN_GRAPH_PROTOCOL_20260723.md",
+    "source": "rebuttal_2026/DIRECT_JACOBIAN_GRAPH_PROTOCOL_20260723.md",
+    "source_sha256": "6dd93c3724d9fcae5b139aa9537ed183d2f7077f77cefdfaed68284816f2d0d9"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/DIRECT_JACOBIAN_SELECTOR_PAIRED_AUDIT_PROTOCOL_20260723.md",
+    "source": "rebuttal_2026/DIRECT_JACOBIAN_SELECTOR_PAIRED_AUDIT_PROTOCOL_20260723.md",
+    "source_sha256": "22e33d660d47ef5b28296b3d776234138495ff5510d47dbb19d1626eee3de90b"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/NEAR_SOLVED_ENDPOINT_PROTOCOL_20260724.md",
+    "source": "rebuttal_2026/NEAR_SOLVED_ENDPOINT_PROTOCOL_20260724.md",
+    "source_sha256": "9939b9517e84c3626b061a6d0f32008b1d93dae1d13d0814287a578ac98998ec"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/MECHANISTIC_YIELD_SELECTOR_AUDIT_PROTOCOL_20260723.md",
+    "source": "rebuttal_2026/MECHANISTIC_YIELD_SELECTOR_AUDIT_PROTOCOL_20260723.md",
+    "source_sha256": "0feaea6599db4ec2e20f6e184a693bb34512c4c6a46d44af053785f246f0f31d"
+  },
+  {
+    "path": "configs/archive_protocols/rebuttal_2026/direct_jacobian_graph_audit_20260723/run_manifest.csv",
+    "source": "rebuttal_2026/direct_jacobian_graph_audit_20260723/run_manifest.csv",
+    "source_sha256": "86a2312e2728edee40c6602e8c55616106f2c989302fc3370a8a593ec7b50efb"
+  },
+  {
+    "path": "results/reference/evidence/narrative/procrustes_trajectories.csv",
+    "sources": [
+      {
+        "path": "experiments/relu_1layer_add_20260213_004649/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "8767d19231e044a120dc04d7c71c06932fca0deb0be65441b075936bef13fca8"
+      },
+      {
+        "path": "experiments/relu_1layer_add_20260213_004649/gcs_results_union.pkl",
+        "sha256": "8597cc3bd935df37a547c09d4a84eca846429a1978e9e37691531640770af01f"
+      },
+      {
+        "path": "experiments/gelu_1layer_add_p113_s42_20260301_041540/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "5355fa15f89ef7ca8deeb516a3ef8689b5feecad636e7a4887992ac661057356"
+      },
+      {
+        "path": "experiments/gelu_1layer_add_p113_s42_20260301_041540/gcs_results_union.pkl",
+        "sha256": "3c0de12df7bfd9c027a4ff4998373c96577a529040919443d0ff2ee9c898f2da"
+      },
+      {
+        "path": "experiments/gelu_1layer_mul_p113_s42_20260301_063635/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "5a1fb8616d1e83a8adcd677bde14306e497fe2afa22281e2d65e3801cee64eca"
+      },
+      {
+        "path": "experiments/gelu_1layer_mul_p113_s42_20260301_063635/gcs_results_union.pkl",
+        "sha256": "da00b0db3aee10f3019eb0b2af51636c8e223113566181e241088ec653d49038"
+      },
+      {
+        "path": "experiments/relu_1layer_sub_p113_s42_20260301_074151/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "e4eeb1ce2a61bb0c8988ac7266efb5c63433a33eca61c662073323b36674b466"
+      },
+      {
+        "path": "experiments/relu_1layer_sub_p113_s42_20260301_074151/gcs_results_union.pkl",
+        "sha256": "66d5c29c53ba68ee96861e78a3c219474192a3db85c661b93baf9c470f8fb2b5"
+      },
+      {
+        "path": "experiments/relu_1layer_div_p113_s42_20260301_085906/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "a4350513bd33f029638c1b5118a68dc297521cd0c6ce210e0095cdf9defea681"
+      },
+      {
+        "path": "experiments/relu_1layer_div_p113_s42_20260301_085906/gcs_results_union.pkl",
+        "sha256": "f0a9d72db3470c0d939821cd33ed211e8f02e7b5a2c245b5041a7ad36e4b902b"
+      },
+      {
+        "path": "experiments/relu_1layer_mul_p113_s42_20260301_051814/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "21604da0e34fef72e71858f8d0ac7d0379dcad388815e80b0ce5da56639972ea"
+      },
+      {
+        "path": "experiments/relu_1layer_mul_p113_s42_20260301_051814/gcs_results_union.pkl",
+        "sha256": "0c3f0f0dc78f0047773bf335df4e13024ef1bf77c0779076fb36f66bf178d40d"
+      },
+      {
+        "path": "experiments/silu_1layer_mul_p113_s42_20260301_055000/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "c1cce671eec0155bfce5e3f998e2e64bde97166f8d9652af58484d448075b8f6"
+      },
+      {
+        "path": "experiments/silu_1layer_mul_p113_s42_20260301_055000/gcs_results_union.pkl",
+        "sha256": "d2b46d3b173ccb03942156a86fe734f4eb91112b121db22b56677050dcf18386"
+      },
+      {
+        "path": "experiments/silu_1layer_add_s42_20260213_000145/gcs_results_procrustes_rep8_20260502.pkl",
+        "sha256": "8d8672b63fcbe8e5cb169c6911efc075679e5f3fed3c737585746e5bc1aa1049"
+      },
+      {
+        "path": "experiments/silu_1layer_add_s42_20260213_000145/gcs_results_union.pkl",
+        "sha256": "891bf333293efb7965ca15db9185be0f1e2a8843681d637db3267e0ea63e84f0"
+      }
+    ],
+    "transformation": "Nine matched epochs per run; cosine aligned to nearest saved epoch, as original round31 b2_counts; Procrustes replicate-8 data."
+  },
+  {
+    "path": "results/reference/evidence/interventions/planned_endpoint36.csv",
+    "source": "experiments/equivariance_analysis/equivariance_all_activations.pkl",
+    "source_sha256": "82a7353793a563e5335aadb5bf306b0e7ef7022374b9da517d8259616cfb99cf",
+    "transformation": "Export final saved epoch mean difference and norm for all 36 planned runs, including the non-grokking run."
+  },
+  {
+    "path": "results/reference/evidence/interventions/p97_surgery.csv",
+    "source": "experiments/p97_outlier_surgery_20260502/silu_mul_s2026_surgery.csv",
+    "source_sha256": "49caf2f6e428561e2c91e6f7585c93c99bc3c183f0ceb5a97173841dde7a0b5b"
+  },
+  {
+    "path": "results/reference/evidence/interventions/p97_site_swap.csv",
+    "source": "experiments/rebuttal_cross_prime_outlier_audit_20260706/site_swap_symmetry.csv",
+    "source_sha256": "5e23fbc043081c60dd0d454e25a7d9a0e61e05a9daf73531721aafa219e0479e"
+  },
+  {
+    "path": "results/reference/evidence/interventions/sitewise_acquisition.csv",
+    "source": "experiments/sitewise_temporal_symmetry_20260502/sitewise_acquisition_epochs.csv",
+    "source_sha256": "fa17c8b745574fcbc08ba452ae7b43b198604f0798fc9c7de6cfea1a23a63f9a"
+  },
+  {
+    "path": "results/reference/evidence/prompt_sources/trajectories.json",
+    "source": "experiments/prompt_source_gcs_control_20260427 + per-run training_metrics.pkl",
+    "source_records": "results/reference/evidence/prompt_sources/provenance.json",
+    "conversion": "All 36 trajectory payloads exported losslessly to JSON. log_steps and test_accuracies exported from the 12 original training_metrics.pkl files. Original pickle files remain in the research archive; cached reproduction reads JSON only."
+  },
+  {
+    "path": "results/reference/evidence/prompt_sources/training_metrics.json",
+    "source": "experiments/prompt_source_gcs_control_20260427 + per-run training_metrics.pkl",
+    "source_records": "results/reference/evidence/prompt_sources/provenance.json",
+    "conversion": "All 36 trajectory payloads exported losslessly to JSON. log_steps and test_accuracies exported from the 12 original training_metrics.pkl files. Original pickle files remain in the research archive; cached reproduction reads JSON only."
+  },
+  {
+    "path": "results/reference/evidence/prompt_sources/provenance.json",
+    "source": "experiments/prompt_source_gcs_control_20260427 + per-run training_metrics.pkl",
+    "source_records": "results/reference/evidence/prompt_sources/provenance.json",
+    "conversion": "All 36 trajectory payloads exported losslessly to JSON. log_steps and test_accuracies exported from the 12 original training_metrics.pkl files. Original pickle files remain in the research archive; cached reproduction reads JSON only."
+  },
+  {
+    "path": "results/reference/evidence/ablations/d_trajectories.json",
+    "source": "ryannL057/geometric-grokking-rebuild@2518b6cbaac03f0de3a85a9f140baba3fcde2dee",
+    "source_records": "results/reference/evidence/ablations/provenance.json",
+    "conversion": "Restricted data-only pickle loading, NumPy arrays/scalars converted to JSON lists/numbers. Exact numerical equality checked after JSON round-trip. No interpolation, truncation, smoothing or precision restoration."
+  },
+  {
+    "path": "results/reference/evidence/ablations/n_trajectories.json",
+    "source": "ryannL057/geometric-grokking-rebuild@2518b6cbaac03f0de3a85a9f140baba3fcde2dee",
+    "source_records": "results/reference/evidence/ablations/provenance.json",
+    "conversion": "Restricted data-only pickle loading, NumPy arrays/scalars converted to JSON lists/numbers. Exact numerical equality checked after JSON round-trip. No interpolation, truncation, smoothing or precision restoration."
+  },
+  {
+    "path": "results/reference/evidence/ablations/provenance.json",
+    "source": "ryannL057/geometric-grokking-rebuild@2518b6cbaac03f0de3a85a9f140baba3fcde2dee",
+    "source_records": "results/reference/evidence/ablations/provenance.json",
+    "conversion": "Restricted data-only pickle loading, NumPy arrays/scalars converted to JSON lists/numbers. Exact numerical equality checked after JSON round-trip. No interpolation, truncation, smoothing or precision restoration."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "attention_1": {
+    "n": 35,
+    "cutoff": 1.3006134969325154,
+    "points": 67
+  },
+  "attention_2": {
+    "n": 34,
+    "cutoff": 1.5159574468085106,
+    "points": 77
+  },
+  "attention_3": {
+    "n": 35,
+    "cutoff": 1.641025641025641,
+    "points": 84
+  },
+  "mlp_1": {
+    "n": 35,
+    "cutoff": 1.3006134969325154,
+    "points": 67
+  },
+  "mlp_2": {
+    "n": 34,
+    "cutoff": 1.5159574468085106,
+    "points": 77
+  },
+  "mlp_3": {
+    "n": 35,
+    "cutoff": 1.641025641025641,
+    "points": 84
+  },
+  "source_scripts": {
+    "make_wholepath_figure.py": "6ffe2c09d294a4ac236e0d877bf8c7a5e026ce52efadc68fdc6baa72b20d3c33",
+    "diagnostics_common.py": "6c3baab50b00756e572d2dc6d2aad6de87faef4cc8df534e3efabeaacdc1e657"
+  },
+  "processing": "Unchanged original helper: truncate at t_grok + 5000; rolling mean 3; min-max scale per truncated run; interpolation step 0.02; retain >=2 runs; median/IQR; original per-depth median cutoff."
+}

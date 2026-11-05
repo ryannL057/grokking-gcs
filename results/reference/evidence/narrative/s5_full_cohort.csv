@@ -1,0 +1,10 @@
+run_dir,activation,seed,train_fraction,final_test_accuracy,grok_observed_in_archived_table,lead,stage_async,attn_peak_dip,mlp_ushape
+experiments/s5_gelu_1layer_20260308_234048,GeLU,777,0.5,0.17666666666666667,False,,,,
+experiments/s5_gelu_1layer_s123_20260309_022542,GeLU,123,0.5,1.0,True,22000.0,True,False,True
+experiments/s5_gelu_1layer_s42_20260309_010328,GeLU,42,0.5,1.0,True,7800.0,True,True,True
+experiments/s5_relu_1layer_20260308_173600,ReLU,777,0.5,1.0,True,31800.0,True,True,True
+experiments/s5_relu_1layer_s123_20260308_210041,ReLU,123,0.5,1.0,True,21600.0,True,True,True
+experiments/s5_relu_1layer_s42_20260308_192814,ReLU,42,0.5,1.0,True,13400.0,True,True,True
+experiments/s5_silu_1layer_20260309_034629,SiLU,777,0.5,0.017361111111111112,False,,,,
+experiments/s5_silu_1layer_s123_20260309_143113,SiLU,123,0.3,0.0010912698412698413,False,,,,
+experiments/s5_silu_1layer_s42_20260309_125821,SiLU,42,0.3,0.003472222222222222,False,,,,

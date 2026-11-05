@@ -1,0 +1,152 @@
+{
+  "archived_at_utc": "2026-03-02T00:00:00Z",
+  "snapshot_date": "2026-02-09",
+  "source_note": "Archived from the original 2026-02-09 validation outputs that were previously written to /tmp.",
+  "config": {
+    "protocol": "fixed-geometry",
+    "N": 200,
+    "k": 15,
+    "d": 8,
+    "near_isotropic_threshold_cond_lt": 1.5
+  },
+  "runs": {
+    "tf_clock_relu_add": {
+      "exp_dir": "checkpoints/1layer/ReLU/add",
+      "run_type": "transformer",
+      "checkpoints": [0, 10000, 19999],
+      "static": {
+        "cond_mean": 4.68,
+        "cond_min": 2.85,
+        "cond_p10": 3.64,
+        "near_isotropic_count": 0
+      },
+      "dynamic_jvp_norms": {
+        "early": {
+          "checkpoint": 0,
+          "norm_p01": 1.62,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "mid": {
+          "checkpoint": 10000,
+          "norm_p01": 2.65,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "late": {
+          "checkpoint": 19999,
+          "norm_p01": 3.03,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        }
+      },
+      "alignment_compare": {
+        "method": "cosine_vs_procrustes",
+        "final_mean_abs_path_gcs_diff": 0.62
+      }
+    },
+    "tf_pizza_silu_add": {
+      "exp_dir": "checkpoints/pizza_silu_1layer_add_wd0.1",
+      "run_type": "transformer",
+      "checkpoints": [0, 10000, 19999],
+      "static": {
+        "cond_mean": 3.78,
+        "cond_min": 2.38,
+        "cond_p10": 3.14,
+        "near_isotropic_count": 0
+      },
+      "dynamic_jvp_norms": {
+        "early": {
+          "checkpoint": 0,
+          "norm_p01": 1.33,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "mid": {
+          "checkpoint": 10000,
+          "norm_p01": 7.43,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "late": {
+          "checkpoint": 19999,
+          "norm_p01": 5.62,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        }
+      },
+      "alignment_compare": {
+        "method": "cosine_vs_procrustes",
+        "final_mean_abs_path_gcs_diff": 0.57
+      }
+    },
+    "mlp_embed_sum_relu_add_h128": {
+      "exp_dir": "checkpoints/mlp_embed_sum/relu_1layer_add_h128",
+      "run_type": "mlp",
+      "checkpoints": [0, 7600, 14999],
+      "static": {
+        "cond_mean": 3.56,
+        "cond_min": 2.79,
+        "cond_p10": 3.05,
+        "near_isotropic_count": 0
+      },
+      "dynamic_jvp_norms": {
+        "early": {
+          "checkpoint": 0,
+          "norm_p01": 0.16,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "mid": {
+          "checkpoint": 7600,
+          "norm_p01": 5.50,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "late": {
+          "checkpoint": 14999,
+          "norm_p01": 5.20,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        }
+      }
+    },
+    "mlp_onehot_relu_add_h128": {
+      "exp_dir": "checkpoints/mlp_onehot/relu_1layer_add_h128",
+      "run_type": "mlp",
+      "checkpoints": [0, 25000, 49999],
+      "static": {
+        "cond_mean": 3.41,
+        "cond_min": 2.90,
+        "cond_p10": 3.19,
+        "near_isotropic_count": 0
+      },
+      "dynamic_jvp_norms": {
+        "early": {
+          "checkpoint": 0,
+          "norm_p01": 0.16,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "mid": {
+          "checkpoint": 25000,
+          "norm_p01": 19.65,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        },
+        "late": {
+          "checkpoint": 49999,
+          "norm_p01": 23.29,
+          "count_lt_1e8": 0,
+          "count_lt_1e6": 0
+        }
+      }
+    }
+  },
+  "global_summary": {
+    "total_transformed_vectors": 19200,
+    "total_count_lt_1e8": 0,
+    "total_count_lt_1e6": 0,
+    "global_min_norm": 0.135
+  }
+}

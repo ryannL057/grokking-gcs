@@ -1,0 +1,5 @@
+# Versions exercised by the recorded CPU verification (Python 3.11).
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.0
+matplotlib==3.10.3

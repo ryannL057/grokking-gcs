@@ -1,0 +1,228 @@
+{
+  "scope": "Model compatibility checks from the prepublication integration; current reproduction coverage is recorded separately in results.json.",
+  "source_record_sha256": "0b574923849bbedae13fe68d3f320f6caaa7f09b77b26ace9dd27491d7456046",
+  "implementation_commit": "5208031e28ca98e1f0924ab38a9bda36b1bebd27",
+  "models": {
+    "synthetic_cases": 72,
+    "checkpoints": {
+      "trough": {
+        "full_grid_prompts": 12769,
+        "max_logit_error": 4.085620730620576e-14,
+        "predictions_identical": true
+      },
+      "t_minus": {
+        "full_grid_prompts": 12769,
+        "max_logit_error": 5.684341886080802e-14,
+        "predictions_identical": true
+      },
+      "final": {
+        "full_grid_prompts": 12769,
+        "max_logit_error": 2.842170943040401e-14,
+        "predictions_identical": true
+      }
+    },
+    "gcs": {
+      "overall_path": 84.93990272421895,
+      "attention_path": 81.67062558590379,
+      "mlp_path": 82.70546709152194
+    },
+    "accuracies": {
+      "final_accuracy": 1.0,
+      "attention_reset_accuracy": 0.2571876048775031,
+      "mlp_reset_accuracy": 0.9367938248126189
+    },
+    "seconds": 22.528
+  },
+  "synthetic_model_cases": 72,
+  "training": {
+    "cases": 16,
+    "updates_each": 5,
+    "initialization_and_rng_exact": true,
+    "max_loss_error": 2.6645352591003757e-15,
+    "max_parameter_error": 2.220446049250313e-16
+  },
+  "mlps": {
+    "cases": 104,
+    "max_logit_error": 0.0
+  },
+  "metrics": {
+    "synthetic": [
+      {
+        "p": 5,
+        "errors": {
+          "basis": 0.0,
+          "fft": 2.220446049250313e-16,
+          "projection": 1.942890293094024e-16,
+          "restricted_train": 0.0,
+          "restricted_test": 0.0,
+          "restricted_all": 0.0,
+          "excluded": 0.0,
+          "coefficient": 0.0
+        }
+      },
+      {
+        "p": 7,
+        "errors": {
+          "basis": 6.661338147750939e-16,
+          "fft": 4.440892098500626e-16,
+          "projection": 1.1102230246251565e-16,
+          "restricted_train": 0.0,
+          "restricted_test": 0.0,
+          "restricted_all": 0.0,
+          "excluded": 0.0,
+          "coefficient": 1.1102230246251565e-16
+        }
+      },
+      {
+        "p": 11,
+        "errors": {
+          "basis": 1.5126788710517758e-15,
+          "fft": 6.661338147750939e-16,
+          "projection": 2.7755575615628914e-16,
+          "restricted_train": 0.0,
+          "restricted_test": 0.0,
+          "restricted_all": 0.0,
+          "excluded": 0.0,
+          "coefficient": 2.220446049250313e-16
+        }
+      },
+      {
+        "p": 113,
+        "errors": {
+          "basis": 7.562093312651896e-15,
+          "fft": 3.1086244689504383e-15,
+          "projection": 3.5908775952719907e-16,
+          "restricted_train": 0.0,
+          "restricted_test": 0.0,
+          "restricted_all": 0.0,
+          "excluded": 0.0
+        }
+      }
+    ],
+    "checkpoints": {
+      "trough": {
+        "key_frequencies": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          14,
+          17,
+          19,
+          20,
+          26,
+          28,
+          29,
+          30,
+          33,
+          36,
+          38,
+          40,
+          41,
+          42,
+          43,
+          46,
+          47,
+          48,
+          50,
+          52,
+          53
+        ],
+        "discovery_identical": true,
+        "restricted_loss": {
+          "old": 0.315304160118103,
+          "candidate": 0.315304160118103
+        },
+        "excluded_loss": {
+          "old": 26.09308624267578,
+          "candidate": 26.09308624267578
+        },
+        "cosine_coefficient": {
+          "old": 250.1847532807412,
+          "candidate": 250.18475328069576
+        },
+        "centroid_samples": 127,
+        "centroid_max_error": 1.942890293094024e-16
+      },
+      "t_minus": {
+        "key_frequencies": [
+          1,
+          4,
+          12,
+          17,
+          20,
+          26,
+          28,
+          30,
+          36,
+          47,
+          48,
+          52
+        ],
+        "discovery_identical": true,
+        "restricted_loss": {
+          "old": 0.0021573607809841633,
+          "candidate": 0.0021573607809841633
+        },
+        "excluded_loss": {
+          "old": 21.08453369140625,
+          "candidate": 21.08453369140625
+        },
+        "cosine_coefficient": {
+          "old": 629.4986315757748,
+          "candidate": 629.4986315756616
+        },
+        "centroid_samples": 127,
+        "centroid_max_error": 1.942890293094024e-16
+      },
+      "final": {
+        "key_frequencies": [
+          12,
+          30,
+          52
+        ],
+        "discovery_identical": true,
+        "restricted_loss": {
+          "old": 2.5292758110140312e-08,
+          "candidate": 2.5292758110140312e-08
+        },
+        "excluded_loss": {
+          "old": 8.178321838378906,
+          "candidate": 8.178321838378906
+        },
+        "cosine_coefficient": {
+          "old": 1104.0060468695076,
+          "candidate": 1104.006046869305
+        },
+        "centroid_samples": 127,
+        "centroid_max_error": 1.6653345369377348e-16
+      }
+    },
+    "loss_split": "Deterministic every-third-prompt split for compatibility testing, not the paper train/test split.",
+    "sampling": "127 deterministic prompts per checkpoint (every 101st full-grid prompt) for centroid comparison.",
+    "preserved_conventions": [
+      "float32 cross-entropy",
+      "frequency search excludes p//2",
+      "product-norm clamp 1e-8"
+    ]
+  },
+  "cuda": {
+    "torch": "2.7.1+cu126",
+    "cuda_runtime": "12.6",
+    "device": "NVIDIA GeForce RTX 4090",
+    "prompts": 64,
+    "predictions_equal": true,
+    "max_logit_error": 6.394884621840902e-14,
+    "gcs": {
+      "overall_path": 84.93990272421895,
+      "attention_path": 81.67062558590365,
+      "mlp_path": 82.70546709152187
+    },
+    "centroid_finite": true,
+    "gcs_matches_archived_tolerance": true
+  }
+}

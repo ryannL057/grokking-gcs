@@ -1,0 +1,39 @@
+{
+  "recovered_on": "2026-11-05",
+  "conversion": "Original config, N, k, per-prompt fractions, saved random baseline and per-epoch summaries exported losslessly from three historical PKLs. Cached means and enrichment ratios are computed from the fractions, not copied from the saved aggregate.",
+  "representation": "Final block hook_resid_post at the last token; full training split for modular addition.",
+  "baseline": {
+    "evidence": "saved_scalar",
+    "seed": 777,
+    "trials": 1000,
+    "rule": "Draw a query uniformly, then k distinct indices from all N prompts; the query itself is eligible. Average the same-answer fractions.",
+    "historical_random_draws_saved": false,
+    "protocol_replay": "A separate deterministic replay on 5 November 2026 matched 0.0088. It is not a recovery of the original random draws."
+  },
+  "limitations": [
+    "Original neighbor-index arrays and random draws were not stored in these PKLs.",
+    "The complete-training-set kNN audit is distinct from the N=200 graph used for standard GCS."
+  ],
+  "sources": [
+    {
+      "path": "core/data.py",
+      "sha256": "f58df04235ebeacf5a61df41988d24d9edc2af39a811fcc147ba869e20634de7"
+    },
+    {
+      "path": "experiments/knn_analysis/knn_fourier_all_train.pkl",
+      "sha256": "0da0139cb7c5836a2751ec4da8871b4aaeff403926c4280be87b9c6db07bce83"
+    },
+    {
+      "path": "experiments/knn_analysis/knn_gelu_add_all_train.pkl",
+      "sha256": "630fc64ec83e3b5bbb9d9801ad78c7c19645c1616135b22ad9136bcf66e3d5d8"
+    },
+    {
+      "path": "experiments/knn_analysis/knn_relu_add_all_train.pkl",
+      "sha256": "2de29d505991f286288c87fe907ef826c778fbd68be6c1424cd167bc3277f434"
+    },
+    {
+      "path": "scripts/analyze_reference_knn_structure.py",
+      "sha256": "3801a67097eace8fbbd91c367342fea9609a842e1fe0b0d9d0d50a4309b3196e"
+    }
+  ]
+}

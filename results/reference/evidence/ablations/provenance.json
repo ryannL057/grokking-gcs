@@ -1,0 +1,168 @@
+{
+  "repository": "ryannL057/geometric-grokking-rebuild",
+  "source_commit": "2518b6cbaac03f0de3a85a9f140baba3fcde2dee",
+  "branch_at_recovery": "master",
+  "retrieved_at_utc": "2026-11-05T12:38:03.445718+00:00",
+  "source_access": "Private historical repository; the exported JSON inputs are bundled here and cached reproduction requires no network access.",
+  "source_records": [
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results.pkl",
+      "git_blob_sha1": "ad60aa1189b85a1b2fbdd51a15612d0d383c6740",
+      "sha256": "1a003a1de76c0acd12c2d20b201f24c6f34e943541199e2a09609949d9586027",
+      "bytes": 27420,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu0.pkl",
+      "git_blob_sha1": "9d4638b64ce133c97239eb361e40363af81bb1f4",
+      "sha256": "c5ffc92b67152822451973192b32abf947a1969149a705adcd59a8bcede06514",
+      "bytes": 9202,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu0.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu1.pkl",
+      "git_blob_sha1": "855167443c1985171e7f0c581387d6dbaa4d7af2",
+      "sha256": "6ff2722e804020e2b7d36a5795859d5d7599a28f45858ebf4469e7a4858d9ae9",
+      "bytes": 9202,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu1.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu2.pkl",
+      "git_blob_sha1": "6236595be39ef581ecd7bc43e086e705898fd951",
+      "sha256": "aa6b25a71e84257b9e12acc2bc01059915a3a75b6e3bc27c2db2999fcfbaa901",
+      "bytes": 9202,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results_gpu2.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/n_ablation_fixed/results_all_n.pkl",
+      "git_blob_sha1": "277ae49329e4abc82c997d4fcea1ffd2c03c33da",
+      "sha256": "a0dd50a5f585028ae000def8f5c21ccf1124ef5b3008f8ff063509ce538238af",
+      "bytes": 15741,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/n_ablation_fixed/results_all_n.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/n_ablation_fixed/results_merged.pkl",
+      "git_blob_sha1": "17c6632bfe8fa383a30ff6c368d467c09e791a50",
+      "sha256": "fc1a1a9636144031f74bcd60c75d622abc3d22376745681e921146e35b219544",
+      "bytes": 6451,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/n_ablation_fixed/results_merged.pkl"
+    },
+    {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/training_metrics_final_geo.pkl",
+      "git_blob_sha1": "69d0fbb0d611149995ac7b0f79af498de40ea73e",
+      "sha256": "573f7ef9dab1b92d24231c5434f19a6f25fe6dfe8bc1dc9a0238230a54975b6c",
+      "bytes": 14303,
+      "source_url": "https://github.com/ryannL057/geometric-grokking-rebuild/blob/2518b6cbaac03f0de3a85a9f140baba3fcde2dee/pretrained/SiLU/silu_20251103_212053/training_metrics_final_geo.pkl"
+    }
+  ],
+  "exports": {
+    "d_trajectories.json": {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/golden_d_experiment_fixed/results.pkl",
+      "selection": "Complete mapping of dimension to epochs and all three GCS paths.",
+      "sha256": "c46a1607e78ed810d461df5e34bed5129f65e7582c5c9719a5df2670549e3add"
+    },
+    "n_trajectories.json": {
+      "source_path": "pretrained/SiLU/silu_20251103_212053/n_ablation_fixed/results_all_n.pkl",
+      "selection": "Complete results mapping; top-level settings recorded below.",
+      "sha256": "3cb7751f1707ede586ef1654d269a1827c160ebea2381067457cc4e18783a696"
+    }
+  },
+  "sample_size_settings": {
+    "n_values": [
+      100,
+      200,
+      400,
+      750,
+      1850
+    ],
+    "k": 15,
+    "d": 8,
+    "large_geometry_file": "final_geometry_N2000.pkl"
+  },
+  "conversion": "Restricted data-only pickle loading, NumPy arrays/scalars converted to JSON lists/numbers. Exact numerical equality checked after JSON round-trip. No interpolation, truncation, smoothing or precision restoration.",
+  "checks": {
+    "d_merge_equals_three_original_gpu_shards": true,
+    "n_100_400_750_equal_original_merged_file": true,
+    "n_200_equals_training_metrics_final_geometry": true
+  },
+  "groups": {
+    "d": [
+      {
+        "parameter": 2,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      },
+      {
+        "parameter": 4,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      },
+      {
+        "parameter": 6,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      },
+      {
+        "parameter": 10,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      },
+      {
+        "parameter": 12,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      },
+      {
+        "parameter": 14,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      }
+    ],
+    "N": [
+      {
+        "parameter": 100,
+        "points_per_path": 69,
+        "first_epoch": 0,
+        "last_epoch": 13600
+      },
+      {
+        "parameter": 200,
+        "points_per_path": 76,
+        "first_epoch": 0,
+        "last_epoch": 14999
+      },
+      {
+        "parameter": 400,
+        "points_per_path": 69,
+        "first_epoch": 0,
+        "last_epoch": 13600
+      },
+      {
+        "parameter": 750,
+        "points_per_path": 69,
+        "first_epoch": 0,
+        "last_epoch": 13600
+      },
+      {
+        "parameter": 1850,
+        "points_per_path": 75,
+        "first_epoch": 0,
+        "last_epoch": 14800
+      }
+    ]
+  },
+  "score_values_recovered": 2424,
+  "limitations": [
+    "N=100, 400 and 750 retain the four-decimal scores in the original file.",
+    "N=100, 400 and 750 end at epoch 13600; N=200 ends at 14999; N=1850 and every dimension curve end at 14800.",
+    "Dimension 8 is not a series in the original Figure 6 inputs.",
+    "Rendering recomputes per-curve min-max normalization; font and layout differences do not imply numerical differences.",
+    "Original pickle files and corroborating shards remain in the authors' archive; they are not needed to use the bundled JSON."
+  ]
+}

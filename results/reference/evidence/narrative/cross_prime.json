@@ -1,0 +1,127 @@
+{
+  "n_runs": 62,
+  "n_failures": 0,
+  "min_test_acc": 0.99,
+  "filters": {
+    "activation": "",
+    "attention_rate": null,
+    "weight_decay": null
+  },
+  "summary_by_prime_group": [
+    {
+      "p": 97,
+      "group": "commutative",
+      "n": 13,
+      "n_qualified": 13,
+      "median_relative_dequiv": 0.0028600720322157144,
+      "min_relative_dequiv": 1.469895571590111e-07,
+      "max_relative_dequiv": 1.056722937149146,
+      "median_relative_dequiv_qualified": 0.0028600720322157144,
+      "median_test_acc": 1.0,
+      "min_test_acc": 0.9933201761044481
+    },
+    {
+      "p": 97,
+      "group": "noncommutative",
+      "n": 4,
+      "n_qualified": 4,
+      "median_relative_dequiv": 1.322412868943794,
+      "min_relative_dequiv": 1.1970817621211465,
+      "max_relative_dequiv": 1.4878902879231357,
+      "median_relative_dequiv_qualified": 1.322412868943794,
+      "median_test_acc": 1.0,
+      "min_test_acc": 0.9906427366160454
+    },
+    {
+      "p": 113,
+      "group": "commutative",
+      "n": 17,
+      "n_qualified": 17,
+      "median_relative_dequiv": 0.003720186780393451,
+      "min_relative_dequiv": 0.0012503522623558186,
+      "max_relative_dequiv": 0.02568190734918931,
+      "median_relative_dequiv_qualified": 0.003720186780393451,
+      "median_test_acc": 1.0,
+      "min_test_acc": 1.0
+    },
+    {
+      "p": 113,
+      "group": "noncommutative",
+      "n": 18,
+      "n_qualified": 18,
+      "median_relative_dequiv": 1.393623575887831,
+      "min_relative_dequiv": 1.16642235198031,
+      "max_relative_dequiv": 1.6190687166176685,
+      "median_relative_dequiv_qualified": 1.393623575887831,
+      "median_test_acc": 1.0,
+      "min_test_acc": 1.0
+    },
+    {
+      "p": 127,
+      "group": "commutative",
+      "n": 6,
+      "n_qualified": 6,
+      "median_relative_dequiv": 0.0025753075784015773,
+      "min_relative_dequiv": 1.5550545278695943e-07,
+      "max_relative_dequiv": 0.0036608627579102406,
+      "median_relative_dequiv_qualified": 0.0025753075784015773,
+      "median_test_acc": 1.0,
+      "min_test_acc": 0.9999114338853955
+    },
+    {
+      "p": 127,
+      "group": "noncommutative",
+      "n": 4,
+      "n_qualified": 4,
+      "median_relative_dequiv": 1.3773310599425224,
+      "min_relative_dequiv": 1.2537731128418856,
+      "max_relative_dequiv": 1.4941048448228913,
+      "median_relative_dequiv_qualified": 1.3773310599425224,
+      "median_test_acc": 1.0,
+      "min_test_acc": 1.0
+    }
+  ],
+  "zero_overlap_by_prime": [
+    {
+      "p": 97,
+      "min_test_acc": 0.99,
+      "has_both_groups": true,
+      "zero_overlap": true,
+      "comm_max": 1.056722937149146,
+      "noncomm_min": 1.1970817621211465,
+      "qualified_comm_n": 13,
+      "qualified_noncomm_n": 4,
+      "excluded_low_acc_n": 0,
+      "note": ""
+    },
+    {
+      "p": 113,
+      "min_test_acc": 0.99,
+      "has_both_groups": true,
+      "zero_overlap": true,
+      "comm_max": 0.02568190734918931,
+      "noncomm_min": 1.16642235198031,
+      "qualified_comm_n": 17,
+      "qualified_noncomm_n": 18,
+      "excluded_low_acc_n": 0,
+      "note": ""
+    },
+    {
+      "p": 127,
+      "min_test_acc": 0.99,
+      "has_both_groups": true,
+      "zero_overlap": true,
+      "comm_max": 0.0036608627579102406,
+      "noncomm_min": 1.2537731128418856,
+      "qualified_comm_n": 6,
+      "qualified_noncomm_n": 4,
+      "excluded_low_acc_n": 0,
+      "note": ""
+    }
+  ],
+  "outputs": {
+    "final_equivariance_csv": "/home/titanium/gcs_core/experiments/cross_prime_equivariance/final_equivariance.csv",
+    "summary_csv": "/home/titanium/gcs_core/experiments/cross_prime_equivariance/summary_by_prime_group.csv",
+    "zero_overlap_csv": "/home/titanium/gcs_core/experiments/cross_prime_equivariance/zero_overlap_by_prime.csv"
+  }
+}

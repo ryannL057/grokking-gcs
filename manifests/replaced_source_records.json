@@ -1,0 +1,44 @@
+{
+  "scope": "Historical observations about replaced candidate files, not current runtime dependencies or an assertion about the original notebook used by the authors.",
+  "original_notebook_confirmed_by_author": "https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Grokking_Demo.ipynb",
+  "replaced_records": [
+    {
+      "source": "analysis/grokalign.py",
+      "source_sha256": "59e8bf8a7ebaf6eb04bf89b645a64527652693567455a3163ecbacf59632088b",
+      "destination": "src/gcs/analysis/grokalign.py",
+      "changes": "Import namespace and source attribution corrected; algorithm unchanged.",
+      "upstream_repository": "https://github.com/ThomasWalker1/grokalign",
+      "upstream_commit": "2025b6e36030b0e7f501a8c4d9a80717205bd740"
+    },
+    {
+      "source": "scripts/nanda_original_fourier.py",
+      "source_sha256": "fee2e64582a0591f91921163ec920c1ec46afdcf5bb1fdbc9e38a67754e271c3",
+      "destination": "src/gcs/legacy/nanda_original_fourier.py",
+      "changes": "Namespace and explicit data-root portability; remove manuscript-only styling hook. Scientific routines retained."
+    },
+    {
+      "source": "grokalign/utils.py",
+      "source_sha256": "df4f6a971da265e4dbe098c69ad0a4ce64c8b819eb260e1a096d0135b6aaaaeb",
+      "destination": "src/gcs/legacy/fourier_helpers.py",
+      "changes": "Extract thirteen Fourier helpers from the locally adapted utils.py. Relative to the archived upstream commit, calculate_key_freqs accepts blocks.0.mlp.hook_post and an unambiguous fallback; the other twelve function syntax trees match.",
+      "functions": [
+        "calculate_coefficients",
+        "calculate_key_freqs",
+        "cross_entropy_high_precision",
+        "extract_freq_2d",
+        "fft2d",
+        "fourier_2d_basis_term",
+        "get_component_cos_xpy",
+        "get_component_sin_xpy",
+        "make_fourier_basis",
+        "sum_sq_weights",
+        "test_logits",
+        "to_numpy",
+        "unflatten_first"
+      ],
+      "upstream_repository": "https://github.com/ThomasWalker1/grokalign",
+      "upstream_commit": "2025b6e36030b0e7f501a8c4d9a80717205bd740",
+      "upstream_file_sha256": "a046ca33151f83a1ba75bce1d3b14cae1b961274ad1d77626531084535ada170"
+    }
+  ]
+}

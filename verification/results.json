@@ -1,0 +1,113 @@
+{
+  "verified_on": "2026-11-05",
+  "environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.3.0",
+    "matplotlib": "3.10.3",
+    "torch": "2.7.1",
+    "transformer-lens": "2.16.1",
+    "datasets": "4.0.0",
+    "pyarrow": "20.0.0"
+  },
+  "tests": {
+    "local_passed": 100,
+    "local_seconds": 22.03,
+    "github_model_job_passed": 100,
+    "github_cached_job_passed": 32,
+    "workflow": "../.github/workflows/verify.yml"
+  },
+  "reproduction": {
+    "passed": 40,
+    "incomplete": 1,
+    "failed": 0,
+    "expected_exit_code": 1,
+    "incomplete_target": "gap_jvp_norms",
+    "report": "reproduction.json"
+  },
+  "artifacts": {
+    "count": 519,
+    "bytes": 38436942,
+    "manifest_sha256": "7772f6ec038d429e4e31ad86941323a5163bddf356d2e68f340ed44c6fe37cfe"
+  },
+  "examples": {
+    "gcs": {
+      "gcs": {
+        "overall_path": 84.93990272421895,
+        "attention_path": 81.67062558590379,
+        "mlp_path": 82.70546709152194
+      },
+      "N": 200,
+      "k": 15,
+      "d": 8,
+      "checkpoint_sha256": "b2efcbeea9e704f812d65b544a52e7696b6dff695494b675a4b17e10125e1ccd",
+      "geometry_sha256": "663c147db75290ae0372f57e798dac5cfeddc5120729550e6dab22d89da63369",
+      "token_probe": "final",
+      "alignment": "cosine",
+      "reference": "examples/checkpoints/geometry.npz"
+    },
+    "absolute_gcs_errors": {
+      "overall_path": 3.008282760674774e-07,
+      "attention_path": 5.495867725358039e-07,
+      "mlp_path": 4.919026537208993e-07
+    },
+    "gcs_tolerance": 1e-05,
+    "reset": {
+      "base_test_accuracy": 1.0,
+      "host_sha256": "c7945f3ce19bf6ecaf43c29ab197d7bb9d56ed789e5ba13fc18718cc4a0f86aa",
+      "donor_sha256": "b2efcbeea9e704f812d65b544a52e7696b6dff695494b675a4b17e10125e1ccd",
+      "attention_reset_accuracy": 0.2571876048775031,
+      "attention_accuracy_drop": 0.742812395122497,
+      "mlp_reset_accuracy": 0.9367938248126189,
+      "mlp_accuracy_drop": 0.06320617518738114
+    },
+    "accuracy_tolerance": 1e-12,
+    "training_demo": {
+      "epochs": 5,
+      "final_test_accuracy": 0.11428571428571428
+    }
+  },
+  "package": {
+    "wheel_sha256": "db9687e827376c38567c5a147016f4ddb8f25e9a1127c76aa6b25885471c689d",
+    "noneditable_install_used": true,
+    "reader_command_checks": [
+      {
+        "command": "wheel-build",
+        "exit_code": 0
+      },
+      {
+        "command": "wheel-install",
+        "exit_code": 0
+      },
+      {
+        "command": "installed-import",
+        "exit_code": 0
+      },
+      {
+        "command": "artifacts",
+        "exit_code": 0
+      },
+      {
+        "command": "quickstart",
+        "exit_code": 0
+      },
+      {
+        "command": "gcs-example",
+        "exit_code": 0
+      },
+      {
+        "command": "reset-example",
+        "exit_code": 0
+      },
+      {
+        "command": "training-demo",
+        "exit_code": 0
+      },
+      {
+        "command": "paper-dry-run",
+        "exit_code": 0
+      }
+    ]
+  },
+  "full_historical_training_and_intervention_cohorts_rerun": false
+}

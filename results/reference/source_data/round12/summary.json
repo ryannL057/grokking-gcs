@@ -1,0 +1,145 @@
+{
+  "cohort_runs": 104,
+  "original_verdicts_reproduced": true,
+  "original_functions_match_independent_calculation": true,
+  "no_additional_smoothing": true,
+  "all_included_runs_train99_before_test99": true,
+  "counts": {
+    "attention": 94,
+    "mlp": 103,
+    "joint": 93,
+    "timing_separation": 101
+  },
+  "by_depth": [
+    {
+      "depth": 1,
+      "attention": 31,
+      "mlp": 34,
+      "joint": 30,
+      "timing_separation": 34,
+      "n": 35
+    },
+    {
+      "depth": 2,
+      "attention": 30,
+      "mlp": 34,
+      "joint": 30,
+      "timing_separation": 33,
+      "n": 34
+    },
+    {
+      "depth": 3,
+      "attention": 33,
+      "mlp": 35,
+      "joint": 33,
+      "timing_separation": 34,
+      "n": 35
+    }
+  ],
+  "threshold_grid": [
+    {
+      "attention_threshold": 0.025,
+      "mlp_threshold": 0.05,
+      "attention": 97,
+      "mlp": 104,
+      "joint": 97,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.025,
+      "mlp_threshold": 0.1,
+      "attention": 97,
+      "mlp": 103,
+      "joint": 96,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.025,
+      "mlp_threshold": 0.2,
+      "attention": 97,
+      "mlp": 102,
+      "joint": 95,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.05,
+      "mlp_threshold": 0.05,
+      "attention": 94,
+      "mlp": 104,
+      "joint": 94,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.05,
+      "mlp_threshold": 0.1,
+      "attention": 94,
+      "mlp": 103,
+      "joint": 93,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.05,
+      "mlp_threshold": 0.2,
+      "attention": 94,
+      "mlp": 102,
+      "joint": 92,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.1,
+      "mlp_threshold": 0.05,
+      "attention": 89,
+      "mlp": 104,
+      "joint": 89,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.1,
+      "mlp_threshold": 0.1,
+      "attention": 89,
+      "mlp": 103,
+      "joint": 88,
+      "n": 104
+    },
+    {
+      "attention_threshold": 0.1,
+      "mlp_threshold": 0.2,
+      "attention": 89,
+      "mlp": 102,
+      "joint": 88,
+      "n": 104
+    }
+  ],
+  "turning_fallbacks": {
+    "attention": 18,
+    "mlp": 1
+  },
+  "excluded_registry_entries": [
+    {
+      "depth": 2,
+      "activation": "GeLU",
+      "task": "sub",
+      "seed": 42,
+      "reason": "no qualifying grok epoch",
+      "source": "experiments/gelu_2layer_sub_p113_s42_20260306_122317"
+    },
+    {
+      "depth": 2,
+      "activation": "SiLU",
+      "task": "sub",
+      "seed": 123,
+      "reason": "no qualifying grok epoch",
+      "source": "experiments/silu_2layer_sub_p113_s123_20260306_011557"
+    },
+    {
+      "depth": 3,
+      "activation": "GeLU",
+      "task": "div",
+      "seed": 42,
+      "reason": "no qualifying grok epoch",
+      "source": "experiments/gelu_3layer_div_p113_s42_20260306_114753"
+    }
+  ],
+  "raw_checkpoint_rows": 14662,
+  "scope": "Post hoc amplitude sensitivity on cached trajectories; time windows and grok definition held fixed."
+}

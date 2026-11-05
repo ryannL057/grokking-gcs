@@ -1,0 +1,150 @@
+{
+  "n_runs": 17,
+  "conditions": [
+    {
+      "donor": "after_dip",
+      "condition": "reset_attn",
+      "n": 17,
+      "mean_accuracy_drop": 0.2435527069089186,
+      "median_accuracy_drop": 0.2340306521982325,
+      "mean_ce": 2.857404749139256,
+      "median_ce": 1.519644362025779
+    },
+    {
+      "donor": "after_dip",
+      "condition": "reset_mlp",
+      "n": 17,
+      "mean_accuracy_drop": 0.006277843948855979,
+      "median_accuracy_drop": 0.0008949546929186702,
+      "mean_ce": 0.01996105258023524,
+      "median_ce": 0.0031341158819620024
+    },
+    {
+      "donor": "attention_peak",
+      "condition": "reset_attn",
+      "n": 17,
+      "mean_accuracy_drop": 0.3712416838309325,
+      "median_accuracy_drop": 0.3852779953014879,
+      "mean_ce": 5.008932920219351,
+      "median_ce": 3.9303559438669384
+    },
+    {
+      "donor": "attention_peak",
+      "condition": "reset_mlp",
+      "n": 17,
+      "mean_accuracy_drop": 0.022163289748162396,
+      "median_accuracy_drop": 0.01756348584852896,
+      "mean_ce": 0.06961532309496933,
+      "median_ce": 0.050677483214376116
+    },
+    {
+      "donor": "final",
+      "condition": "base",
+      "n": 17,
+      "mean_accuracy_drop": 0.0,
+      "median_accuracy_drop": 0.0,
+      "mean_ce": 2.7311834807099076e-06,
+      "median_ce": 2.2470896605466098e-07
+    },
+    {
+      "donor": "first_test99",
+      "condition": "reset_attn",
+      "n": 17,
+      "mean_accuracy_drop": 0.32128873475780284,
+      "median_accuracy_drop": 0.3009285154939031,
+      "mean_ce": 4.486673100406851,
+      "median_ce": 2.530286076058476
+    },
+    {
+      "donor": "first_test99",
+      "condition": "reset_mlp",
+      "n": 17,
+      "mean_accuracy_drop": 0.010061659746122427,
+      "median_accuracy_drop": 0.004698512137823019,
+      "mean_ce": 0.035431785216336706,
+      "median_ce": 0.016582756984525913
+    },
+    {
+      "donor": "pre_symmetry",
+      "condition": "reset_attn",
+      "n": 17,
+      "mean_accuracy_drop": 0.39797187473266527,
+      "median_accuracy_drop": 0.42051683633516057,
+      "mean_ce": 5.508899829861214,
+      "median_ce": 4.263582756434235
+    },
+    {
+      "donor": "pre_symmetry",
+      "condition": "reset_mlp",
+      "n": 17,
+      "mean_accuracy_drop": 0.031191803267900758,
+      "median_accuracy_drop": 0.02382816869895965,
+      "mean_ce": 0.0972612290343068,
+      "median_ce": 0.07544356953285594
+    }
+  ],
+  "max_baseline_accuracy_error": 1.1102230246251565e-16,
+  "max_baseline_ce_error": 2.4732160213147836e-06,
+  "comparisons": [
+    {
+      "condition": "reset_attn",
+      "earlier": "pre_symmetry",
+      "later": "after_dip",
+      "earlier_more_costly": 17,
+      "ties": 0,
+      "earlier_less_costly": 0,
+      "mean_reduction": 0.15441916782374657,
+      "median_reduction": 0.17932654659357872
+    },
+    {
+      "condition": "reset_attn",
+      "earlier": "attention_peak",
+      "later": "after_dip",
+      "earlier_more_costly": 17,
+      "ties": 0,
+      "earlier_less_costly": 0,
+      "mean_reduction": 0.1276889769220139,
+      "median_reduction": 0.13099899317597052
+    },
+    {
+      "condition": "reset_attn",
+      "earlier": "first_test99",
+      "later": "after_dip",
+      "earlier_more_costly": 13,
+      "ties": 1,
+      "earlier_less_costly": 3,
+      "mean_reduction": 0.07773602784888425,
+      "median_reduction": 0.0469851213782303
+    },
+    {
+      "condition": "reset_mlp",
+      "earlier": "pre_symmetry",
+      "later": "after_dip",
+      "earlier_more_costly": 17,
+      "ties": 0,
+      "earlier_less_costly": 0,
+      "mean_reduction": 0.02491395931904478,
+      "median_reduction": 0.020807696610359083
+    },
+    {
+      "condition": "reset_mlp",
+      "earlier": "attention_peak",
+      "later": "after_dip",
+      "earlier_more_costly": 16,
+      "ties": 1,
+      "earlier_less_costly": 0,
+      "mean_reduction": 0.015885445799306418,
+      "median_reduction": 0.016221053809150954
+    },
+    {
+      "condition": "reset_mlp",
+      "earlier": "first_test99",
+      "later": "after_dip",
+      "earlier_more_costly": 13,
+      "ties": 2,
+      "earlier_less_costly": 2,
+      "mean_reduction": 0.0037838157972664467,
+      "median_reduction": 0.0016780400492224512
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "protocol": "audit/round25_null_protocol.md (addendum A)",
+  "seed": 20261003,
+  "replicates": 1000,
+  "observed_ties": {
+    "1": 1,
+    "2": 1,
+    "3": 1
+  },
+  "results": {
+    "O1_iaaft": {
+      "1": {
+        "observed": 33,
+        "null_mean": 13.315,
+        "null_p05": 9.0,
+        "null_p95": 18.0,
+        "p_two_sided": 0.001998001998001998
+      },
+      "2": {
+        "observed": 24,
+        "null_mean": 14.468,
+        "null_p05": 10.0,
+        "null_p95": 19.0,
+        "p_two_sided": 0.003996003996003996
+      },
+      "3": {
+        "observed": 11,
+        "null_mean": 16.598,
+        "null_p05": 12.0,
+        "null_p95": 21.0,
+        "p_two_sided": 0.08591408591408592
+      },
+      "pooled": {
+        "observed": 68,
+        "null_mean": 44.381,
+        "null_p05": 36.0,
+        "null_p95": 52.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "O2_label_swap": {
+      "1": {
+        "observed": 33,
+        "null_mean": 17.054,
+        "null_p05": 12.0,
+        "null_p95": 22.0,
+        "p_two_sided": 0.001998001998001998
+      },
+      "2": {
+        "observed": 24,
+        "null_mean": 16.438,
+        "null_p05": 12.0,
+        "null_p95": 21.0,
+        "p_two_sided": 0.011988011988011988
+      },
+      "3": {
+        "observed": 11,
+        "null_mean": 17.024,
+        "null_p05": 12.0,
+        "null_p95": 22.0,
+        "p_two_sided": 0.06393606393606394
+      },
+      "pooled": {
+        "observed": 68,
+        "null_mean": 50.516,
+        "null_p05": 42.0,
+        "null_p95": 59.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    }
+  }
+}

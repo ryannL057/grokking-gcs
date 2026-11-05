@@ -1,0 +1,15 @@
+{
+  "run_id": "gelu_add_s777",
+  "activation": "GELU",
+  "task": "add",
+  "seed": 777,
+  "grok_epoch": 12700,
+  "first_epoch": 0,
+  "last_epoch": 17600,
+  "observations": 89,
+  "source": "figure1_run_trajectories.csv",
+  "selection": "Author selected candidate A after post hoc comparison for visual clarity among the 35 original one-layer runs.",
+  "interpretation": "Thin illustrative coherence traces alongside the unchanged 35-run median/IQR and median test accuracy.",
+  "preprocessing": "Unchanged three-point edge-padded mean and separate min-max normalization through t_grok + 5000. Display uses the original relative-epoch range [0, 1.1].",
+  "cohort_evidence": "The 35-run medians and IQR remain in Figure 1b. Figure 2 retains the depth-wise summaries; Table 1 retains the 104-run counts."
+}

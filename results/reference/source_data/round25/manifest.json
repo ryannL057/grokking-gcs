@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "scripts/null_schedule_baselines.py": "0ecfabc483331f19eeb4f0812de5bd4c9991bd67d0a4bd149d618349692fcd3a",
+    "source_data/round12/schedule_protocol_per_run.csv": "769b3beb54580ccda3dd5d51e3c72927857162260c1011d6dbaec7897fcfe3b4",
+    "source_data/round12/schedule_raw_trajectories.csv": "de43c4bc768431fe44eb0c9c59498a8f41f1af6b2407b02f4928c98a7d41f3bc",
+    "audit/round25_null_protocol.md": "29c2262cea74104d6b0d6ba65613423eddd244faebb6ac98a6d5c4518be62a36"
+  },
+  "outputs": {
+    "N1_random_anchor_replicate_counts.csv": "b7173e25c98a7e611687c9d59b54737d5718cbc35d26bddfbe75d16d75ae37c4",
+    "N2_iaaft_replicate_counts.csv": "719bd21333b7f799a59de9c856d42b1d536d29dc925f6706cea09474fe1d13a5",
+    "N3_permutation_replicate_counts.csv": "c7322bdc47ab420b209341235d0be1609d56bd3754a621524d05b20769b48e2a",
+    "summary.json": "0bcec595b834c7eef4b9265c7200a3f254e353d1170a2cdc62eee9babb4187d9"
+  }
+}

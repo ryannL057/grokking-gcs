@@ -1,0 +1,11 @@
+-r cached.txt
+torch==2.7.1
+transformer-lens==2.16.1
+# Keep its dataset stack compatible with the NumPy 1.26 environment.
+datasets==4.0.0
+pyarrow==20.0.0
+transformers==4.53.3
+wandb==0.19.11
+scikit-learn==1.7.1
+einops==0.8.1
+tqdm==4.67.1

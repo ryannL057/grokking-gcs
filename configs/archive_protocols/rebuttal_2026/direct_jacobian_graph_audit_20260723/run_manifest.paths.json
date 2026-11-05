@@ -1,0 +1,5 @@
+{
+  "manifest_sha256": "86a2312e2728edee40c6602e8c55616106f2c989302fc3370a8a593ec7b50efb",
+  "source_root": "/home/titanium/gcs_core",
+  "description": "The adjacent CSV is preserved unchanged. The NKd loader relocates its absolute experiment paths from source_root to the selected data root after verifying this manifest SHA-256."
+}

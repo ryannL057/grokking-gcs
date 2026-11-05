@@ -1,0 +1,4 @@
+depth,attention,mlp,joint,timing_separation,n
+1,31,34,30,34,35
+2,30,34,30,33,34
+3,33,35,33,34,35

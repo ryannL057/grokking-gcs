@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grokking-gcs"
+version = "0.1.0"
+description = "Geometric Coherence Score and reproducible grokking experiments"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "src/gcs/licenses/TransformerLens-LICENSE"]
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.1", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+models = ["torch==2.7.1", "transformer-lens==2.16.1", "transformers==4.53.3",
+          "datasets==4.0.0", "pyarrow==20.0.0",
+          "numpy>=1.26,<2", "wandb==0.19.11", "scikit-learn>=1.4",
+          "einops>=0.7", "tqdm>=4.66"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gcs = ["licenses/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

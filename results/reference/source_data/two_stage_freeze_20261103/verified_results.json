@@ -1,0 +1,895 @@
+{
+  "summaries": {
+    "VV": {
+      "n": 17,
+      "successes": 3,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "VL": {
+      "n": 17,
+      "successes": 15,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "LV": {
+      "n": 17,
+      "successes": 15,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "LL": {
+      "n": 17,
+      "successes": 16,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "0L": {
+      "n": 17,
+      "successes": 17,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "0V": {
+      "n": 17,
+      "successes": 4,
+      "budget_min": 2000,
+      "budget_max": 14800
+    },
+    "0V_long": {
+      "n": 17,
+      "successes": 8,
+      "budget_min": 6000,
+      "budget_max": 44400
+    },
+    "V_unfrozen": {
+      "n": 17,
+      "successes": 12
+    },
+    "L_attn_frozen": {
+      "n": 17,
+      "successes": 17
+    }
+  },
+  "paired_run_ids_equal": true,
+  "same_base_budgets_verified": true,
+  "budget_formula": "F_i + 1 - t_minus_i",
+  "long_budget_multiplier_verified": 3,
+  "original_successes_retained_under_long_budget": true,
+  "per_run": {
+    "gelu_add_s123": {
+      "VV": {
+        "success": false,
+        "budget": 6000,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 6000,
+        "first99": 2400
+      },
+      "LV": {
+        "success": true,
+        "budget": 6000,
+        "first99": 2900
+      },
+      "LL": {
+        "success": true,
+        "budget": 6000,
+        "first99": 2000
+      },
+      "0L": {
+        "success": true,
+        "budget": 6000,
+        "first99": 1400
+      },
+      "0V": {
+        "success": false,
+        "budget": 6000,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 18000,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": false,
+        "budget": 6000,
+        "first99": null,
+        "branch_epoch": 6200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 6000,
+        "first99": 1800,
+        "branch_epoch": 14000
+      }
+    },
+    "gelu_add_s42": {
+      "VV": {
+        "success": false,
+        "budget": 12400,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 12400,
+        "first99": 4000
+      },
+      "LV": {
+        "success": true,
+        "budget": 12400,
+        "first99": 2200
+      },
+      "LL": {
+        "success": true,
+        "budget": 12400,
+        "first99": 1700
+      },
+      "0L": {
+        "success": true,
+        "budget": 12400,
+        "first99": 1100
+      },
+      "0V": {
+        "success": true,
+        "budget": 12400,
+        "first99": 3400
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 37200,
+        "first99": 3400
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 12400,
+        "first99": 2300,
+        "branch_epoch": 6200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 12400,
+        "first99": 1300,
+        "branch_epoch": 7600
+      }
+    },
+    "gelu_add_s777": {
+      "VV": {
+        "success": false,
+        "budget": 7600,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 7600,
+        "first99": 2000
+      },
+      "LV": {
+        "success": true,
+        "budget": 7600,
+        "first99": 2600
+      },
+      "LL": {
+        "success": true,
+        "budget": 7600,
+        "first99": 2100
+      },
+      "0L": {
+        "success": true,
+        "budget": 7600,
+        "first99": 1200
+      },
+      "0V": {
+        "success": false,
+        "budget": 7600,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 22800,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": false,
+        "budget": 7600,
+        "first99": null,
+        "branch_epoch": 4000
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 7600,
+        "first99": 1300,
+        "branch_epoch": 12400
+      }
+    },
+    "gelu_mul_s123": {
+      "VV": {
+        "success": false,
+        "budget": 2400,
+        "first99": null
+      },
+      "VL": {
+        "success": false,
+        "budget": 2400,
+        "first99": null
+      },
+      "LV": {
+        "success": false,
+        "budget": 2400,
+        "first99": null
+      },
+      "LL": {
+        "success": false,
+        "budget": 2400,
+        "first99": null
+      },
+      "0L": {
+        "success": true,
+        "budget": 2400,
+        "first99": 1500
+      },
+      "0V": {
+        "success": false,
+        "budget": 2400,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 7200,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": false,
+        "budget": 2400,
+        "first99": null,
+        "branch_epoch": 12600
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 2400,
+        "first99": 1600,
+        "branch_epoch": 17600
+      }
+    },
+    "gelu_mul_s42": {
+      "VV": {
+        "success": false,
+        "budget": 8600,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 8600,
+        "first99": 2900
+      },
+      "LV": {
+        "success": true,
+        "budget": 8600,
+        "first99": 2200
+      },
+      "LL": {
+        "success": true,
+        "budget": 8600,
+        "first99": 1500
+      },
+      "0L": {
+        "success": true,
+        "budget": 8600,
+        "first99": 1900
+      },
+      "0V": {
+        "success": false,
+        "budget": 8600,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 25800,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 8600,
+        "first99": 6600,
+        "branch_epoch": 5200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 8600,
+        "first99": 1200,
+        "branch_epoch": 11400
+      }
+    },
+    "gelu_mul_s777": {
+      "VV": {
+        "success": false,
+        "budget": 4600,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 4600,
+        "first99": 800
+      },
+      "LV": {
+        "success": true,
+        "budget": 4600,
+        "first99": 1100
+      },
+      "LL": {
+        "success": true,
+        "budget": 4600,
+        "first99": 600
+      },
+      "0L": {
+        "success": true,
+        "budget": 4600,
+        "first99": 600
+      },
+      "0V": {
+        "success": false,
+        "budget": 4600,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 13800,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 4600,
+        "first99": 3900,
+        "branch_epoch": 6400
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 4600,
+        "first99": 500,
+        "branch_epoch": 10400
+      }
+    },
+    "relu_add_s123": {
+      "VV": {
+        "success": false,
+        "budget": 5800,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 5800,
+        "first99": 4900
+      },
+      "LV": {
+        "success": true,
+        "budget": 5800,
+        "first99": 2200
+      },
+      "LL": {
+        "success": true,
+        "budget": 5800,
+        "first99": 2200
+      },
+      "0L": {
+        "success": true,
+        "budget": 5800,
+        "first99": 800
+      },
+      "0V": {
+        "success": false,
+        "budget": 5800,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 17400,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": false,
+        "budget": 5800,
+        "first99": null,
+        "branch_epoch": 1000
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1100,
+        "branch_epoch": 9200
+      }
+    },
+    "relu_add_s42": {
+      "VV": {
+        "success": false,
+        "budget": 8600,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 8600,
+        "first99": 6800
+      },
+      "LV": {
+        "success": true,
+        "budget": 8600,
+        "first99": 4100
+      },
+      "LL": {
+        "success": true,
+        "budget": 8600,
+        "first99": 3700
+      },
+      "0L": {
+        "success": true,
+        "budget": 8600,
+        "first99": 700
+      },
+      "0V": {
+        "success": false,
+        "budget": 8600,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 25800,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 8600,
+        "first99": 4300,
+        "branch_epoch": 3200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 8600,
+        "first99": 1300,
+        "branch_epoch": 6400
+      }
+    },
+    "relu_add_s777": {
+      "VV": {
+        "success": false,
+        "budget": 9200,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 9200,
+        "first99": 5000
+      },
+      "LV": {
+        "success": true,
+        "budget": 9200,
+        "first99": 3500
+      },
+      "LL": {
+        "success": true,
+        "budget": 9200,
+        "first99": 3400
+      },
+      "0L": {
+        "success": true,
+        "budget": 9200,
+        "first99": 3900
+      },
+      "0V": {
+        "success": false,
+        "budget": 9200,
+        "first99": null
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 27600,
+        "first99": 20300
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 9200,
+        "first99": 5200,
+        "branch_epoch": 1200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 9200,
+        "first99": 1200,
+        "branch_epoch": 5800
+      }
+    },
+    "relu_mul_s123": {
+      "VV": {
+        "success": false,
+        "budget": 10800,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 10800,
+        "first99": 6900
+      },
+      "LV": {
+        "success": true,
+        "budget": 10800,
+        "first99": 2600
+      },
+      "LL": {
+        "success": true,
+        "budget": 10800,
+        "first99": 2000
+      },
+      "0L": {
+        "success": true,
+        "budget": 10800,
+        "first99": 1400
+      },
+      "0V": {
+        "success": false,
+        "budget": 10800,
+        "first99": null
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 32400,
+        "first99": 22500
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 10800,
+        "first99": 8600,
+        "branch_epoch": 10000
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 10800,
+        "first99": 900,
+        "branch_epoch": 19200
+      }
+    },
+    "relu_mul_s42": {
+      "VV": {
+        "success": false,
+        "budget": 2000,
+        "first99": null
+      },
+      "VL": {
+        "success": false,
+        "budget": 2000,
+        "first99": null
+      },
+      "LV": {
+        "success": false,
+        "budget": 2000,
+        "first99": null
+      },
+      "LL": {
+        "success": true,
+        "budget": 2000,
+        "first99": 1800
+      },
+      "0L": {
+        "success": true,
+        "budget": 2000,
+        "first99": 1100
+      },
+      "0V": {
+        "success": false,
+        "budget": 2000,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 6000,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": false,
+        "budget": 2000,
+        "first99": null,
+        "branch_epoch": 1400
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 2000,
+        "first99": 1000,
+        "branch_epoch": 8000
+      }
+    },
+    "relu_mul_s777": {
+      "VV": {
+        "success": false,
+        "budget": 10900,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 10900,
+        "first99": 3100
+      },
+      "LV": {
+        "success": true,
+        "budget": 10900,
+        "first99": 2000
+      },
+      "LL": {
+        "success": true,
+        "budget": 10900,
+        "first99": 1700
+      },
+      "0L": {
+        "success": true,
+        "budget": 10900,
+        "first99": 700
+      },
+      "0V": {
+        "success": false,
+        "budget": 10900,
+        "first99": null
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 32700,
+        "first99": 21800
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 10900,
+        "first99": 4200,
+        "branch_epoch": 800
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 10900,
+        "first99": 1100,
+        "branch_epoch": 4100
+      }
+    },
+    "silu_add_s42": {
+      "VV": {
+        "success": false,
+        "budget": 5400,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 5400,
+        "first99": 1100
+      },
+      "LV": {
+        "success": true,
+        "budget": 5400,
+        "first99": 1300
+      },
+      "LL": {
+        "success": true,
+        "budget": 5400,
+        "first99": 700
+      },
+      "0L": {
+        "success": true,
+        "budget": 5400,
+        "first99": 600
+      },
+      "0V": {
+        "success": false,
+        "budget": 5400,
+        "first99": null
+      },
+      "0V_long": {
+        "success": false,
+        "budget": 16200,
+        "first99": null
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 5400,
+        "first99": 3000,
+        "branch_epoch": 6800
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 5400,
+        "first99": 700,
+        "branch_epoch": 9600
+      }
+    },
+    "silu_add_s777": {
+      "VV": {
+        "success": false,
+        "budget": 9800,
+        "first99": null
+      },
+      "VL": {
+        "success": true,
+        "budget": 9800,
+        "first99": 3700
+      },
+      "LV": {
+        "success": true,
+        "budget": 9800,
+        "first99": 3500
+      },
+      "LL": {
+        "success": true,
+        "budget": 9800,
+        "first99": 2600
+      },
+      "0L": {
+        "success": true,
+        "budget": 9800,
+        "first99": 900
+      },
+      "0V": {
+        "success": false,
+        "budget": 9800,
+        "first99": null
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 29400,
+        "first99": 13600
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 9800,
+        "first99": 4700,
+        "branch_epoch": 6800
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 9800,
+        "first99": 2000,
+        "branch_epoch": 10200
+      }
+    },
+    "silu_mul_s123": {
+      "VV": {
+        "success": true,
+        "budget": 14800,
+        "first99": 4000
+      },
+      "VL": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1900
+      },
+      "LV": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1500
+      },
+      "LL": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1300
+      },
+      "0L": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1000
+      },
+      "0V": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1300
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 44400,
+        "first99": 1300
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1400,
+        "branch_epoch": 14400
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 14800,
+        "first99": 1000,
+        "branch_epoch": 15200
+      }
+    },
+    "silu_mul_s42": {
+      "VV": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1500
+      },
+      "VL": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1300
+      },
+      "LV": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1300
+      },
+      "LL": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1100
+      },
+      "0L": {
+        "success": true,
+        "budget": 5800,
+        "first99": 1600
+      },
+      "0V": {
+        "success": true,
+        "budget": 5800,
+        "first99": 2000
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 17400,
+        "first99": 2000
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 5800,
+        "first99": 900,
+        "branch_epoch": 9000
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 5800,
+        "first99": 900,
+        "branch_epoch": 9200
+      }
+    },
+    "silu_mul_s777": {
+      "VV": {
+        "success": true,
+        "budget": 6500,
+        "first99": 1300
+      },
+      "VL": {
+        "success": true,
+        "budget": 6500,
+        "first99": 900
+      },
+      "LV": {
+        "success": true,
+        "budget": 6500,
+        "first99": 900
+      },
+      "LL": {
+        "success": true,
+        "budget": 6500,
+        "first99": 700
+      },
+      "0L": {
+        "success": true,
+        "budget": 6500,
+        "first99": 800
+      },
+      "0V": {
+        "success": true,
+        "budget": 6500,
+        "first99": 1500
+      },
+      "0V_long": {
+        "success": true,
+        "budget": 19500,
+        "first99": 1500
+      },
+      "V_unfrozen": {
+        "success": true,
+        "budget": 6500,
+        "first99": 700,
+        "branch_epoch": 8200
+      },
+      "L_attn_frozen": {
+        "success": true,
+        "budget": 6500,
+        "first99": 600,
+        "branch_epoch": 8500
+      }
+    }
+  },
+  "note": "Counts recomputed from saved per-run JSON, no rerunning training or checkpoint tensors. Unfrozen trough control evaluated on its saved curve only up to the common B_i."
+}

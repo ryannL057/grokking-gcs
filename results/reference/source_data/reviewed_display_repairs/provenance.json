@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round62_figures/probe_artists.npz": "f1765ca6cd09b87472801e39b03efffaf01db466151da962352ca39a07619995",
+    "experiments/token_probe_controls_20260419/token_probe_aggregate.csv": "a1e2c94d0ea6443cbc34b208f1fe2a27bf31038ede0f5e03014cd694a0ec2d21",
+    "checkpoints/1layer/SiLU/add/training_metrics_final_geo_union.pkl": "9d6c6ce7414a20c95bbfce50230f0b2669bf4c9bc362c21d9d3e8ce539dc4bc9",
+    "checkpoints/1layer/SiLU/add/training_metrics.pkl": "2c2ecc36f59a2435a2d3c89704e9792259624a05ab229c5998e3b92b1d6ed25f",
+    "checkpoints/pizza_silu_1layer_add_wd0.1/training_metrics_final_geo.pkl": "059905101b7f525270b4747f346f9a81e0dd895c4ec436483f9c04412ae7999a",
+    "checkpoints/pizza_silu_1layer_add_wd0.1/training_metrics.pkl": "158ab801742240a4fd9054399f0bf894b8c87aa67b80d65286a8ad95c3d4df8f"
+  },
+  "processing": "Existing plotted probe artists and original fixed-final-geometry GCS/accuracy series, without rerunning models. Probe y limit expanded to include all saved data; no values removed or altered."
+}

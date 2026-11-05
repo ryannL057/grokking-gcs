@@ -1,0 +1,1222 @@
+{
+  "paper_sha256": "68e89c480607d5b6c9e7497800e145ae7805f4136d9ca0ffbb4736a4518ebd1a",
+  "targets": [
+    {
+      "id": "fig01",
+      "kind": "figure",
+      "number": 1,
+      "page": 3,
+      "labels": [
+        "fig:workflow_schematic",
+        "fig:schedule_example"
+      ],
+      "title": "Path coherence and workflow overview",
+      "inputs": [
+        "results/reference/source_data/figure1_example_selection.json",
+        "results/reference/source_data/figure1_run_trajectories.csv",
+        "results/reference/source_data/figure1_summary.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig01 --output outputs/fig01",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig02",
+      "kind": "figure",
+      "number": 2,
+      "page": 6,
+      "labels": [
+        "fig:depth_trajectories"
+      ],
+      "title": "depth trajectories",
+      "inputs": [
+        "results/reference/source_data/reviewed_depth_curves/depth_curves.npz",
+        "results/reference/source_data/reviewed_depth_curves/provenance.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig02 --output outputs/fig02",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig03",
+      "kind": "figure",
+      "number": 3,
+      "page": 7,
+      "labels": [
+        "fig:checkpoint_surgery"
+      ],
+      "title": "checkpoint surgery",
+      "inputs": [
+        "results/reference/source_data/round10/activation_patch_per_run.csv",
+        "results/reference/source_data/round10/figure3_provenance.json",
+        "results/reference/source_data/round13_donors/baseline_parity.csv",
+        "results/reference/source_data/round13_donors/donor_selection.csv",
+        "results/reference/source_data/round13_donors/gelu_add_s123.csv",
+        "results/reference/source_data/round13_donors/gelu_add_s42.csv",
+        "results/reference/source_data/round13_donors/gelu_add_s777.csv",
+        "results/reference/source_data/round13_donors/gelu_mul_s123.csv",
+        "results/reference/source_data/round13_donors/gelu_mul_s42.csv",
+        "results/reference/source_data/round13_donors/gelu_mul_s777.csv",
+        "results/reference/source_data/round13_donors/manifest.json",
+        "results/reference/source_data/round13_donors/per_run.csv",
+        "results/reference/source_data/round13_donors/relu_add_s123.csv",
+        "results/reference/source_data/round13_donors/relu_add_s42.csv",
+        "results/reference/source_data/round13_donors/relu_add_s777.csv",
+        "results/reference/source_data/round13_donors/relu_mul_s123.csv",
+        "results/reference/source_data/round13_donors/relu_mul_s42.csv",
+        "results/reference/source_data/round13_donors/relu_mul_s777.csv",
+        "results/reference/source_data/round13_donors/silu_add_s42.csv",
+        "results/reference/source_data/round13_donors/silu_add_s777.csv",
+        "results/reference/source_data/round13_donors/silu_mul_s123.csv",
+        "results/reference/source_data/round13_donors/silu_mul_s42.csv",
+        "results/reference/source_data/round13_donors/silu_mul_s777.csv",
+        "results/reference/source_data/round13_donors/summary.json",
+        "results/reference/source_data/round34_figure_data/fig4c_points.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig03 --output outputs/fig03",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig04",
+      "kind": "figure",
+      "number": 4,
+      "page": 18,
+      "labels": [
+        "fig:probe_positions"
+      ],
+      "title": "probe positions",
+      "inputs": [
+        "results/reference/source_data/reviewed_display_repairs/probe_aggregate.csv",
+        "results/reference/source_data/reviewed_display_repairs/probe_artists.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig04 --output outputs/fig04",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig05",
+      "kind": "figure",
+      "number": 5,
+      "page": 19,
+      "labels": [
+        "fig:reference_trajectories"
+      ],
+      "title": "reference trajectories",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/reference_trajectories.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig05 --output outputs/fig05",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig06",
+      "kind": "figure",
+      "number": 6,
+      "page": 19,
+      "labels": [
+        "fig:probe_dimension"
+      ],
+      "title": "probe dimension",
+      "inputs": [
+        "results/reference/evidence/ablations/d_trajectories.json",
+        "results/reference/evidence/ablations/provenance.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig06 --output outputs/fig06",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Historical SiLU checkpoint cohort is not bundled; cached reproduction uses recovered original trajectories",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig07",
+      "kind": "figure",
+      "number": 7,
+      "page": 20,
+      "labels": [
+        "fig:sample_size"
+      ],
+      "title": "sample size",
+      "inputs": [
+        "results/reference/evidence/ablations/n_trajectories.json",
+        "results/reference/evidence/ablations/provenance.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig07 --output outputs/fig07",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Historical SiLU checkpoint cohort is not bundled; cached reproduction uses recovered original trajectories",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig08",
+      "kind": "figure",
+      "number": 8,
+      "page": 20,
+      "labels": [
+        "fig:neighbor_count"
+      ],
+      "title": "neighbor count",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/neighbor_count.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig08 --output outputs/fig08",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig09",
+      "kind": "figure",
+      "number": 9,
+      "page": 20,
+      "labels": [
+        "fig:detached_attention"
+      ],
+      "title": "detached attention",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/detached_attention.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig09 --output outputs/fig09",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig10",
+      "kind": "figure",
+      "number": 10,
+      "page": 21,
+      "labels": [
+        "fig:cohort_mlp"
+      ],
+      "title": "cohort mlp",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/cohort_mlp.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig10 --output outputs/fig10",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig11",
+      "kind": "figure",
+      "number": 11,
+      "page": 21,
+      "labels": [
+        "fig:cohort_attention"
+      ],
+      "title": "cohort attention",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/cohort_attention.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig11 --output outputs/fig11",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig12",
+      "kind": "figure",
+      "number": 12,
+      "page": 23,
+      "labels": [
+        "fig:constant_attention"
+      ],
+      "title": "uniform attention",
+      "inputs": [
+        "results/reference/source_data/reviewed_display_repairs/attention_controls.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig12 --output outputs/fig12",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig13",
+      "kind": "figure",
+      "number": 13,
+      "page": 23,
+      "labels": [
+        "fig:attention_maps"
+      ],
+      "title": "attention maps",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/attention_maps.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig13 --output outputs/fig13",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "fig14",
+      "kind": "figure",
+      "number": 14,
+      "page": 27,
+      "labels": [
+        "fig:matched_mlp"
+      ],
+      "title": "matched mlp",
+      "inputs": [
+        "results/reference/source_data/reviewed_appendix_figures/matched_mlp.npz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target fig14 --output outputs/fig14",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab01",
+      "kind": "table",
+      "number": 1,
+      "page": 5,
+      "labels": [
+        "tab:diagnostics"
+      ],
+      "title": "diagnostics",
+      "inputs": [
+        "results/reference/primary/training_metrics.csv.gz",
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+        "results/reference/source_data/round13/crossed_shape_rules_per_run.csv",
+        "results/reference/source_data/round25/summary.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab01 --output outputs/tab01",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab02",
+      "kind": "table",
+      "number": 2,
+      "page": 6,
+      "labels": [
+        "tab:joint_reference"
+      ],
+      "title": "joint reference",
+      "inputs": [
+        "results/reference/source_data/round13/cross_seed_joint_per_pair.csv",
+        "results/reference/source_data/round13/reference_joint_per_run.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab02 --output outputs/tab02",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab03",
+      "kind": "table",
+      "number": 3,
+      "page": 8,
+      "labels": [
+        "tab:fixed_mlp_continuation"
+      ],
+      "title": "fixed mlp continuation",
+      "inputs": [
+        "results/reference/source_data/two_stage_freeze_20261103/per_run.csv",
+        "results/reference/source_data/two_stage_freeze_20261103/provenance.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/verified_results.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab03 --output outputs/tab03",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab04",
+      "kind": "table",
+      "number": 4,
+      "page": 9,
+      "labels": [
+        "tab:workflow_selection"
+      ],
+      "title": "workflow selection",
+      "inputs": [
+        "results/reference/evidence/workflow/direct_j.csv",
+        "results/reference/evidence/workflow/joined.csv.gz"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab04 --output outputs/tab04",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab05",
+      "kind": "table",
+      "number": 5,
+      "page": 14,
+      "labels": [
+        "tab:experiment_configs"
+      ],
+      "title": "experiment configs",
+      "inputs": [
+        "results/reference/metadata/table05.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab05 --output outputs/tab05",
+      "cached_level": "descriptive_metadata",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab06",
+      "kind": "table",
+      "number": 6,
+      "page": 14,
+      "labels": [
+        "tab:primary_saved_ranges"
+      ],
+      "title": "primary saved ranges",
+      "inputs": [
+        "results/reference/source_data/round14/cohort_horizons.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab06 --output outputs/tab06",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab07",
+      "kind": "table",
+      "number": 7,
+      "page": 15,
+      "labels": [
+        "tab:compute_cost"
+      ],
+      "title": "compute cost",
+      "inputs": [
+        "results/reference/metadata/table07.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab07 --output outputs/tab07",
+      "cached_level": "descriptive_metadata",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab08",
+      "kind": "table",
+      "number": 8,
+      "page": 18,
+      "labels": [
+        "tab:aggregation_cohort"
+      ],
+      "title": "aggregation cohort",
+      "inputs": [
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round13/aggregation_trajectories.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab08 --output outputs/tab08",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab09",
+      "kind": "table",
+      "number": 9,
+      "page": 21,
+      "labels": [
+        "tab:trajectory_by_task"
+      ],
+      "title": "trajectory by task",
+      "inputs": [
+        "results/reference/primary/training_metrics.csv.gz",
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+        "results/reference/source_data/round13/crossed_shape_rules_per_run.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab09 --output outputs/tab09",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab10",
+      "kind": "table",
+      "number": 10,
+      "page": 22,
+      "labels": [
+        "tab:null_baselines"
+      ],
+      "title": "null baselines",
+      "inputs": [
+        "results/reference/primary/training_metrics.csv.gz",
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+        "results/reference/source_data/round13/crossed_shape_rules_per_run.csv",
+        "results/reference/source_data/round25/N1_random_anchor_replicate_counts.csv",
+        "results/reference/source_data/round25/N2_iaaft_replicate_counts.csv",
+        "results/reference/source_data/round25/N3_permutation_replicate_counts.csv",
+        "results/reference/source_data/round25/manifest.json",
+        "results/reference/source_data/round25/order_summary.json",
+        "results/reference/source_data/round25/summary.json"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab10 --output outputs/tab10",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab11",
+      "kind": "table",
+      "number": 11,
+      "page": 25,
+      "labels": [
+        "tab:selector_replacement"
+      ],
+      "title": "selector replacement",
+      "inputs": [
+        "results/reference/evidence/mechanistic/donors.csv",
+        "results/reference/evidence/mechanistic/dynamic.csv",
+        "results/reference/evidence/mechanistic/expected.csv",
+        "results/reference/evidence/mechanistic/windows.csv",
+        "results/reference/evidence/workflow/direct_j.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab11 --output outputs/tab11",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab12",
+      "kind": "table",
+      "number": 12,
+      "page": 25,
+      "labels": [
+        "tab:window_example"
+      ],
+      "title": "window example",
+      "inputs": [
+        "results/reference/source_data/reviewed_window_example/cka_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/cka_case_study_sites.csv",
+        "results/reference/source_data/reviewed_window_example/gcs_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/gcs_case_study_sites.csv",
+        "results/reference/source_data/reviewed_window_example/l2_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/l2_case_study_sites.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab12 --output outputs/tab12",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab13",
+      "kind": "table",
+      "number": 13,
+      "page": 25,
+      "labels": [
+        "tab:window_sites"
+      ],
+      "title": "window sites",
+      "inputs": [
+        "results/reference/source_data/reviewed_window_example/cka_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/cka_case_study_sites.csv",
+        "results/reference/source_data/reviewed_window_example/gcs_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/gcs_case_study_sites.csv",
+        "results/reference/source_data/reviewed_window_example/l2_case_study_heads.csv",
+        "results/reference/source_data/reviewed_window_example/l2_case_study_sites.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab13 --output outputs/tab13",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab14",
+      "kind": "table",
+      "number": 14,
+      "page": 26,
+      "labels": [
+        "tab:fourier_trend"
+      ],
+      "title": "fourier trend",
+      "inputs": [
+        "results/reference/evidence/fourier/0/comparison_summary.csv",
+        "results/reference/evidence/fourier/0/comparison_timeseries.csv",
+        "results/reference/evidence/fourier/1/comparison_summary.csv",
+        "results/reference/evidence/fourier/1/comparison_timeseries.csv",
+        "results/reference/evidence/fourier/2/comparison_summary.csv",
+        "results/reference/evidence/fourier/2/comparison_timeseries.csv",
+        "results/reference/evidence/fourier/3/comparison_summary.csv",
+        "results/reference/evidence/fourier/3/comparison_timeseries.csv",
+        "results/reference/evidence/fourier/4/comparison_summary.csv",
+        "results/reference/evidence/fourier/4/comparison_timeseries.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab14 --output outputs/tab14",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "tab15",
+      "kind": "table",
+      "number": 15,
+      "page": 27,
+      "labels": [
+        "tab:intervention_summary_appendix"
+      ],
+      "title": "intervention summary appendix",
+      "inputs": [
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/relu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/silu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/gelu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/relu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/donor_memplateau_cohort_20260421/silu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/gelu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/relu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/matched_null_neuron_cohort_20260419/silu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/gelu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/relu_mul_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_add_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_add_s777_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s123_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s42_surgery.csv",
+        "results/reference/evidence/interventions/raw/submodule_cohort_20260419/silu_mul_s777_surgery.csv"
+      ],
+      "status": "verified_cached",
+      "command": "python scripts/reproduce.py --target tab15 --output outputs/tab15",
+      "cached_level": "numeric_recomputation",
+      "checkpoint_availability": "Representative example only; full historical weights require regeneration",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "app_scope",
+      "kind": "appendix_analysis",
+      "title": "Architecture and group scope pilots",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/narrative/groups.csv",
+        "results/reference/evidence/narrative/layernorm_one_layer.csv",
+        "results/reference/evidence/narrative/layernorm_two_layer.csv",
+        "results/reference/evidence/narrative/s5_full_cohort.csv"
+      ],
+      "command": "python scripts/reproduce.py --target app_scope --output outputs/app_scope",
+      "cached_level": "aggregate_per_run_metrics",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "app_endpoints",
+      "kind": "appendix_analysis",
+      "title": "Truncated trajectories and non-grokking controls",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/narrative/near_solved.csv",
+        "results/reference/evidence/narrative/non_grok.csv"
+      ],
+      "command": "python scripts/reproduce.py --target app_endpoints --output outputs/app_endpoints",
+      "cached_level": "aggregate_per_run_metrics",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "app_measurement",
+      "kind": "appendix_analysis",
+      "title": "Probe, SVD, Procrustes and detached-gradient checks",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/narrative/method_control_runs.csv",
+        "results/reference/evidence/narrative/path_purity.csv",
+        "results/reference/evidence/narrative/procrustes.csv",
+        "results/reference/evidence/narrative/procrustes_trajectories.csv",
+        "results/reference/evidence/narrative/svd_neighborhoods.npz",
+        "results/reference/evidence/narrative/svd_provenance.json",
+        "results/reference/evidence/narrative/token_probe.csv",
+        "results/reference/evidence/narrative/toy_controls.csv"
+      ],
+      "command": "python scripts/reproduce.py --target app_measurement --output outputs/app_measurement",
+      "cached_level": "numeric_recomputation_and_per_run_aggregation",
+      "training_status": "Full cohort not rerun during packaging",
+      "claims": [
+        {
+          "id": "procrustes_shape",
+          "paper_location": "Appendix B, Procrustes alignment",
+          "output_key": "procrustes_shape",
+          "description": "Matched-epoch pre-grok 6/8 vs 0/8; fall 8/8, post-grok recovery 6/8"
+        }
+      ]
+    },
+    {
+      "id": "app_order",
+      "kind": "appendix_analysis",
+      "title": "Signed order of attention and MLP upturns",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/primary/training_metrics.csv.gz",
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+        "results/reference/source_data/round13/crossed_shape_rules_per_run.csv",
+        "results/reference/source_data/round25/order_summary.json"
+      ],
+      "command": "python scripts/reproduce.py --target app_order --output outputs/app_order",
+      "cached_level": "numeric_recomputation",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "app_robustness",
+      "kind": "appendix_analysis",
+      "title": "Cluster bootstrap and leave-one-factor-out",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/narrative/robustness_per_run.csv",
+        "results/reference/primary/training_metrics.csv.gz",
+        "results/reference/source_data/round12/schedule_protocol_per_run.csv",
+        "results/reference/source_data/round12/schedule_raw_trajectories.csv",
+        "results/reference/source_data/round12/threshold_grid_counts.csv",
+        "results/reference/source_data/round13/crossed_shape_rules_per_run.csv",
+        "results/reference/source_data/round25/summary.json"
+      ],
+      "command": "python scripts/reproduce.py --target app_robustness --output outputs/app_robustness",
+      "cached_level": "numeric_recomputation_and_per_run_aggregation",
+      "training_status": "Full cohort not rerun during packaging",
+      "claims": [
+        {
+          "id": "amplitude_thresholds",
+          "paper_location": "Appendix C, trajectory diagnostics",
+          "output_key": "threshold_sweep",
+          "description": "Raw 3 x 3 threshold grid: joint count range 88\u201397"
+        }
+      ]
+    },
+    {
+      "id": "app_selectors",
+      "kind": "appendix_analysis",
+      "title": "Six-seed selection and reference/geometry controls",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/narrative/answer_only.csv",
+        "results/reference/evidence/narrative/method_neutral.csv",
+        "results/reference/evidence/narrative/method_neutral_null.csv",
+        "results/reference/evidence/narrative/nkd_sensitivity.csv",
+        "results/reference/evidence/narrative/nkd_windows.csv",
+        "results/reference/evidence/narrative/reference_windows.csv",
+        "results/reference/evidence/workflow/six_seed.csv.gz"
+      ],
+      "command": "python scripts/reproduce.py --target app_selectors --output outputs/app_selectors",
+      "cached_level": "numeric_recomputation_and_per_run_aggregation",
+      "training_status": "Full cohort not rerun during packaging",
+      "claims": [
+        {
+          "id": "six_seed_bootstrap",
+          "paper_location": "Main text and Appendix C, checkpoint selection",
+          "output_key": "six_seed_attention_ci",
+          "description": "10,000-resample intervals for 71 accuracy and 35 symmetry targets"
+        },
+        {
+          "id": "six_seed_window_offsets",
+          "paper_location": "Main text and Appendix C, checkpoint selection",
+          "output_key": "six_seed_proximity_windows",
+          "description": "Four paired 71-run interval Jaccards and unsigned start gaps"
+        },
+        {
+          "id": "geometry_window_uncertainty",
+          "paper_location": "Appendix B, geometry size",
+          "output_key": "geometry_sensitivity",
+          "description": "Median center shifts and 20,000-resample confidence intervals"
+        },
+        {
+          "id": "grok_free_null_rates",
+          "paper_location": "Appendix C, detector without grok timing",
+          "output_key": "grok_free.null_rates",
+          "description": "Median of the per-run circular-shift null rates"
+        }
+      ]
+    },
+    {
+      "id": "app_interventions",
+      "kind": "appendix_analysis",
+      "title": "Recovery, donor, rescue-share and nine freeze arms",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/interventions/p97_site_swap.csv",
+        "results/reference/evidence/interventions/p97_surgery.csv",
+        "results/reference/evidence/interventions/planned_endpoint36.csv",
+        "results/reference/evidence/interventions/recovery.csv",
+        "results/reference/evidence/interventions/rescue_share.csv",
+        "results/reference/evidence/interventions/selected_donors.csv",
+        "results/reference/evidence/interventions/sitewise_acquisition.csv",
+        "results/reference/source_data/two_stage_freeze_20261103/per_run.csv",
+        "results/reference/source_data/two_stage_freeze_20261103/provenance.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/gelu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/relu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_add_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s123/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s42/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0L.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/0V_long.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/LV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/L_attn_frozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VL.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/VV.json",
+        "results/reference/source_data/two_stage_freeze_20261103/raw/silu_mul_s777/V_unfrozen.json",
+        "results/reference/source_data/two_stage_freeze_20261103/verified_results.json"
+      ],
+      "command": "python scripts/reproduce.py --target app_interventions --output outputs/app_interventions",
+      "cached_level": "numeric_recomputation",
+      "training_status": "Full cohort not rerun during packaging",
+      "claims": [
+        {
+          "id": "task_algebra_endpoints",
+          "paper_location": "Appendix D, task algebra",
+          "output_key": "task_algebra",
+          "description": "All 36 planned p113 endpoints, the p97 multiplication counterexample, and earlier downstream site acquisition."
+        }
+      ]
+    },
+    {
+      "id": "app_uniform_graphs",
+      "kind": "appendix_analysis",
+      "title": "Uniform edge-weight sweeps over 35 saved graphs",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/source_data/round13/reference_adjacencies.npz"
+      ],
+      "command": "python scripts/reproduce.py --target app_uniform_graphs --output outputs/app_uniform_graphs",
+      "cached_level": "numeric_recomputation",
+      "training_status": "Full cohort not rerun during packaging"
+    },
+    {
+      "id": "app_reference_variants",
+      "kind": "appendix_analysis",
+      "title": "Reference controls: prompt source, other-task, shuffled, earlier-layer and hybrid",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/reference_variants/earlier/per_run_path_metrics.csv",
+        "results/reference/evidence/reference_variants/earlier/strict_diagnostics.csv",
+        "results/reference/evidence/reference_variants/h1/per_run_path_metrics.csv",
+        "results/reference/evidence/reference_variants/h1/strict_diagnostics.csv",
+        "results/reference/evidence/reference_variants/h2/per_run_path_metrics.csv",
+        "results/reference/evidence/reference_variants/h2/strict_diagnostics.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_silu777_comm_pilot.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_silu777_noncomm_pilot.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_silu777_pilot_combined.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_silu777_pilot_summary.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_combined.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_gelu.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_relu.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_silu.csv",
+        "results/reference/evidence/task_reference/task_reference_ablation_taskref_full_20260426_summary.csv",
+        "results/reference/evidence/narrative/shuffled_reference.csv",
+        "results/reference/evidence/prompt_sources/trajectories.json",
+        "results/reference/evidence/prompt_sources/training_metrics.json",
+        "results/reference/evidence/prompt_sources/provenance.json"
+      ],
+      "command": "python scripts/reproduce.py --target app_reference_variants --output outputs/app_reference_variants",
+      "cached_level": "aggregate_per_run_metrics; prompt-source counts recomputed from complete trajectories and accuracy logs",
+      "training_status": "Full cohorts not rerun during packaging"
+    },
+    {
+      "id": "gap_jvp_norms",
+      "kind": "appendix_gap",
+      "title": "19,200 response-norm audit",
+      "status": "missing_original_input",
+      "inputs": [],
+      "gap": "Original per-response arrays and exact generating protocol have not been located; the reported minimum 0.135 is not independently verified here.",
+      "command": "See docs/known_gaps.md"
+    },
+    {
+      "id": "gap_reference_sampling",
+      "kind": "appendix_analysis",
+      "title": "Reference-neighbor label enrichment",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/reference_neighbors/records.json",
+        "results/reference/evidence/reference_neighbors/provenance.json"
+      ],
+      "command": "python scripts/reproduce.py --target gap_reference_sampling --output outputs/gap_reference_sampling",
+      "cached_level": "means recomputed from saved per-prompt fractions; random baseline is a saved scalar",
+      "training_status": "Historical saved results; no model training or original-neighbor remeasurement during packaging"
+    },
+    {
+      "id": "gap_uniform_factorial",
+      "kind": "appendix_analysis",
+      "title": "Uniform-attention factorial control",
+      "status": "verified_cached",
+      "inputs": [
+        "results/reference/evidence/uniform_factorial/records.json",
+        "results/reference/evidence/uniform_factorial/provenance.json"
+      ],
+      "command": "python scripts/reproduce.py --target gap_uniform_factorial --output outputs/gap_uniform_factorial",
+      "cached_level": "eight-run accuracy and GCS log summaries; actual schedules and partial-log censoring preserved",
+      "training_status": "Historical saved results; no model training or original-neighbor remeasurement during packaging"
+    }
+  ]
+}

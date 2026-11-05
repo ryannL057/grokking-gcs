@@ -1,0 +1,10 @@
+{
+  "kind":"Recorded author wall-clock measurements transcribed from Appendix A; not newly benchmarked",
+  "hardware":"Single NVIDIA GeForce RTX 4090, 24 GB",
+  "rows":[
+    {"stage":"Training 1L","epochs":20000,"approx_minutes":19,"note":"Full-batch AdamW"},
+    {"stage":"Reference geometry","approx_minutes":2,"note":"N=200, k=15, d=8"},
+    {"stage":"GCS extraction","checkpoints":100,"approx_minutes":28,"note":"Three paths, JVP"},
+    {"stage":"Total","approx_minutes":49,"note":"Per representative run"}
+  ]
+}

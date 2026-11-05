@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "evidence_status": "historical_aggregate_only",
+  "source": "latex_paper/artifacts/svd_stability/gcs_svd_stability_validation.json",
+  "source_sha256": "abda4c5bc63864f7de1d31f2bb0fc0ff25ae6bfa64ee14ffae10e1f21054de8c",
+  "source_bytes": 3848,
+  "export": {
+    "path": "historical_summary.json",
+    "transformation": "byte-for-byte copy"
+  },
+  "original_per_response_values_located": false,
+  "original_inline_dynamic_generator_located": false,
+  "independently_recomputed_in_this_release": false,
+  "documented_settings": {
+    "protocol": "fixed-geometry",
+    "N": 200,
+    "k": 15,
+    "d": 8,
+    "model_regimes": 4,
+    "checkpoints_per_regime": 3
+  },
+  "scope": "Preserves the reported historical aggregate. It does not independently verify the 19,200-vector count, the minimum 0.135, or the threshold counts.",
+  "source_paths": "Relative paths inside the summary describe the historical research workspace. The corresponding twelve weights and four geometries are not added to this release.",
+  "cached_target": "gap_jvp_norms",
+  "cached_target_status": "incomplete",
+  "release_decision": "The first release treats this control as a disclosed reproduction limitation; recovering the original arrays is not a prerequisite for publishing the included code and results."
+}

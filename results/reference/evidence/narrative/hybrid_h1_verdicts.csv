@@ -1,0 +1,4 @@
+detector,n_runs,canonical_positive_count,preceding_positive_count,agreement_count,agreement_rate
+attention,8,8,8,8,1.0
+mlp,8,8,8,8,1.0
+overall_positive_lead,8,8,7,7,0.875

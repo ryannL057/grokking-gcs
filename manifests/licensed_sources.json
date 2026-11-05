@@ -1,0 +1,31 @@
+{
+  "original_notebook_confirmed_by_author": "https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Grokking_Demo.ipynb",
+  "backend": {
+    "name": "TransformerLens",
+    "version": "2.16.1",
+    "license": "MIT",
+    "repository": "https://github.com/TransformerLensOrg/TransformerLens",
+    "commit": "a634e5757cd2ae43add9beb492be7a2dfb443a30",
+    "license_url": "https://github.com/TransformerLensOrg/TransformerLens/blob/a634e5757cd2ae43add9beb492be7a2dfb443a30/LICENSE",
+    "license_sha256": "46924225aa2a7325d9d4bf47a8add940844d8d7e2d342a6f07baeeeaf4b66a43",
+    "installed_license_matches_pinned_source": true
+  },
+  "notice_path": "src/gcs/licenses/TransformerLens-LICENSE",
+  "notice_sha256": "46924225aa2a7325d9d4bf47a8add940844d8d7e2d342a6f07baeeeaf4b66a43",
+  "notebook_source": {
+    "path": "vendor/Grokking_Demo.ipynb",
+    "bytes": 5935579,
+    "sha256": "1675d3408aa775bc9b14b7a1a520fb2d39245b6538a72adf87c3189efd90d63f"
+  },
+  "centroid_alignment": {
+    "method": "Walker et al., GrokAlign",
+    "implementation": "New local PyTorch gradient/vmap kernel",
+    "upstream_source_included": false
+  },
+  "project_license_selected": true,
+  "project_licenses": {
+    "code_configs_documentation": "MIT",
+    "numerical_results_example_weights": "CC-BY-4.0",
+    "scope_manifest": "manifests/project_licenses.json"
+  }
+}

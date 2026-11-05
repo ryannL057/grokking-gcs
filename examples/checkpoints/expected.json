@@ -1,0 +1,20 @@
+{
+  "run_id": "1l_gelu_add_s42",
+  "selection_reason": "One main-cohort and reset-cohort run with saved trough, t-minus, final weights and original final reference geometry.",
+  "states": {
+    "trough": 6200,
+    "t_minus": 7600,
+    "final": 19999
+  },
+  "t_minus_gcs": {
+    "overall_path": 84.93990242339068,
+    "attention_path": 81.67062613549056,
+    "mlp_path": 82.70546659961929
+  },
+  "gcs_absolute_tolerance": 1e-05,
+  "final_accuracy": 1.0,
+  "attention_reset_accuracy": 0.2571876048775031,
+  "mlp_reset_accuracy": 0.9367938248126187,
+  "accuracy_absolute_tolerance": 1e-12,
+  "source_run": "experiments/gelu_1layer_add_p113_s42_20260301_041540"
+}

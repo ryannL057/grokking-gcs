@@ -1,0 +1,128 @@
+{
+  "recovered_on": "2026-11-05",
+  "cohort": "Four original seed-777 figure runs plus four targeted extensions (seeds 42/123 in learned/wd=.1 and uniform/wd=1). This is the reported eight-run control, not a balanced twelve-run design.",
+  "identity_rules": [
+    "scripts/generate_appendix_figures.py:WD_PANELS",
+    "scripts/summarize_false_positive_controls.py:CLOCK_LOW_WD_FAILURES",
+    "experiments/factorial_balanced/RESULTS_SUMMARY_2026-02-27.md"
+  ],
+  "conversion": "Original configs, logged epochs/train and test accuracies, continuation metadata, and all available three-path GCS arrays exported losslessly. Last checkpoint identity and epoch read from each saved checkpoint. No weights are added to the release.",
+  "grok_threshold": 0.95,
+  "inclusion": "Original extension summary computes GCS timing/path summaries only on grok-observed runs. The seed-777 low-wd failure has an illustrative GCS curve; failed seed-42/123 extensions have no GCS in this export.",
+  "limitations": [
+    "Continuation accuracy logs start at epoch 4600; earlier accuracy entries are unavailable in this export.",
+    "Uniform/wd=1 seed-42/123 configs and directory names say 30k, but saved checkpoints stop at 4999 and logs at 4800.",
+    "The old onset-by-1600 statement cannot be verified from the two saved accuracy entries in each of those runs.",
+    "Last logged accuracy is not a newly measured final-checkpoint accuracy. GCS and accuracy schedules are kept separately."
+  ],
+  "sources": [
+    {
+      "path": "experiments/factorial_balanced/RESULTS_SUMMARY_2026-02-27.md",
+      "sha256": "de5a8f82bae34f6905eade3f439d2d8b91057273fc5f5039eaf7255ae75b4d81"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s123_30k/config.pkl",
+      "sha256": "c9c49b4245ac4ae467bc2ddc53dad7691c613fd33d80e47044e4bf18aebf82f1"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s123_30k/training_metrics_final_geo.pkl",
+      "sha256": "2ef3095d321d30e4914f7014b98cda3c7dff79a5f711085cb55f16ee94f6b6e5"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s123_30k/training_metrics_resume_04401_to_04999.pkl",
+      "sha256": "f91ea89310483c90be21f47a85784b617e7f0f54d60973b0d572c02f898a63d9"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s42_30k/config.pkl",
+      "sha256": "edb80783f3cb69c91f608a4accc108ffa6f70cdf215579d46fbdf5fa2e73d733"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s42_30k/training_metrics_final_geo.pkl",
+      "sha256": "0b88e9ce3cf3dcf077adc69ff8a0e2048fb5bd30d89698d87e6ab060324fd2b6"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a0.0_wd1.0_s42_30k/training_metrics_resume_04401_to_04999.pkl",
+      "sha256": "273c48908795df5ba31d5d4baf9b61b1aa8111441aa0abb9ec6d719257ae08d9"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s123_30k/config.pkl",
+      "sha256": "8a2088612aeaa40fac7cb8cf49494c512f8dd4367f277b51d8ca52a40c6bd242"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s123_30k/training_metrics_resume_04401_to_29999.pkl",
+      "sha256": "3ebdc698c4b43f301aeb075260487fbe90e9a21194730a2a325d11290e37742d"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s42_30k/config.pkl",
+      "sha256": "15762a461e0d9db7ceae85b264a68514aa077d0c712fa2d86f41c50ccc4372a1"
+    },
+    {
+      "path": "experiments/factorial_balanced/silu_1layer_add_p113_a1.0_wd0.1_s42_30k/training_metrics_resume_04401_to_29999.pkl",
+      "sha256": "f135deb3dc9ac5c230f417c8f32c33fe62ef78963367efb8f1b41e0093855f0b"
+    },
+    {
+      "path": "experiments/silu_1layer_add_20260213_000145/config.pkl",
+      "sha256": "eeaadfe9d63aa91de81b9847c69003c86af0bf237e4d120cdbb6a59a9e933394"
+    },
+    {
+      "path": "experiments/silu_1layer_add_20260213_000145/gcs_results.pkl",
+      "sha256": "066220d37ffe450698cb68d13aed801bc2f97086183d080d53e83fbad9f5e377"
+    },
+    {
+      "path": "experiments/silu_1layer_add_20260213_000145/training_metrics.pkl",
+      "sha256": "2d053a66a92a0501cc729c9cd8b6d5646be3251f7aad3783b0811aa6e0f73f99"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_20260213_013906/config.pkl",
+      "sha256": "6dea011976bdc2216c429a11d29bd085e511ba2f32a93545103dd5fe14fb1f74"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_20260213_013906/gcs_results.pkl",
+      "sha256": "be29705ef6fd367074583d953342dd83bc8de4d1da1ab514574806fc8c9a0766"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_20260213_013906/training_metrics.pkl",
+      "sha256": "4516d156734b54fd0f336970a4478d4f2bd683273724bab33ab9c14a182262ff"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_wd1_s777_30k/config.pkl",
+      "sha256": "d88c2d8ccfc369db3dbd291eecccc36d1b32933d1d98b500dab1ce37dd625372"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_wd1_s777_30k/training_metrics.pkl",
+      "sha256": "f5ad4e6b131e7b96025aff08dc8f1aa52d5d973f10e52deb38b0e088d321458b"
+    },
+    {
+      "path": "experiments/silu_1layer_add_a0.0_wd1_s777_30k/training_metrics_final_geo.pkl",
+      "sha256": "23ecf368795e61114b1ffba2443c7f483052eeac723ef1ed7bab85cd01cd0862"
+    },
+    {
+      "path": "experiments/silu_1layer_add_wd01_s777_40k/config.pkl",
+      "sha256": "68006b0586f9a1a8c6f868d0b5cf5017256fe981859c8334f8412bbd752fdc71"
+    },
+    {
+      "path": "experiments/silu_1layer_add_wd01_s777_40k/gcs_results.pkl",
+      "sha256": "7b939cb0df0bff87ef7691f7261c83329a994c7446012283a8d5a68f5cdab672"
+    },
+    {
+      "path": "experiments/silu_1layer_add_wd01_s777_40k/training_metrics.pkl",
+      "sha256": "c5750c7ed350ea958dca7cd7c5f585e5b9e263fb17f0149c80b0e9e4e2a666f7"
+    },
+    {
+      "path": "scripts/diagnostics_results_manifest.csv",
+      "sha256": "95de5ef69d934a308ecb30b212bb68376cd9c83812bcff77a0dedc238020bbbe"
+    },
+    {
+      "path": "scripts/experiment_manifest.csv",
+      "sha256": "ff61febe854ef9abdbbf1e11f0928435b3d2fa3686137bca52673e420e44ebea"
+    },
+    {
+      "path": "scripts/generate_appendix_figures.py",
+      "sha256": "a816763132bb43f56f6cf686e052990ec0407452e55ca4bb27dfff47147f684c"
+    },
+    {
+      "path": "scripts/summarize_false_positive_controls.py",
+      "sha256": "6e88b95e420a0db6db939a2605b01d4bee9ac0504db34971c472253cdb2444fd"
+    }
+  ]
+}

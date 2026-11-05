@@ -1,0 +1,12 @@
+{
+  "kind": "descriptive protocol metadata from Appendix A; not an estimated result",
+  "rows": [
+    {"evidence":"Primary trajectories","scope":"104 grok-observed runs; 1–3 layers, four tasks, three activations","appendix":"C"},
+    {"evidence":"Measurement checks","scope":"35 one-layer runs and smaller pilots","appendix":"B"},
+    {"evidence":"Truncated and non-grokking","scope":"24 cut at 90–95% test accuracy; 7 non-grokking controls","appendix":"C"},
+    {"evidence":"Window selection","scope":"71 held-out one-layer runs across six seeds; 48 newly trained","appendix":"C"},
+    {"evidence":"Restricted Fourier progress","scope":"5 one-layer addition runs","appendix":"C"},
+    {"evidence":"Interventions","scope":"17 addition/multiplication runs; coherence on 16","appendix":"D"},
+    {"evidence":"Scope pilots","scope":"LayerNorm, S5, C120 and D60","appendix":"A"}
+  ]
+}

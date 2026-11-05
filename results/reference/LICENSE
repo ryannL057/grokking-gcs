@@ -1,0 +1,18 @@
+Data and example checkpoint license
+
+Copyright (c) 2026 the GCS authors and contributors.
+
+The numerical records, model weights, geometry and accompanying metadata in
+this directory are licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Full terms: https://creativecommons.org/licenses/by/4.0/legalcode
+A copy is included as LICENSE-DATA at the repository root.
+
+Attribution: Where to Look First in Grokking: Attention and MLP Coherence in
+Modular Arithmetic (2026), by Ruian Lei, Ruoxi Jiang,
+Marley M. B. R. Vellasco, M. Tanveer, and Zenglin Xu.
+Retain the license and supplied attribution when sharing these materials,
+and indicate modifications. See LICENSING.md and CITATION.cff at the
+repository root for scope and citation details.

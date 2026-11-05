@@ -1,0 +1,6 @@
+{
+  "input_path": "experiments/activation_patch_commutative_resid_mid_20260502/patch_summary_per_run.csv",
+  "input_sha256": "b34c6b1172c931d70feab0e8facdb4aea2941bc63b9ba2dcf9afcd984101e323",
+  "copied_path": "source_data/round10/activation_patch_per_run.csv",
+  "purpose": "Reposition Figure 3 mean labels without changing observations, comparisons or summary values."
+}

@@ -1,0 +1,2 @@
+-r models.txt
+pytest==8.4.2

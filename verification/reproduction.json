@@ -1,0 +1,416 @@
+{
+  "paper_sha256": "68e89c480607d5b6c9e7497800e145ae7805f4136d9ca0ffbb4736a4518ebd1a",
+  "complete": false,
+  "targets": [
+    {
+      "target": "fig01",
+      "title": "Path coherence and workflow overview",
+      "status": "passed",
+      "outputs": {
+        "fig01.pdf": "72939636f46aa7885b423802e2962f7046314d04bccb232301403db3a4a8f01e",
+        "fig01.png": "f65e0f6a52f266c7f4aa665112c735a96bd910a427128bc7a046cf25ed4e49fb",
+        "fig01.svg": "c4d1e4c1b242a9b6fdf124169ac402f317c22842183a7db15ae04f0e1c5701a6"
+      },
+      "seconds": 3.057
+    },
+    {
+      "target": "fig02",
+      "title": "depth trajectories",
+      "status": "passed",
+      "outputs": {
+        "fig02.pdf": "2e83a934000cb59196a48905bd64e10d9ee27435595cec3214c7e9b6e290675f",
+        "fig02.png": "71f0a487fd847a820a8d20166e58642680159cd9fccb63d64e1dde16a0961a49",
+        "fig02.svg": "657daf1543979e4bdc3c2e3fa5364dc9ac578623d2cdb3ba4455810221a1a1b3"
+      },
+      "seconds": 2.768
+    },
+    {
+      "target": "fig03",
+      "title": "checkpoint surgery",
+      "status": "passed",
+      "outputs": {
+        "fig03.pdf": "7594c170a346e46742c4cc2c09e625d265c18c94c5323fe100c2e611a2f319c6",
+        "fig03.png": "ba8b16e989956843179e4a0fe30d006bedc2f5d8eb70bbbbe32e191e4afdd41f",
+        "fig03.svg": "ec3ab0b141bd8ebe646856bd6831f86b79f14136120c9fba845fe63daa96d7cc"
+      },
+      "seconds": 1.193
+    },
+    {
+      "target": "fig04",
+      "title": "probe positions",
+      "status": "passed",
+      "outputs": {
+        "fig04.pdf": "dbc3f843d7b5404d04245836d5858480d98ea5e20109e1a700760055bca87fd2",
+        "fig04.png": "8f965d745adf89a441e136d117ad1f1e1bf106c7d4b1a467cae6a8c80c7e5a64",
+        "fig04.svg": "5b9498195b5cc63c955b7c768e38b3a644ad7fc52ec5a5496cc0d8d145e31d5a"
+      },
+      "seconds": 2.011
+    },
+    {
+      "target": "fig05",
+      "title": "reference trajectories",
+      "status": "passed",
+      "outputs": {
+        "fig05.pdf": "235e7a4e3d2a33a3a510c06625039afd7552898f549e78ad8750787c1f694c91",
+        "fig05.png": "1478db78b71b88d0004ea04fe4e46690fe47595797ea8bb637dc744ca4ef9d93",
+        "fig05.svg": "74179961bf1e86fcf4165b59476ae1a1b20e234e81999866f55ecfeaca43a07b"
+      },
+      "seconds": 2.051
+    },
+    {
+      "target": "fig06",
+      "title": "probe dimension",
+      "status": "passed",
+      "outputs": {
+        "fig06.pdf": "86469b64d2e61b936c86d418d2341f7b8e11510f1bc70a57a8ae97a3a9495dcc",
+        "fig06.png": "8f507e836e4450e2b618450f99dc40b524da24a67822fab0daa8784249596fde",
+        "fig06.svg": "f0ceeff90111d23a4eb5070e46d019003028da22be04db832474ca327cbb70e6"
+      },
+      "seconds": 0.714
+    },
+    {
+      "target": "fig07",
+      "title": "sample size",
+      "status": "passed",
+      "outputs": {
+        "fig07.pdf": "3267a5c8e35bf4ad15ba806925c834e6b1192264b69010a09b200588d721a654",
+        "fig07.png": "67ae1e42de2323ac55bb7c2d52ae0fde6253326176e5ba69c7da7976e9003094",
+        "fig07.svg": "f8774ac4c1acdcebd76a0408e380cfca780e3327052f9fc4a5861750191b4065"
+      },
+      "seconds": 0.465
+    },
+    {
+      "target": "fig08",
+      "title": "neighbor count",
+      "status": "passed",
+      "outputs": {
+        "fig08.pdf": "ae8c4c1827e96caee4f743519cd0264f108cf08fcf1699d887c3f4940e08505f",
+        "fig08.png": "e82bb31d19e3e55112c871a526ce9c6d3dfa24a895f07a2da62878301af7ca24",
+        "fig08.svg": "1ac43d201682760ac336ae7f9103f9e83b7cd44bd8cee4c97733214ff5caad64"
+      },
+      "seconds": 1.0
+    },
+    {
+      "target": "fig09",
+      "title": "detached attention",
+      "status": "passed",
+      "outputs": {
+        "fig09.pdf": "7061a601bd8e61d05bc3530d13f54c8deb10de9a8863345b0d48e66f3c47d6f5",
+        "fig09.png": "147747f4ef0b6b58d32d46707c10732c614290909aa47c042ea72b0079f4211e",
+        "fig09.svg": "97f3935abb532e2ed5c34016a95ba498ffb9e6cfae6d134f15e921c65d40cdbc"
+      },
+      "seconds": 2.053
+    },
+    {
+      "target": "fig10",
+      "title": "cohort mlp",
+      "status": "passed",
+      "outputs": {
+        "fig10.pdf": "602f4ab372c1ba318a596fe96b4bd40bfa0f75a2b96fdcfb29c7a3c6c8885a07",
+        "fig10.png": "8eabc3ad1c1f6d5212432842c8ae0f5b39ed1d572118942ffd7d701a7c6cddd5",
+        "fig10.svg": "d28316904e9af1f804c2610f6491032d0b46c711990ed687f030671a8019d67f"
+      },
+      "seconds": 2.06
+    },
+    {
+      "target": "fig11",
+      "title": "cohort attention",
+      "status": "passed",
+      "outputs": {
+        "fig11.pdf": "12c140fd949221266717abb59669951ffa06b95492c810b32e440c260b43432d",
+        "fig11.png": "2366d2288147a4de4c09056c14e2ef1a8165a3c19393de19e19e84ada6f2b980",
+        "fig11.svg": "95b3cf11e61a491048bd5fc12afbd18b3a2e273f81968e8bd3f6f8b396bceedc"
+      },
+      "seconds": 2.095
+    },
+    {
+      "target": "fig12",
+      "title": "uniform attention",
+      "status": "passed",
+      "outputs": {
+        "fig12.pdf": "87834868769c8feed43221941779d640327999fb0c8ea9d6cbee1c4c9ef32f0a",
+        "fig12.png": "c7e08e843312d5a4828e712a1add57ef56c21b4f23a4b133a1b3620a8effaa78",
+        "fig12.svg": "50f15280a112a69ba7e51d575aba81540abaddf54913d2e7312625d27616657b"
+      },
+      "seconds": 1.842
+    },
+    {
+      "target": "fig13",
+      "title": "attention maps",
+      "status": "passed",
+      "outputs": {
+        "fig13.pdf": "312dced4cc21794e94de9993bd0d818310bf1048a17fe576ac7d537ca9cb6918",
+        "fig13.png": "4870028e0da28bba926b57f1c76d658fefc65ad1bd8d084c5ac80e842f5e3f7d",
+        "fig13.svg": "ea59f13ab2fa8e75b69858d91aaa5b274eb33e18808f8ab117588ff92d147e6c"
+      },
+      "seconds": 2.663
+    },
+    {
+      "target": "fig14",
+      "title": "matched mlp",
+      "status": "passed",
+      "outputs": {
+        "fig14.pdf": "84368ab840cf25815432d891e9788f12a3ddb0046d2464020d6f3400ae7698ac",
+        "fig14.png": "94f86c7cfcc72c9bc33d5918e56adc405966476d8f625fe51c8ac52ec99a9142",
+        "fig14.svg": "ba9bc25a53663401278f6681d0c38b1db06236d8fcfaeb3a2947ddd65267de4e"
+      },
+      "seconds": 1.881
+    },
+    {
+      "target": "tab01",
+      "title": "diagnostics",
+      "status": "passed",
+      "outputs": {
+        "tab01.json": "d4aef17cd3b874535ebcbe273f94740cc6841eb88ae79a9265f6436b2aad8114",
+        "tab01.csv": "7f43ce56233a31b08a671ac394a5edb035c4fe583c1681976ac1465ccb5956f5"
+      },
+      "seconds": 0.056
+    },
+    {
+      "target": "tab02",
+      "title": "joint reference",
+      "status": "passed",
+      "outputs": {
+        "tab02.json": "345609e341563b2b19ede7eba65482dfa04d8e2d7a4d81744707f4114011618a",
+        "tab02.csv": "1bf5c128587c06ca1c09d46150dc8fef2913d469f3798b236c789b4e2f8bce4c"
+      },
+      "seconds": 0.003
+    },
+    {
+      "target": "tab03",
+      "title": "fixed mlp continuation",
+      "status": "passed",
+      "outputs": {
+        "tab03.json": "f550b10371b7cf015aa93be353d3a46db159ae99646eff9b96a80d314d23ade6",
+        "tab03.csv": "bb475eb6849b10ef51efd4ccfe00265d0dcaac7a2ec806f8f647e3c8aec74780"
+      },
+      "seconds": 0.016
+    },
+    {
+      "target": "tab04",
+      "title": "workflow selection",
+      "status": "passed",
+      "outputs": {
+        "tab04.json": "845315e7e98d722a65764461d419bfb87eb709a0617281d632512d2944583cc7",
+        "tab04.csv": "6e2e40bb85f5f7184256f158059e957b6be18faab99c234df2867dac86d91fdc"
+      },
+      "seconds": 0.141
+    },
+    {
+      "target": "tab05",
+      "title": "experiment configs",
+      "status": "passed",
+      "outputs": {
+        "tab05.json": "292454ba71b36dd58d6ad0bb84fb07d4ef310d0a73a44a543fb34c38881a9511",
+        "tab05.csv": "fcfff282048a8c201db897422c6875bfcedda5c80f5964a1699b38b62706dcc0"
+      },
+      "seconds": 0.001
+    },
+    {
+      "target": "tab06",
+      "title": "primary saved ranges",
+      "status": "passed",
+      "outputs": {
+        "tab06.json": "eeb5b378b76c16900291d2956baefeb437b75859762d7db872d262d6c51fd912",
+        "tab06.csv": "10bad7f422de87510412c52ca37f78b78d9dce3d4cbc1198dc0e31cb9dcd2f47"
+      },
+      "seconds": 0.004
+    },
+    {
+      "target": "tab07",
+      "title": "compute cost",
+      "status": "passed",
+      "outputs": {
+        "tab07.json": "2ba30401e21a5b5a5053f91a59901d32a2b27c893ca46aa2eed1c9940f87437a",
+        "tab07.csv": "0cb4c0c765112467dac0f8bad086f21f921612560542837e0dc3d7d477db8cc3"
+      },
+      "seconds": 0.001
+    },
+    {
+      "target": "tab08",
+      "title": "aggregation cohort",
+      "status": "passed",
+      "outputs": {
+        "tab08.json": "192cc4e1de73d019a3bd68d1243c8e153b3e6e9fcaa36ad5366e170d3069c592",
+        "tab08.csv": "17f253473f250608234ec6bf420e321efa20853bb78670669399899d2f605efa"
+      },
+      "seconds": 0.223
+    },
+    {
+      "target": "tab09",
+      "title": "trajectory by task",
+      "status": "passed",
+      "outputs": {
+        "tab09.json": "d4aef17cd3b874535ebcbe273f94740cc6841eb88ae79a9265f6436b2aad8114",
+        "tab09.csv": "bac208d6486a7098c9e8dbf77aaef21b1ba924f02937a0f91c9fa04bf03d850e"
+      },
+      "seconds": 0.052
+    },
+    {
+      "target": "tab10",
+      "title": "null baselines",
+      "status": "passed",
+      "outputs": {
+        "tab10.json": "fcb0543105020be2c4d19c8dd4f1420a267d1eefa37f0fe5fc0e0c37dfd16d39",
+        "tab10.csv": "ae7da9bebbe913bb36ff4a1814ad1cdab215eb810be0b602fd57fe2a239e2230"
+      },
+      "seconds": 0.055
+    },
+    {
+      "target": "tab11",
+      "title": "selector replacement",
+      "status": "passed",
+      "outputs": {
+        "tab11.json": "c148d2a8ea7968e10adbdca40261d2ee9ebbaec1a092bfe407e751b9563722a4",
+        "tab11.csv": "1aa614eae7a29563c3b59366521d310b450fbc266bc26eb59469b8444b00d56e"
+      },
+      "seconds": 1.034
+    },
+    {
+      "target": "tab12",
+      "title": "window example",
+      "status": "passed",
+      "outputs": {
+        "tab12.json": "edd16cdddb9a42080c209126f9c550d9a949607544a9daec3917c897d1c97e73",
+        "tab12.csv": "d0d1db4a66aa5e14a383c0e72eb65e4f8af8ab19462618041a06afb40238c306"
+      },
+      "seconds": 0.006
+    },
+    {
+      "target": "tab13",
+      "title": "window sites",
+      "status": "passed",
+      "outputs": {
+        "tab13.json": "edd16cdddb9a42080c209126f9c550d9a949607544a9daec3917c897d1c97e73",
+        "tab13.csv": "948a9fa84460c643748b557a2f2af8f322dc2b8ccf776d2d67c9d9160b5ad2b9"
+      },
+      "seconds": 0.006
+    },
+    {
+      "target": "tab14",
+      "title": "fourier trend",
+      "status": "passed",
+      "outputs": {
+        "tab14.json": "f1c1355fcd6ba296024ee5af6928245d18f0e78b6b2dff472827d0e2f59be1ce",
+        "tab14.csv": "f73b2d37765868d08de5e58f82088e279f3480e99593b20e7d1c1bd607273a36"
+      },
+      "seconds": 0.013
+    },
+    {
+      "target": "tab15",
+      "title": "intervention summary appendix",
+      "status": "passed",
+      "outputs": {
+        "tab15.json": "2d176e15c810a9a311520bfcbb4413b503b2d819319962788338bea0f59517ea",
+        "tab15.csv": "7e28d59d69de662525a8a9726973e55d8b46cc761a240b4fb903d5ad39eada27"
+      },
+      "seconds": 0.049
+    },
+    {
+      "target": "app_scope",
+      "title": "Architecture and group scope pilots",
+      "status": "passed",
+      "outputs": {
+        "app_scope.json": "f36ab54e2c5f6862f14a5da0870d80efda08a2a27939c247e241e0ea3460cbff"
+      },
+      "seconds": 0.005
+    },
+    {
+      "target": "app_endpoints",
+      "title": "Truncated trajectories and non-grokking controls",
+      "status": "passed",
+      "outputs": {
+        "app_endpoints.json": "32134ed01574a7ad11f2faf8a9c16a3c3b37ec6194516d4456ba7e47041276d9"
+      },
+      "seconds": 0.003
+    },
+    {
+      "target": "app_measurement",
+      "title": "Probe, SVD, Procrustes and detached-gradient checks",
+      "status": "passed",
+      "outputs": {
+        "app_measurement.json": "18c362c526b9deb25a8f7a2dbdafb55507940288e5164666b053738658a4b79f"
+      },
+      "seconds": 0.026
+    },
+    {
+      "target": "app_order",
+      "title": "Signed order of attention and MLP upturns",
+      "status": "passed",
+      "outputs": {
+        "app_order.json": "90c3686766ef6f592a93ebe8330bfb6fe13371bdd33a98e2e962a24d31dc7779"
+      },
+      "seconds": 0.091
+    },
+    {
+      "target": "app_robustness",
+      "title": "Cluster bootstrap and leave-one-factor-out",
+      "status": "passed",
+      "outputs": {
+        "app_robustness.json": "6bceb763e636097cf1baef8569f9ebb4f8cddddc19f63ce2183fc7a73f50bf32"
+      },
+      "seconds": 0.219
+    },
+    {
+      "target": "app_selectors",
+      "title": "Six-seed selection and reference/geometry controls",
+      "status": "passed",
+      "outputs": {
+        "app_selectors.json": "2f93cb9cb7c36d4ca790c54eb19e5e706b4397523ce447195a7823f5859fbca6"
+      },
+      "seconds": 0.629
+    },
+    {
+      "target": "app_interventions",
+      "title": "Recovery, donor, rescue-share and nine freeze arms",
+      "status": "passed",
+      "outputs": {
+        "app_interventions.json": "6121bfbbe025c0de3c484c2dade4ccdb7353db11f6115f2d0009f36e00fa4506"
+      },
+      "seconds": 0.024
+    },
+    {
+      "target": "app_uniform_graphs",
+      "title": "Uniform edge-weight sweeps over 35 saved graphs",
+      "status": "passed",
+      "outputs": {
+        "app_uniform_graphs.json": "af27a8437a565ef305c84a26e464d726a6038a3e3bd95095d7d3cab9c6e6faff"
+      },
+      "seconds": 0.095
+    },
+    {
+      "target": "app_reference_variants",
+      "title": "Reference controls: prompt source, other-task, shuffled, earlier-layer and hybrid",
+      "status": "passed",
+      "outputs": {
+        "app_reference_variants.json": "fda339527cde76772ab179d613a5be3c56c63e356501c8fb8a7871975d4bb54f"
+      },
+      "seconds": 0.016
+    },
+    {
+      "target": "gap_jvp_norms",
+      "title": "19,200 response-norm audit",
+      "status": "incomplete",
+      "error": "Original per-response arrays and exact generating protocol have not been located; the reported minimum 0.135 is not independently verified here.",
+      "seconds": 0.0
+    },
+    {
+      "target": "gap_reference_sampling",
+      "title": "Reference-neighbor label enrichment",
+      "status": "passed",
+      "outputs": {
+        "gap_reference_sampling.json": "123f519cda65416b13d505569de3011dabfa20a78a0f7acd2bece9713adfd0d7"
+      },
+      "seconds": 0.002
+    },
+    {
+      "target": "gap_uniform_factorial",
+      "title": "Uniform-attention factorial control",
+      "status": "passed",
+      "outputs": {
+        "gap_uniform_factorial.json": "0dca9266e297af6e151efb952e319c66967357bcab7bfa4ea60fd27fa646d60b"
+      },
+      "seconds": 0.002
+    }
+  ]
+}

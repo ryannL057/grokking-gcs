@@ -1,0 +1,8 @@
+{
+  "p": 7, "fraction": 0.3, "seed": 42, "task": "add",
+  "num_layers": 1, "d_vocab": 8, "d_model": 8, "d_mlp": 16,
+  "d_head": 4, "num_heads": 2, "n_ctx": 3, "act_type": "GeLU",
+  "use_ln": false, "total_epochs": 5, "lr": 0.001,
+  "weight_decay": 1.0, "record_frequency": 1,
+  "analysis_N": 8, "analysis_k": 3, "analysis_d": 2
+}

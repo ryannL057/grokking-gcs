@@ -1,0 +1,28 @@
+{
+  "run_id": "relu_add_s123",
+  "arm": "0V",
+  "reached_99": false,
+  "first_observed_99_updates": null,
+  "censoring_updates": 5800,
+  "stop_updates": 5800,
+  "budget_updates": 5800,
+  "initial_test_accuracy": 0.00548159749412686,
+  "initial_train_accuracy": 0.04751958224543081,
+  "initial_train_ce": 10.254712437289236,
+  "final_test_accuracy": 0.03982548383488086,
+  "final_test_ce": 32.68529032640986,
+  "initial": {
+    "run_id": "relu_add_s123",
+    "arm": "0V",
+    "status": "prepared",
+    "initial_path": "experiments/followup_20261018/relu_add_s123/0V/initial.pt",
+    "initial_sha256": "08107feaedbc3b20ec43ecc6287f2554e25ea5883463d67f5ccc44e70e377dda",
+    "budget": 5800
+  },
+  "endpoint_path": "experiments/followup_20261018/relu_add_s123/0V/checkpoints/updates_05800.pt",
+  "endpoint_sha256": "c04b282a31e043e0b9f1f947dcbbd6e226b4dd1a3f9e6f916a24814dd05c0279",
+  "torch": "2.7.1+cu126",
+  "device": "NVIDIA GeForce RTX 4090",
+  "completed_utc": "2026-10-18T14:08:26.209416+00:00",
+  "elapsed_seconds": 1581.1440274289344
+}

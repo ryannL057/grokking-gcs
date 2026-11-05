@@ -1,0 +1,221 @@
+{
+  "recovered_on": "2026-11-05",
+  "cohort": "ReLU/GeLU/SiLU x add/sub/mul/div, seed 777; each evaluated on train/test/full_grid prompts.",
+  "conversion": "All 36 trajectory payloads exported losslessly to JSON. log_steps and test_accuracies exported from the 12 original training_metrics.pkl files. Original pickle files remain in the research archive; cached reproduction reads JSON only.",
+  "historical_path_policy": "experiment_dir values join the exported dictionaries; they are not resolved as filesystem paths.",
+  "protocol": {
+    "N": 200,
+    "k": 15,
+    "d": 8,
+    "max_checkpoints": 101,
+    "token_probe": "final",
+    "target_layer_policy": "paper_contract_1L_or_last_layer"
+  },
+  "schedule": "ReLU/add has 100 saved checkpoints; the other 11 runs have 101. All three splits within each run have the same complete selected schedule.",
+  "sources": [
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_add_s777_full_grid.pkl",
+      "sha256": "c557ace3d467d1b18f5641dc929a1eed5c50905ea86dc66d11089e289b128293"
+    },
+    {
+      "path": "checkpoints/1layer/GeLU/add/training_metrics.pkl",
+      "sha256": "b387c6f9c5f6f565ea63baeb65510b7bcef12349803dce64f0aeb1476b696e08"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_add_s777_test.pkl",
+      "sha256": "ba030d4a27ebcbb81144c0b6eff3be8179b149bbff58e3d005f9c88ac21821ba"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_add_s777_train.pkl",
+      "sha256": "27ebe9912e4248077ff70b23c8f8689be5d050afadae40e5a3bd220065ed44cd"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_div_s777_full_grid.pkl",
+      "sha256": "e2cc0f2756c4a411b182e00fab5094ef6004f66cb27834052b4fd92d14ada6e7"
+    },
+    {
+      "path": "checkpoints/1layer/GeLU/div/training_metrics.pkl",
+      "sha256": "3498c53525567e1c8dd9ce47abf070eca73f56bd1103aba09187f55f842cfbac"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_div_s777_test.pkl",
+      "sha256": "18386b526eb09ca162b0e1b74754a2ac56c673f1da7f0920c26168dbba4edeca"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_div_s777_train.pkl",
+      "sha256": "4486da6f8f94b1442f4faf633d7b80fb9979e1b93e5daea3afa29b956ef56064"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_mul_s777_full_grid.pkl",
+      "sha256": "426198d4c1f5e0d77251c06aecb188c2d798b7878376ba7c569a0f927202fdc2"
+    },
+    {
+      "path": "checkpoints/1layer/GeLU/mul/training_metrics.pkl",
+      "sha256": "d7a3ffe3edda8fd7e7f65dff240c18eb256f55c41e4ba59c0ca37773737db919"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_mul_s777_test.pkl",
+      "sha256": "3e8a953e8fc3707fca859e29f8932fcb4362f09bcd2126dd46bcec2cc63c602d"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_mul_s777_train.pkl",
+      "sha256": "a890b72162c4d0d964a042db8bb3de748677991c98cc69f1ce6c5edb5904b3be"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_sub_s777_full_grid.pkl",
+      "sha256": "bc64c54725cf111bd088f5810afb2d87f68b8191d4a731b82ee2b0b040cb7006"
+    },
+    {
+      "path": "checkpoints/1layer/GeLU/sub/training_metrics.pkl",
+      "sha256": "37b71058ba8747334b3ee288632024784a16021eb69cb7d6b854f98892a7edfc"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_sub_s777_test.pkl",
+      "sha256": "78c1544e003926d1b61a57683dd58949305b61e29f41b39e19c7fe12df40c69d"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/GeLU_sub_s777_train.pkl",
+      "sha256": "ff44545b8e5ef6173b2e1b72533e73c0da97ef6198ad43f0a4e2157cbb26bbaa"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_add_s777_full_grid.pkl",
+      "sha256": "3ef37e57f5afb138c4144dd5ae93892e008f73c075b1b760aaa26bf021f24394"
+    },
+    {
+      "path": "checkpoints/1layer/ReLU/add/training_metrics.pkl",
+      "sha256": "9a91c13b4d28e8866aea7532cea9586cfa9969370eda47587f883090d37ccc05"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_add_s777_test.pkl",
+      "sha256": "9e2eb72df14ebd17d6513aee80bd36d57bb6619c00eb35e58a9ca8c339adbbca"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_add_s777_train.pkl",
+      "sha256": "99ae6eddd7fd0e171c292f4b9de1a50ec4b43c26a33f39962e6f68a6da0b0e22"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_div_s777_full_grid.pkl",
+      "sha256": "90bf8f269c6e41a8554081ca2189c07c8664da809b54323985a10dc130fc4425"
+    },
+    {
+      "path": "checkpoints/1layer/ReLU/div/training_metrics.pkl",
+      "sha256": "32b3898a6ca417b5983925ab663730c10f36ffa159dddb4befa7c6564a4f31ea"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_div_s777_test.pkl",
+      "sha256": "7c7cc58b5b8d6d040eb05d95d518c7cb834fde8f9fc2d0d340aa145126f53547"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_div_s777_train.pkl",
+      "sha256": "1221701e0b29e7b3d2bf0767e3168673fa14a7f7fffef78394a6cedbff767c58"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_mul_s777_full_grid.pkl",
+      "sha256": "1416abefdbe57036ee412adbf6c108b7303ac8129466c4b83150ada113b8f172"
+    },
+    {
+      "path": "checkpoints/1layer/ReLU/mul/training_metrics.pkl",
+      "sha256": "11e58de4020c5e60682a0fd37242638645e930a1636b1785b499baf8cb1df236"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_mul_s777_test.pkl",
+      "sha256": "53e6057b05a673616c98894fee0e4cddc692c621aa4e258a4759884289b67bf4"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_mul_s777_train.pkl",
+      "sha256": "7ab33d1857c82e35c4820f011746e88ec9b7c299eeb119432b8f064e7233f06d"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_sub_s777_full_grid.pkl",
+      "sha256": "f27d2629a2a389c54ac9f6ee3df02b1f13485b5add52aaa0ee6b34c6055e0077"
+    },
+    {
+      "path": "checkpoints/1layer/ReLU/sub/training_metrics.pkl",
+      "sha256": "aa5278615d56d0e21068a469696044314ef315ab9810226c12fe2cd6233751f3"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_sub_s777_test.pkl",
+      "sha256": "cd8e8c76b8bcef0cb949d6dbf32bfef65cd632e973ad409f2dc9c95d4e0226c8"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/ReLU_sub_s777_train.pkl",
+      "sha256": "bced393c0d71e56dd95bcb0a96b7eae7f26b7284684815909dc1c5e51b126b18"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_add_s777_full_grid.pkl",
+      "sha256": "0e5c5702251ed5c1e7ee1b57820ec6fbf1a309b433db9cb47c5f1862e458171a"
+    },
+    {
+      "path": "checkpoints/1layer/SiLU/add/training_metrics.pkl",
+      "sha256": "2c2ecc36f59a2435a2d3c89704e9792259624a05ab229c5998e3b92b1d6ed25f"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_add_s777_test.pkl",
+      "sha256": "65b33d13ab7a3d7d98b3f9b35384a7260710e4dd1953bb3d2824afd45278243b"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_add_s777_train.pkl",
+      "sha256": "afe687749946957e2c8d642c28dc5e803d2b72d2613a7f87d7fbda4cf443dcc5"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_div_s777_full_grid.pkl",
+      "sha256": "63972de5c5c8b09c5e6bb7808ada9a8fa1b231f38e4de910f447bbb6042a2917"
+    },
+    {
+      "path": "checkpoints/1layer/SiLU/div/training_metrics.pkl",
+      "sha256": "1784fc2ebef15ce0928be9af133c2a1944ad4183a45cff8425397479578b59f2"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_div_s777_test.pkl",
+      "sha256": "ce7849fd8e5b824f7c6ef9e088378d0d55e16f72d2b674d26e5920e240b4f672"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_div_s777_train.pkl",
+      "sha256": "66d4f31659198bc094055cdb39ded192890af2da0afb26c559ae9f2cf2c23c9e"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_mul_s777_full_grid.pkl",
+      "sha256": "b6994b7e42ca992609696a2c41eb85c5b5903a948c76104d619fc4a4ef282a45"
+    },
+    {
+      "path": "checkpoints/1layer/SiLU/mul/training_metrics.pkl",
+      "sha256": "2454a18ccc8b753632c0ca14d28e88ae0748ff08144aec2f600be5fc2dca6cca"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_mul_s777_test.pkl",
+      "sha256": "608978d15f20e9a6bbb7f598aae4c3f96a5605097b351b0946595aeaefd937c0"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_mul_s777_train.pkl",
+      "sha256": "15a963d2a10c7777dab32e9f2f88f7080bd11c33dc98b964b10af0698ee070a9"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_sub_s777_full_grid.pkl",
+      "sha256": "4524dfc7fa0ca5c2ccff090a54a4914b6a0c6875d700a1faa16330087ee475be"
+    },
+    {
+      "path": "checkpoints/1layer/SiLU/sub/training_metrics.pkl",
+      "sha256": "3787f8445d6e470a7c8d2a1e9d2d40d8af36c4c385ecdce61f774d59d18b6b6d"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_sub_s777_test.pkl",
+      "sha256": "4cc937b749637b43928e7f95be916d62182a05dd80ba7fbd946573f5cbad1707"
+    },
+    {
+      "path": "experiments/prompt_source_gcs_control_20260427/SiLU_sub_s777_train.pkl",
+      "sha256": "8d2411aa395fc4f081fa67f1c9357168ca6cdb0d5df20942dc64430751bdf233"
+    },
+    {
+      "path": "scripts/run_prompt_source_gcs_control.py",
+      "sha256": "a5d55a286851a2c78c77a07ab8af140bceb5cd39affef1f9ae4c5939245edee2"
+    },
+    {
+      "path": "scripts/summarize_prompt_source_gcs_control.py",
+      "sha256": "f5702323ac19c106300dcf108686c0df7bbf13b0bf77bc4d63178bbaf6d5b5e8"
+    },
+    {
+      "path": "scripts/diagnostics_common.py",
+      "sha256": "6c3baab50b00756e572d2dc6d2aad6de87faef4cc8df534e3efabeaacdc1e657"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "license_decision_date": "2026-11-05",
+  "commercial_use_allowed": true,
+  "default_author_owned_license": {
+    "spdx_id": "MIT",
+    "license_file": "LICENSE",
+    "scope": "Original code, scripts, configurations, manifests and repository documentation, except the asset directories and third-party notices listed below."
+  },
+  "directory_overrides": [
+    {
+      "path_prefix": "results/reference/",
+      "spdx_id": "CC-BY-4.0",
+      "license_file": "LICENSE-DATA",
+      "notice_file": "results/reference/LICENSE"
+    },
+    {
+      "path_prefix": "examples/checkpoints/",
+      "spdx_id": "CC-BY-4.0",
+      "license_file": "LICENSE-DATA",
+      "notice_file": "examples/checkpoints/LICENSE"
+    }
+  ],
+  "data_scope_includes": "Numerical records, weights, geometry and accompanying provenance/measurement metadata in the two asset directories. The standalone experiment config examples/checkpoints/config.json remains MIT.",
+  "third_party": "Existing third-party copyright and permission notices remain in force; see THIRD_PARTY.md and manifests/licensed_sources.json.",
+  "software_distribution": {
+    "spdx_id": "MIT",
+    "includes_data_or_example_weights": false,
+    "license_files": [
+      "LICENSE",
+      "src/gcs/licenses/TransformerLens-LICENSE"
+    ]
+  },
+  "license_sources": [
+    {
+      "spdx_id": "MIT",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+      "source_sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "repository_file": "LICENSE",
+      "repository_sha256": "5cc5cd9b2aa411698a4babcc54dac4c28f9dacc01d28354d6dcb773fbd61246e",
+      "modification": "Copyright year and holder placeholder filled with 2026 the GCS authors and contributors."
+    },
+    {
+      "spdx_id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "source_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "repository_file": "LICENSE-DATA",
+      "repository_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "modification": "None; full legal text copied byte-for-byte."
+    }
+  ],
+  "file_overrides": [
+    {
+      "path": "examples/checkpoints/config.json",
+      "spdx_id": "MIT",
+      "license_file": "LICENSE"
+    }
+  ],
+  "precedence": "Explicit third-party notices, then file overrides, then directory overrides, then the author-owned MIT default."
+}

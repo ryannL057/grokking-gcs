@@ -1,0 +1,48 @@
+{
+  "run_id": "gelu_mul_s42",
+  "cell": "LL",
+  "source": "reused_B1",
+  "reached_99": true,
+  "first_observed_99_updates": 1500,
+  "event_observed": true,
+  "censoring_updates": null,
+  "final_accuracy": 1.0,
+  "final_test_ce": 1.58811906285085e-05,
+  "budget_updates": 8600,
+  "initial_accuracy": 0.5567736883320282,
+  "initial": {
+    "run_id": "gelu_mul_s42",
+    "cell": "LL",
+    "status": "prepared",
+    "initial_path": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/LL/initial.pt",
+    "initial_sha256": "b539fe2bd1ec20e1a14d4b6dde362f3c6a0de409b98c37d99eb89bf312e0d740",
+    "donor_sha256": "23e99f4cf3e655ca278c4775cc44f60d842fa045db225d0db0823f2936b143c2",
+    "host_sha256": "23e99f4cf3e655ca278c4775cc44f60d842fa045db225d0db0823f2936b143c2",
+    "tensor_sha256": {
+      "embed.W_E": "86431a98a74a6853f14ebf13a3d2b2f6879ead582ebd03d341e65eca63d9f3bb",
+      "pos_embed.W_pos": "eed95268c50e06d156e9409a3140e49f099c045d4b38522388957f6aa3244123",
+      "blocks.0.attn.W_K": "57e5b9464fada7427edffae15b717950d718e0175df0e6f867457df41a526ba4",
+      "blocks.0.attn.W_Q": "0f0f4977d74ea760fbbe6de6de7b2b24ce4836993cc015dff1e4638e4417c4b5",
+      "blocks.0.attn.W_V": "9ec3425a0516238f479b67190b3e09c7390d1b36088ce3ab514f08d45a625656",
+      "blocks.0.attn.W_O": "d89f1b09dc44ecf31fe7d243259d68b3930bb849c319c1bd6f1a250ae6ed25ef",
+      "blocks.0.attn.mask": "57f6515b724307bc0efee981475de668b80b51d4694b8439c73ba8544f05f162",
+      "blocks.0.mlp.W_in": "63016b8d747857265ca178b2ea892d7ac060f972ba0707988bddcc03faf9d94b",
+      "blocks.0.mlp.b_in": "34646849173f6ba9cdbf4852aaf482605c5e7e34472f792185aef621bbf4fa83",
+      "blocks.0.mlp.W_out": "a04e73466adc6f7e59dddb46aaf715f15c0faf21d5d8b919b16a644e8cbbd569",
+      "blocks.0.mlp.b_out": "610ba263aaa40dc6e75e9477e21e5c833482f495802da5b2db341cbfdd4ee645",
+      "unembed.W_U": "267d92cb9e657bc2b508477136d17c979ac2b7d7569a46cfe48ff81a87601883"
+    }
+  },
+  "freeze_sha256": "b72f1e3014abd656c38f25cd44a040fe628cb393d977b52cc69709c295d560d0",
+  "endpoint_path": "experiments/round67_branch_tests_20261006/gelu_mul_s42/B1/checkpoints/gelu_epoch_19999.pth",
+  "endpoint_sha256": "1bd939b1e7b0a83e708be8e2b96a99e6833dd1473842f495b381f79db3c081aa",
+  "frozen_exact": {
+    "blocks.0.mlp.W_in": true,
+    "blocks.0.mlp.b_in": true,
+    "blocks.0.mlp.W_out": true,
+    "blocks.0.mlp.b_out": true
+  },
+  "completed_utc": "2026-10-10T13:49:39.985149+00:00",
+  "endpoint_recomputed": true,
+  "old_checkpoint_count": 87
+}

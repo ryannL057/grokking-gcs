@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this code or evidence."
+type: software
+title: "Where to Look First in Grokking: Code and Reproduction Evidence"
+version: 0.1.0
+repository-code: "https://github.com/ryannL057/grokking-gcs"
+authors:
+  - family-names: Lei
+    given-names: Ruian
+  - family-names: Jiang
+    given-names: Ruoxi
+  - family-names: Vellasco
+    given-names: Marley M. B. R.
+  - family-names: Tanveer
+    given-names: M.
+  - family-names: Xu
+    given-names: Zenglin
+preferred-citation:
+  type: conference-paper
+  title: "Where to Look First in Grokking: Attention and MLP Coherence in Modular Arithmetic"
+  year: 2026
+  authors:
+    - family-names: Lei
+      given-names: Ruian
+    - family-names: Jiang
+      given-names: Ruoxi
+    - family-names: Vellasco
+      given-names: Marley M. B. R.
+    - family-names: Tanveer
+      given-names: M.
+    - family-names: Xu
+      given-names: Zenglin

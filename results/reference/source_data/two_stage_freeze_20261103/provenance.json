@@ -1,0 +1,1083 @@
+{
+  "source_files": [
+    {
+      "run": "gelu_add_s123",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s123/VV/result.json",
+      "copy": "raw/gelu_add_s123/VV.json",
+      "sha256": "11bb44b92e74a30f65b4fe903f2b12dec7d7299f61271e9c3dc12d54aa7d5f15"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s123/VL/result.json",
+      "copy": "raw/gelu_add_s123/VL.json",
+      "sha256": "69c74231a3b2575c3499d864e040d71d770dda86c9a116cb6d13dcd6dd238dd2"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s123/LV/result.json",
+      "copy": "raw/gelu_add_s123/LV.json",
+      "sha256": "875c475972987339107d0862ff12f2a38e887a199098bb6b7cc799b3aa53aca9"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s123/LL/result.json",
+      "copy": "raw/gelu_add_s123/LL.json",
+      "sha256": "f2026c53ea03d258c17d9ff0d921fc92a28e35ff291f0ae9e66bf85bc83c512d"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s123/0L/result.json",
+      "copy": "raw/gelu_add_s123/0L.json",
+      "sha256": "858e7b0729151a5c649381ed946f2f36ca96be952a6d8ca77100de2374f2ad3e"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_add_s123/0V/result.json",
+      "copy": "raw/gelu_add_s123/0V.json",
+      "sha256": "c98df273ef63d5d84f284ed701936ae986cfe05e1642bb4e9080e937cf956fa0"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_add_s123/0V_long/result.json",
+      "copy": "raw/gelu_add_s123/0V_long.json",
+      "sha256": "2452b52618f4754e42b8aade5fec4b0384d562d62e58887c65407f1c21d7cd3b"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s123__B3T.json",
+      "copy": "raw/gelu_add_s123/V_unfrozen.json",
+      "sha256": "55737eefda7862fbf4ddba7bb3fbfbcba8476156a663c829332811fecbeb2aae"
+    },
+    {
+      "run": "gelu_add_s123",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s123__B2.json",
+      "copy": "raw/gelu_add_s123/L_attn_frozen.json",
+      "sha256": "92169995b6ff6468476e447066ed9bd24c33eec21643353ad5a48792faf6bb09"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s42/VV/result.json",
+      "copy": "raw/gelu_add_s42/VV.json",
+      "sha256": "034fa0ec8cc5b8ed16cd7f34362894029b71e536a95fd9080c7bcf1258a21282"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s42/VL/result.json",
+      "copy": "raw/gelu_add_s42/VL.json",
+      "sha256": "eb668847e8868c1fe47ba87533b8ef091a34658cc5dd01faa81ba29ec0c1a8ef"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s42/LV/result.json",
+      "copy": "raw/gelu_add_s42/LV.json",
+      "sha256": "0830f7cebc677b7dbba67eb48ce35d461232ec617fbad0650257a0c5e526c392"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s42/LL/result.json",
+      "copy": "raw/gelu_add_s42/LL.json",
+      "sha256": "868f2444a8faa9cbea723fd8c82d5d2d44af77bce63084f29260c936828f3fcc"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s42/0L/result.json",
+      "copy": "raw/gelu_add_s42/0L.json",
+      "sha256": "616b76c8742c66ab9417587927865d637225c70b062096dee1a0ef4b8a9b6d80"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_add_s42/0V/result.json",
+      "copy": "raw/gelu_add_s42/0V.json",
+      "sha256": "271ea1d1c2930187ce8d27daad217ec649fa4e6e25979d56b96217fea5075259"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_add_s42/0V_long/result.json",
+      "copy": "raw/gelu_add_s42/0V_long.json",
+      "sha256": "47a14111b04c51c55c5a78cdd9e9fdd806099bf6e863a077efa1aa34737ae97d"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s42__B3T.json",
+      "copy": "raw/gelu_add_s42/V_unfrozen.json",
+      "sha256": "30c52d7ccce4f6128512f20fae1c108e416349142ec078e6a19a812722680bc0"
+    },
+    {
+      "run": "gelu_add_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s42__B2.json",
+      "copy": "raw/gelu_add_s42/L_attn_frozen.json",
+      "sha256": "fdcd72fdc5afd653fcd052a6ae15056421111bbb51aa33b946bd685c7cf9953d"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s777/VV/result.json",
+      "copy": "raw/gelu_add_s777/VV.json",
+      "sha256": "9bc96e4c3f535c92a984112a8eb85e4f8d27d0abb153614dbc716edb66815d19"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s777/VL/result.json",
+      "copy": "raw/gelu_add_s777/VL.json",
+      "sha256": "dc8b72be7be235dc1257c681d0c1a0073fb52bb6d12cba76b9e1d0ea4566478a"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s777/LV/result.json",
+      "copy": "raw/gelu_add_s777/LV.json",
+      "sha256": "12292f1a667c189ff1030473bde050f188f41c573c3f0746cbbb5e47f0569f27"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s777/LL/result.json",
+      "copy": "raw/gelu_add_s777/LL.json",
+      "sha256": "4f5ca43a394785408a3ddcb5e9d1b96ac5d4d17a13cabcfcb689d3a26ebbf3e2"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_add_s777/0L/result.json",
+      "copy": "raw/gelu_add_s777/0L.json",
+      "sha256": "a0eae6cdd26c7d1925a954c98e802dd18898833f9a29680133765138ec23480d"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_add_s777/0V/result.json",
+      "copy": "raw/gelu_add_s777/0V.json",
+      "sha256": "65e292243b3d88ed014776c966e64b44c47a6999155189eeba5bb039bf293026"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_add_s777/0V_long/result.json",
+      "copy": "raw/gelu_add_s777/0V_long.json",
+      "sha256": "f2ded39dba0bc67886466bc1f93919aebc64c4c9bb3b0699d9b417bc195fcbf5"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s777__B3T.json",
+      "copy": "raw/gelu_add_s777/V_unfrozen.json",
+      "sha256": "b1c02080d21668a2681326771197c618093bb0bb80fa9d0ca48f5d7c26068759"
+    },
+    {
+      "run": "gelu_add_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_add_s777__B2.json",
+      "copy": "raw/gelu_add_s777/L_attn_frozen.json",
+      "sha256": "131949ff0d48b9f2f4ae42c32558702bf8b65d21406bc391c5b20d425fff3cf1"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s123/VV/result.json",
+      "copy": "raw/gelu_mul_s123/VV.json",
+      "sha256": "22e04a4b3619c61879eb929f4dc3050439c1373a3077fe77ba39557c58d2830a"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s123/VL/result.json",
+      "copy": "raw/gelu_mul_s123/VL.json",
+      "sha256": "747afcfc6a7d89b1303ea5f90e0400580537eb198c9b1e5e15d1e33133eb31ee"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s123/LV/result.json",
+      "copy": "raw/gelu_mul_s123/LV.json",
+      "sha256": "8adb38434ddf84de862968cb891d30ee1f68dcecb5bac51f24780683e191a223"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s123/LL/result.json",
+      "copy": "raw/gelu_mul_s123/LL.json",
+      "sha256": "ed7f00008236f8505da683b80535c48ea04290ecdda4276eef7ef50d380b9319"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s123/0L/result.json",
+      "copy": "raw/gelu_mul_s123/0L.json",
+      "sha256": "043856fb0bf5fc84ceef89996708eb978c2f311a8054159f48d3b1e05af01332"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_mul_s123/0V/result.json",
+      "copy": "raw/gelu_mul_s123/0V.json",
+      "sha256": "941c02ee2b154db3a7364c96ed4bdda0f4ed8cff701d0842d9d0bf616a42d5ee"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_mul_s123/0V_long/result.json",
+      "copy": "raw/gelu_mul_s123/0V_long.json",
+      "sha256": "1c71b57f0661b5f7e8c2e56594bbf7de14e2e5d19dfbbf6cccffacb2a12bc6d7"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s123__B3T.json",
+      "copy": "raw/gelu_mul_s123/V_unfrozen.json",
+      "sha256": "26bc2ff7d74baf1fc38a2b6d6449c5bab56c5125c8a3784177ed1e32d8cdf4d3"
+    },
+    {
+      "run": "gelu_mul_s123",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s123__B2.json",
+      "copy": "raw/gelu_mul_s123/L_attn_frozen.json",
+      "sha256": "43dc106b39d2c19c07c921f76e3c93352fd474282db1839cd74e1f862f1a20a8"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/VV/result.json",
+      "copy": "raw/gelu_mul_s42/VV.json",
+      "sha256": "f90c159f36a7ff42030e68c47a7884957bd5f2f70edaac23154d9a84d63d57be"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/VL/result.json",
+      "copy": "raw/gelu_mul_s42/VL.json",
+      "sha256": "53234fa2b1f9d097629546e08908a353bd99bf03b7b3e873b20f18aeca7c6123"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/LV/result.json",
+      "copy": "raw/gelu_mul_s42/LV.json",
+      "sha256": "d40131db05fdabb39ca40bebe7a873e5cd2aa3769eeb8dce44a6b8997775eb4c"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/LL/result.json",
+      "copy": "raw/gelu_mul_s42/LL.json",
+      "sha256": "600285bbd37a6cebac1328f5bc3bc0d69b9247c58907703830761131e7f18c45"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s42/0L/result.json",
+      "copy": "raw/gelu_mul_s42/0L.json",
+      "sha256": "3027d94075b6a3392b8fab6a47403262ca0049d7ffb62224ad8fa3434ef03306"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_mul_s42/0V/result.json",
+      "copy": "raw/gelu_mul_s42/0V.json",
+      "sha256": "f17edb4dc2333115c96d5868f8906ddc1ad3d49c983efba3e4f284a151b2a36b"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_mul_s42/0V_long/result.json",
+      "copy": "raw/gelu_mul_s42/0V_long.json",
+      "sha256": "a7e2b791f41672886731eb3e6c741afe3425bef1280bd302a710696a87ac0cff"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s42__B3T.json",
+      "copy": "raw/gelu_mul_s42/V_unfrozen.json",
+      "sha256": "e3df2d82610124a38a99fb7a9ccc8cac93b943fca7fda28122b6ef0af821cd73"
+    },
+    {
+      "run": "gelu_mul_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s42__B2.json",
+      "copy": "raw/gelu_mul_s42/L_attn_frozen.json",
+      "sha256": "244d04a78764aae3dc9fc12ad11ce8a97b634f058bd48e4d55c3f0ea6de3ee9a"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s777/VV/result.json",
+      "copy": "raw/gelu_mul_s777/VV.json",
+      "sha256": "5a3a6b3951d46edbfa734000a97b671edab6ba21b2c6b31855c9823c618f3f30"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s777/VL/result.json",
+      "copy": "raw/gelu_mul_s777/VL.json",
+      "sha256": "6940b8142a6e055d04b354763c42cbaf467932ce3ce49cbc37f9983146c2aff4"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s777/LV/result.json",
+      "copy": "raw/gelu_mul_s777/LV.json",
+      "sha256": "8d62a87521136315373028e6601f86b8026a71868b05746885d11a05725106d0"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s777/LL/result.json",
+      "copy": "raw/gelu_mul_s777/LL.json",
+      "sha256": "14804679551b5cb919852ec27d4999a364417e780f3ac880fd3bbf4ae686af54"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/gelu_mul_s777/0L/result.json",
+      "copy": "raw/gelu_mul_s777/0L.json",
+      "sha256": "8712f5cd5adb16832dcabd1e326238f06379513286aec72316e88a2a9d549cdd"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/gelu_mul_s777/0V/result.json",
+      "copy": "raw/gelu_mul_s777/0V.json",
+      "sha256": "30636da312bb9cc6518a844c36d82014631c4d1e0bba6b255375925a37f372c1"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/gelu_mul_s777/0V_long/result.json",
+      "copy": "raw/gelu_mul_s777/0V_long.json",
+      "sha256": "567c0270e405bc25445235dee6a24b15b084caea2904bbb6694568a3e995577e"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s777__B3T.json",
+      "copy": "raw/gelu_mul_s777/V_unfrozen.json",
+      "sha256": "7c367cbd61bb5fc1cf1791eeda1c6a6c440a916f730840075a665d0eeea71508"
+    },
+    {
+      "run": "gelu_mul_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/gelu_mul_s777__B2.json",
+      "copy": "raw/gelu_mul_s777/L_attn_frozen.json",
+      "sha256": "66dd5664f42f5563064fbdeb1b5f274117f71d67f5dd2f643bc24c3f31e8f368"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s123/VV/result.json",
+      "copy": "raw/relu_add_s123/VV.json",
+      "sha256": "b6ca2e71fd8bbcbc6a60c3633d2f1b13557cdffb9821736bab175f092130727f"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s123/VL/result.json",
+      "copy": "raw/relu_add_s123/VL.json",
+      "sha256": "e54ec8f17eafe37a7222c1ffb33804626ae5fc391db2444893fb1949a55c53bc"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s123/LV/result.json",
+      "copy": "raw/relu_add_s123/LV.json",
+      "sha256": "590f6b0bb1d581581939b48e030bd8a364644f0b883bba8ef12c400141e4d7e8"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s123/LL/result.json",
+      "copy": "raw/relu_add_s123/LL.json",
+      "sha256": "b93967203b208719152961ab47280f3f175c5c1b7dbf4ba87fcedadaa8d9099f"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s123/0L/result.json",
+      "copy": "raw/relu_add_s123/0L.json",
+      "sha256": "29da67891743b0103c4ef8c8c28e4603d7a7e402d43415a4fcbad59cda2f2dc6"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_add_s123/0V/result.json",
+      "copy": "raw/relu_add_s123/0V.json",
+      "sha256": "ad9b7f1e096497c58a09ae9957d73d1f9b354b9b428feaac762fcfddbcc24aac"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_add_s123/0V_long/result.json",
+      "copy": "raw/relu_add_s123/0V_long.json",
+      "sha256": "16ff9012f056df97130bbe8f67c6915f262777c5d0bf473929f6853134da2c6f"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s123__B3T.json",
+      "copy": "raw/relu_add_s123/V_unfrozen.json",
+      "sha256": "d0ed9d732e8abe9124f00268b8dda69092bbeffa778fc70d20bc4e7e5b3e2dd7"
+    },
+    {
+      "run": "relu_add_s123",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s123__B2.json",
+      "copy": "raw/relu_add_s123/L_attn_frozen.json",
+      "sha256": "ae7ab8cecf6120450aa1c727344338dbbc342a00a7c3480c711f334df9014930"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s42/VV/result.json",
+      "copy": "raw/relu_add_s42/VV.json",
+      "sha256": "33c0f473287cb8c4499950c75623313f892f253131586c68513fa12d90525373"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s42/VL/result.json",
+      "copy": "raw/relu_add_s42/VL.json",
+      "sha256": "8924fe1d31dd31ddaa5a695698aceedc58b9287073427eef33fc90dccd1f4076"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s42/LV/result.json",
+      "copy": "raw/relu_add_s42/LV.json",
+      "sha256": "2f8c60fc3f8fc4b4458317b6e94812a020b95d0d28e8f99c56028211bbf50281"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s42/LL/result.json",
+      "copy": "raw/relu_add_s42/LL.json",
+      "sha256": "6540959a0794ada4b84a9e74f996fba7f79e35def03ffb8fe2d262beebcc9e53"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s42/0L/result.json",
+      "copy": "raw/relu_add_s42/0L.json",
+      "sha256": "cc8c501c2b40a3b83d614045a15503c9693f84d7349dc51ee5ea71a5c482b482"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_add_s42/0V/result.json",
+      "copy": "raw/relu_add_s42/0V.json",
+      "sha256": "a580d56c7e46f85201258191b25a0b010adfb3fa4f692b2863860648449decef"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_add_s42/0V_long/result.json",
+      "copy": "raw/relu_add_s42/0V_long.json",
+      "sha256": "715681355c68960e14dbd731053a600621a02c3ee1d8bf47b788dd370a12faa3"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s42__B3T.json",
+      "copy": "raw/relu_add_s42/V_unfrozen.json",
+      "sha256": "9b1b7fb52857c0e3f139d9c9a49396e518f0495dc1bd9e87d19751aeb2ca612e"
+    },
+    {
+      "run": "relu_add_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s42__B2.json",
+      "copy": "raw/relu_add_s42/L_attn_frozen.json",
+      "sha256": "9bd83e3989270f8dc9a3707627eca9d9238702ee0e9412606dd51347c59b4c72"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s777/VV/result.json",
+      "copy": "raw/relu_add_s777/VV.json",
+      "sha256": "e15fe9eb86eb3c18f572626fc3b6d2354b75348169618d1e6f07751dab953072"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s777/VL/result.json",
+      "copy": "raw/relu_add_s777/VL.json",
+      "sha256": "ef727c3d22ad98c55772ca458dae8eb37af796cb2cf628eb1ffa5992b0cb5565"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s777/LV/result.json",
+      "copy": "raw/relu_add_s777/LV.json",
+      "sha256": "c37297a9377c4d378b1e31d6e9aef1e34d63b0c4a00d42ec12eae14d33c5db8e"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s777/LL/result.json",
+      "copy": "raw/relu_add_s777/LL.json",
+      "sha256": "bb58ac322fd7c27781c42e76f4f8f895ed3f69a2a08ab45480669511f22c04d3"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_add_s777/0L/result.json",
+      "copy": "raw/relu_add_s777/0L.json",
+      "sha256": "5af4292f02fa36bc13e95259cbf5b3f6c21d8e46c16dd74ff59f9afaca46da13"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_add_s777/0V/result.json",
+      "copy": "raw/relu_add_s777/0V.json",
+      "sha256": "a4f0b0a9625062834aaa675f25e98dd0fb02c9a16880d92b4733fa7fd900271f"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_add_s777/0V_long/result.json",
+      "copy": "raw/relu_add_s777/0V_long.json",
+      "sha256": "262e34afea2300c0cacf918730218d55af06f3331371167898af06981dc5f626"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s777__B3T.json",
+      "copy": "raw/relu_add_s777/V_unfrozen.json",
+      "sha256": "ffb0cde80939b819425bd627826dcce032adad0d0241c9b0a9958dc36de6b1bd"
+    },
+    {
+      "run": "relu_add_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_add_s777__B2.json",
+      "copy": "raw/relu_add_s777/L_attn_frozen.json",
+      "sha256": "b989c38de379cde72b8c5f9240313dfce70304356bd3a8df44b16ba72b4fae53"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s123/VV/result.json",
+      "copy": "raw/relu_mul_s123/VV.json",
+      "sha256": "8cd0fd34b9033936e48d48f535fc2f82076045f18a7c3129c8040406390f2f7e"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s123/VL/result.json",
+      "copy": "raw/relu_mul_s123/VL.json",
+      "sha256": "fe7e018927ece23ed29c78c13bd065ac0ff7f3903f594c27020dfa0683fb4428"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s123/LV/result.json",
+      "copy": "raw/relu_mul_s123/LV.json",
+      "sha256": "4d3e36e909718f88966daca89234f621b7b619dc5b12e79a3c688478801bee82"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s123/LL/result.json",
+      "copy": "raw/relu_mul_s123/LL.json",
+      "sha256": "0a55f13c381ac9a26e6d2dd7e9e298b1cc9de250e7d113dd5074fde36a0b9825"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s123/0L/result.json",
+      "copy": "raw/relu_mul_s123/0L.json",
+      "sha256": "97a300414602fc8b91f4b6fb84eadf9c9ceb9f4e5222077804858741af3d02ec"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_mul_s123/0V/result.json",
+      "copy": "raw/relu_mul_s123/0V.json",
+      "sha256": "a7d4f68c4bc1349c0f0959011b84ed889275af692d9e565eb64b6a128639dcc1"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_mul_s123/0V_long/result.json",
+      "copy": "raw/relu_mul_s123/0V_long.json",
+      "sha256": "a766693840e3db49edb7aaa264cafd22a95c218193478bc7fc0aa2680a03390b"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s123__B3T.json",
+      "copy": "raw/relu_mul_s123/V_unfrozen.json",
+      "sha256": "f55df04dbfd6145d573c2ed128bde0bd087817e1e5976fc9d3e080cd42dd3ed6"
+    },
+    {
+      "run": "relu_mul_s123",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s123__B2.json",
+      "copy": "raw/relu_mul_s123/L_attn_frozen.json",
+      "sha256": "a3e073de0d534a5c4fab01a3217204a47a06def00ccf6c340df0387a0ccfb907"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s42/VV/result.json",
+      "copy": "raw/relu_mul_s42/VV.json",
+      "sha256": "537499a241a4cd94f26fe845e7169574603560158f823e0e3096730f872b7a52"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s42/VL/result.json",
+      "copy": "raw/relu_mul_s42/VL.json",
+      "sha256": "24f849d223d6d257c46f39190b7eaad976fa15a55d282f1bcc94934cb4dec540"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s42/LV/result.json",
+      "copy": "raw/relu_mul_s42/LV.json",
+      "sha256": "2b2f263bd563a8a361d747042e73cf39363e46a5af3228b48f3f8dc67f66fe3c"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s42/LL/result.json",
+      "copy": "raw/relu_mul_s42/LL.json",
+      "sha256": "59fc5a303a72c6ac00480b1209d7a0d01b6a4c22f8e99ab6194c8190e1caaa46"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s42/0L/result.json",
+      "copy": "raw/relu_mul_s42/0L.json",
+      "sha256": "d9fabe4832f0eceaef4bb67d71c78774cd07520d67234113a565d249921c60c1"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_mul_s42/0V/result.json",
+      "copy": "raw/relu_mul_s42/0V.json",
+      "sha256": "9e242f5cf7f284ed9c3f510cf5b8ec0dd956939cb28e235623887afd4f47b6b1"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_mul_s42/0V_long/result.json",
+      "copy": "raw/relu_mul_s42/0V_long.json",
+      "sha256": "0eb939f593be9d535abd2d8cd7ef0382e9e1fb4c7e05a9ba223970666b1e37e8"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s42__B3T.json",
+      "copy": "raw/relu_mul_s42/V_unfrozen.json",
+      "sha256": "f69a129ce1835b18071725e6ce28cd89d2a4eff97a2db6d186c3e9b9c056d8f3"
+    },
+    {
+      "run": "relu_mul_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s42__B2.json",
+      "copy": "raw/relu_mul_s42/L_attn_frozen.json",
+      "sha256": "d8a4e357259e24f669ac03abae3ee1282d2d88f24b68c18d87f15d770216c074"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/VV/result.json",
+      "copy": "raw/relu_mul_s777/VV.json",
+      "sha256": "7f29608f622df15a057ad17eff9c1233279aa7707b18be9052d96e9a7345f25c"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/VL/result.json",
+      "copy": "raw/relu_mul_s777/VL.json",
+      "sha256": "1b5e92234cc032db730b5438e676cc63ef62d75a49fbdc12db5fbfbe3b1ac19c"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/LV/result.json",
+      "copy": "raw/relu_mul_s777/LV.json",
+      "sha256": "76ce0a3a7c8dd7b80caf0e429766c5857043f5c27441f20b8bb78181c17913c1"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/LL/result.json",
+      "copy": "raw/relu_mul_s777/LL.json",
+      "sha256": "82083fffeb83ef1c10bdcce255249d0558421489f9a6c359838cefd72a57b8d0"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/relu_mul_s777/0L/result.json",
+      "copy": "raw/relu_mul_s777/0L.json",
+      "sha256": "9eeceeeb82978522125efdab6912b6a043e0090986437f265df698b8e84f3120"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/relu_mul_s777/0V/result.json",
+      "copy": "raw/relu_mul_s777/0V.json",
+      "sha256": "da7995e02f63e5a4b5bc83912c4f3fe7b4cc9544c87eef6882eef05881dc1a4b"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/relu_mul_s777/0V_long/result.json",
+      "copy": "raw/relu_mul_s777/0V_long.json",
+      "sha256": "ed29531e1650c974819d3a26cbac97c945b17bddffd2216293d7e27decd878a3"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s777__B3T.json",
+      "copy": "raw/relu_mul_s777/V_unfrozen.json",
+      "sha256": "e71f00aea6c6cb603cc13fbf8caebb8522c30819cef91a074c650b8f8cccfd56"
+    },
+    {
+      "run": "relu_mul_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/relu_mul_s777__B2.json",
+      "copy": "raw/relu_mul_s777/L_attn_frozen.json",
+      "sha256": "27b38175f1d9366106d5e5166f6d67a173beda408a615d6f4a0e84da7e5d489d"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s42/VV/result.json",
+      "copy": "raw/silu_add_s42/VV.json",
+      "sha256": "4007d9fa1c1635275fb1f14a90944f867ba13e50467280978bb9066e3c4f87be"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s42/VL/result.json",
+      "copy": "raw/silu_add_s42/VL.json",
+      "sha256": "1343b0dcb710692cf7318d588597abaa941e82566215dea4f9c267079a11a7d9"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s42/LV/result.json",
+      "copy": "raw/silu_add_s42/LV.json",
+      "sha256": "7b4c73e880141b1e4286b18c17ffa6353617e592e8c1fc95cddcdf135294703a"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s42/LL/result.json",
+      "copy": "raw/silu_add_s42/LL.json",
+      "sha256": "7b523bde21a26d0b6571f254740f721e4ac128c5df6531be8e8f7f1da3552fe1"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s42/0L/result.json",
+      "copy": "raw/silu_add_s42/0L.json",
+      "sha256": "e75d2f50dc76db44bfb2eecc388e97bd552227d92e28b391b879685b1255f48a"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/silu_add_s42/0V/result.json",
+      "copy": "raw/silu_add_s42/0V.json",
+      "sha256": "b591a02d67d4c7e45ff153ee54835e5b602b13c33d98368a42d6270c15d6ed7f"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/silu_add_s42/0V_long/result.json",
+      "copy": "raw/silu_add_s42/0V_long.json",
+      "sha256": "edf263e38f41f3589e436c1c7ebb489131e7ad04a5a2299af00fd4a16da42728"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_add_s42__B3T.json",
+      "copy": "raw/silu_add_s42/V_unfrozen.json",
+      "sha256": "436e6a012648e1ee6d4a340384de14122c7a88e9dfb49bb181260f5f06705a15"
+    },
+    {
+      "run": "silu_add_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_add_s42__B2.json",
+      "copy": "raw/silu_add_s42/L_attn_frozen.json",
+      "sha256": "54d965180819472fd7552554844ab06e4964e4352f11a641d5f8d1616c1421d8"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s777/VV/result.json",
+      "copy": "raw/silu_add_s777/VV.json",
+      "sha256": "e097502209e3fc4f44bcad5654d9fc69604c43a1fc5b8e876e229a35df674009"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s777/VL/result.json",
+      "copy": "raw/silu_add_s777/VL.json",
+      "sha256": "5602e7bc45130d3418c3ae48448f8faba4a1cfa239f872635dec144ef1ae6291"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s777/LV/result.json",
+      "copy": "raw/silu_add_s777/LV.json",
+      "sha256": "e44f60e78839bec666ff7339facde2a9d852e354fc3930825ea422ab6869c90a"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s777/LL/result.json",
+      "copy": "raw/silu_add_s777/LL.json",
+      "sha256": "a808f21ab0606481bc723d597d29cdf375081e4eb8f92ea4d921f7c04735e476"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_add_s777/0L/result.json",
+      "copy": "raw/silu_add_s777/0L.json",
+      "sha256": "c17d3784887853b6a8c4fdb563aaa0f733959560dcd4ba0cbc8832a12a81462a"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/silu_add_s777/0V/result.json",
+      "copy": "raw/silu_add_s777/0V.json",
+      "sha256": "2b40e1fc9fa7ada8d8eda227ab480deb80ae0fb0fd9cf1996d021685cdf185f1"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/silu_add_s777/0V_long/result.json",
+      "copy": "raw/silu_add_s777/0V_long.json",
+      "sha256": "8e86ac7c1b425f38cae7fab97ee858e39822569549fa6ae20d0fbb1772f122cf"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_add_s777__B3T.json",
+      "copy": "raw/silu_add_s777/V_unfrozen.json",
+      "sha256": "5c239735620b393ec7757c3b4e3c16a7fa54743eff08f51d8b6cbed61644702a"
+    },
+    {
+      "run": "silu_add_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_add_s777__B2.json",
+      "copy": "raw/silu_add_s777/L_attn_frozen.json",
+      "sha256": "672f3279464b5581354cec87d159de06077779bb5fd7870f880c0533fb8866ba"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s123/VV/result.json",
+      "copy": "raw/silu_mul_s123/VV.json",
+      "sha256": "67d79e519c14223b529d88b69514dd56a32ecfcb0e342b7fb87622450ab2dc25"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s123/VL/result.json",
+      "copy": "raw/silu_mul_s123/VL.json",
+      "sha256": "21c9371b89668ae4250bddd3318766740b7ccdc14f04d6291ca4e7c2e0c33fa7"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s123/LV/result.json",
+      "copy": "raw/silu_mul_s123/LV.json",
+      "sha256": "64f6a83886675d135a02ff05f5b024b23053bd93c481f2a69a44b4b6edd1ebef"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s123/LL/result.json",
+      "copy": "raw/silu_mul_s123/LL.json",
+      "sha256": "a9717b842b73de8ee82950c6b31c23f6280f72d986e026d135a9a4d4849a1fc3"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s123/0L/result.json",
+      "copy": "raw/silu_mul_s123/0L.json",
+      "sha256": "49fda9067568b3f40046aa2d9a50a83423f55005095e7c26511ceece953b5ffc"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/silu_mul_s123/0V/result.json",
+      "copy": "raw/silu_mul_s123/0V.json",
+      "sha256": "044ce09bbd0921c449a464019d1bc945c24c2a1cc90c372ead6747260ad2901f"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/silu_mul_s123/0V_long/result.json",
+      "copy": "raw/silu_mul_s123/0V_long.json",
+      "sha256": "56f3d481560e329574e5941b46e2bbfa2870372e1c7035f0c09b9468fb751183"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s123__B3T.json",
+      "copy": "raw/silu_mul_s123/V_unfrozen.json",
+      "sha256": "c4e14304c4a070558a380ebd6c30da588c3b82cf58e81af608a6fd231ac6a747"
+    },
+    {
+      "run": "silu_mul_s123",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s123__B2.json",
+      "copy": "raw/silu_mul_s123/L_attn_frozen.json",
+      "sha256": "0c553b2eedebf4be97acabb2ccf908519b31f82c40f5775d58f98e8ecc662b92"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s42/VV/result.json",
+      "copy": "raw/silu_mul_s42/VV.json",
+      "sha256": "cac183d56bafbd488aa22d95714c7c0ad5ad0df8f73b5b45e400bbb095c08176"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s42/VL/result.json",
+      "copy": "raw/silu_mul_s42/VL.json",
+      "sha256": "74f12d74c95e1443a091a70806eef741f8b7a8a267431aa247d31c3a39089e61"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s42/LV/result.json",
+      "copy": "raw/silu_mul_s42/LV.json",
+      "sha256": "cab1c872528d4949839d26b49a9792dde07d198732be48285ec63126495ae931"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s42/LL/result.json",
+      "copy": "raw/silu_mul_s42/LL.json",
+      "sha256": "f15284528b773e21ee818369f50e97a6c83fc60282fd77c648c2798ebbc99c62"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s42/0L/result.json",
+      "copy": "raw/silu_mul_s42/0L.json",
+      "sha256": "7a09c81c84e61a6a55660158c3007f3967435c2172ad898f8791f93021cc7c11"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/silu_mul_s42/0V/result.json",
+      "copy": "raw/silu_mul_s42/0V.json",
+      "sha256": "3c215b195212e9102c84632666b041d1b8368d9861a5b784b85b16318da7161b"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/silu_mul_s42/0V_long/result.json",
+      "copy": "raw/silu_mul_s42/0V_long.json",
+      "sha256": "32478990a768decd6dad27b05893b6514392433114d7b2a06ffa47ee8ed22a9d"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s42__B3T.json",
+      "copy": "raw/silu_mul_s42/V_unfrozen.json",
+      "sha256": "737cb6b17e380051057946b7af670f5e95755f23a8280aeb53bbe30983720671"
+    },
+    {
+      "run": "silu_mul_s42",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s42__B2.json",
+      "copy": "raw/silu_mul_s42/L_attn_frozen.json",
+      "sha256": "8b8608553d49a969583cf1e7c3f4486665df54abad3d71ba4e35cc12b7858ab4"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "VV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s777/VV/result.json",
+      "copy": "raw/silu_mul_s777/VV.json",
+      "sha256": "33ecce655607e527dae9831485198a422562d1090818e1ab0f3e40d9e2ef060b"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "VL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s777/VL/result.json",
+      "copy": "raw/silu_mul_s777/VL.json",
+      "sha256": "5254dca80ab65d581ca562ac2d4fb105a33459707b47b8e043c0ff6ce35f757f"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "LV",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s777/LV/result.json",
+      "copy": "raw/silu_mul_s777/LV.json",
+      "sha256": "101dc75dcbe8b0bd4cef4e23fc6ae7c905f8dc48e3b4d52c71801808215afb0a"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "LL",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s777/LL/result.json",
+      "copy": "raw/silu_mul_s777/LL.json",
+      "sha256": "09d920ac1ccedca03e6358c68f3e7fa89829eba632ff6b12e76b4dbaf5de8895"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "0L",
+      "source": "experiments/insight_five_cell_freeze_20261010/silu_mul_s777/0L/result.json",
+      "copy": "raw/silu_mul_s777/0L.json",
+      "sha256": "98ac28690f34755b2ce9bc8eb219f5d9ad8bed66c5f357756a0849efb3cbe283"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "0V",
+      "source": "experiments/followup_20261018/silu_mul_s777/0V/result.json",
+      "copy": "raw/silu_mul_s777/0V.json",
+      "sha256": "1ac3048990d19a0f2143b67d96a9098826d21e35c3d26c236a0e077dd07eeeb8"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "0V_long",
+      "source": "experiments/mlp_seed_20261019/silu_mul_s777/0V_long/result.json",
+      "copy": "raw/silu_mul_s777/0V_long.json",
+      "sha256": "69ff2fdb9b674cb49b12e626930436a102d3dbcb1551c7dcbbdea38a3c904f75"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "V_unfrozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s777__B3T.json",
+      "copy": "raw/silu_mul_s777/V_unfrozen.json",
+      "sha256": "5c1d9272abac5e905a781572395ddc9b457988d80d4c5920029f99179298517e"
+    },
+    {
+      "run": "silu_mul_s777",
+      "arm": "L_attn_frozen",
+      "source": "paper_versions/neurips_2026_camera_ready_revision_20260929/source_data/round67/branches/silu_mul_s777__B2.json",
+      "copy": "raw/silu_mul_s777/L_attn_frozen.json",
+      "sha256": "cbc130756134759ca0f0d2341e35f7580aa37d32abf35ef99c5e84e4e5bea4bd"
+    }
+  ],
+  "record_dates": [
+    "2026-10-06",
+    "2026-10-10",
+    "2026-10-18",
+    "2026-10-19"
+  ],
+  "post_rebuttal": true,
+  "training_rerun_during_revision": false
+}
