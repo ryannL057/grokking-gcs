@@ -55,7 +55,7 @@ def main(root: Path,argv=None) -> int:
             record.update(status='incomplete' if item['status']=='missing_original_input' else 'failed',error=str(error))
             print(ident,record['status'],str(error)[:300],flush=True)
         record['seconds']=round(time.monotonic()-started,3);reports.append(record)
-    report={'paper_sha256':json.loads((root/'manifests/paper_map.json').read_text())['paper_sha256'],
+    report={'paper':json.loads((root/'manifests/paper_map.json').read_text())['paper'],
             'complete':all(r['status']=='passed' for r in reports),'targets':reports}
     (output/'report.json').write_text(json.dumps(report,indent=2)+'\n')
     return 0 if report['complete'] else 1

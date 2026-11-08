@@ -54,7 +54,7 @@ Unless a command's help says otherwise, its input paths are relative to the data
 | Task algebra / sitewise symmetry | `measure_equivariance`, `analyze_swap_symmetry_sites`, `sitewise_temporal_symmetry_acquisition` | All 36 planned endpoints; explicit p97 checkpoint for the counterexample; 17-run temporal sites |
 | Activation patch | `activation_patch_commutative` | Commutative 17-run cohort, matching donor events |
 | Alternative donors / recovery | `run_selected_donor_surgery`, `continuation_surgery_recovery` | Four donor rules; include budgets 0,1,5,10,20,50,100,200,500,1000 |
-| Mechanistic benchmark | `run_all_window_intervention_yield`, `run_rebuttal_donor_yield_surgery`, `analyze_gcs_dynamic_proximity_controls` | Legal all-window donors, CKA/L2/GCS and intervention rows |
+| Mechanistic benchmark | `run_all_window_intervention_yield`, `run_rebuttal_donor_yield_surgery`, `analyze_gcs_dynamic_proximity_controls` | Donors at all complete-window centers, CKA/L2/GCS and intervention rows |
 | Fourier / single-run example | `compare_gcs_nanda_measures`, `circuit_case_study_addition` | Five specified addition runs; per-checkpoint dynamic frequencies |
 | Truncated endpoints | `select_near_solved_endpoints_20260724`, `run_near_solved_endpoint_queue_20260724`, `evaluate_near_solved_endpoint_queue_20260724` | Generate and verify selection manifest before measurement |
 | LayerNorm / group / attention-rate pilots | `train_transformer`, `train_group_comp` | Set `--use-ln`, `--group`, or `--attention-rate` explicitly; pilot cohorts remain separate |

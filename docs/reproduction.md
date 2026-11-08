@@ -37,8 +37,8 @@ These commands use saved trajectories, measurements or metadata. The calculation
 | Fourier control | Recomputes level, difference, and time-adjusted correlations from five trajectories |
 | Null controls | Aggregates 1,000 saved null counts; does not rerun every IAAFT draw |
 | Other reference/scope pilots | Aggregates saved per-run measurements and flags; does not recompute every Jacobian |
-| Prompt-source pilot | Recomputes grok anchors and path counts from 36 recovered trajectories and 12 training-accuracy logs in `app_reference_variants` |
-| Neighbor-label audit | Recomputes means and enrichment ratios from 11,490 original per-prompt fractions; uses the labeled saved random baseline |
+| Input-source pilot | Recomputes grok anchors and path counts from 36 recovered trajectories and 12 training-accuracy logs in `app_reference_variants` |
+| Neighbor-label audit | Recomputes means and enrichment ratios from 11,490 original per-input fractions; uses the labeled saved random baseline |
 | Uniform-attention control | Summarizes eight runs from their actual accuracy and GCS logs; exposes different horizons and missing early logs |
 | Tables 5/7 | Exports recorded configuration and timing metadata; does not benchmark the current machine |
 
@@ -55,7 +55,7 @@ python scripts/reproduce.py --target gap_reference_sampling \
   --target gap_uniform_factorial --output outputs/recovered-controls
 ```
 
-Both commands return exit code `0` when successful; the `gap_` names are retained for compatibility. The neighbor report separates recomputed per-prompt means from the saved random baseline. The uniform-attention report lists each run's configured horizon, last checkpoint, accuracy and GCS intervals, and threshold observations. For logs that begin above 0.95, `threshold_status` is `left_censored` and `threshold_epoch` is null: the original crossing time is unknown.
+Both commands return exit code `0` when successful; the `gap_` names are retained for compatibility. The neighbor report separates recomputed per-input means from the saved random baseline. The uniform-attention report lists each run's configured horizon, last checkpoint, accuracy and GCS intervals, and threshold observations. For logs that begin above 0.95, `threshold_status` is `left_censored` and `threshold_epoch` is null: the original crossing time is unknown.
 
 ## Reading the outputs
 

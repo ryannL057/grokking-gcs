@@ -1,16 +1,16 @@
 {
-  "paper_sha256": "68e89c480607d5b6c9e7497800e145ae7805f4136d9ca0ffbb4736a4518ebd1a",
+  "paper": "NeurIPS 2026 camera-ready",
   "targets": [
     {
       "id": "fig01",
       "kind": "figure",
       "number": 1,
-      "page": 3,
+      "page": 2,
       "labels": [
         "fig:workflow_schematic",
         "fig:schedule_example"
       ],
-      "title": "Path coherence and workflow overview",
+      "title": "The score and its trajectories",
       "inputs": [
         "results/reference/source_data/figure1_example_selection.json",
         "results/reference/source_data/figure1_run_trajectories.csv",
@@ -30,7 +30,7 @@
       "labels": [
         "fig:depth_trajectories"
       ],
-      "title": "depth trajectories",
+      "title": "Attention and MLP trajectories across depths",
       "inputs": [
         "results/reference/source_data/reviewed_depth_curves/depth_curves.npz",
         "results/reference/source_data/reviewed_depth_curves/provenance.json"
@@ -49,7 +49,7 @@
       "labels": [
         "fig:checkpoint_surgery"
       ],
-      "title": "checkpoint surgery",
+      "title": "Accuracy after activation patching and parameter resets",
       "inputs": [
         "results/reference/source_data/round10/activation_patch_per_run.csv",
         "results/reference/source_data/round10/figure3_provenance.json",
@@ -91,7 +91,7 @@
       "labels": [
         "fig:probe_positions"
       ],
-      "title": "probe positions",
+      "title": "Changing the probed token position changes the measured response",
       "inputs": [
         "results/reference/source_data/reviewed_display_repairs/probe_aggregate.csv",
         "results/reference/source_data/reviewed_display_repairs/probe_artists.npz"
@@ -110,7 +110,7 @@
       "labels": [
         "fig:reference_trajectories"
       ],
-      "title": "reference trajectories",
+      "title": "Coherence trajectories with three references from the same run",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/reference_trajectories.npz"
       ],
@@ -128,7 +128,7 @@
       "labels": [
         "fig:probe_dimension"
       ],
-      "title": "probe dimension",
+      "title": "Number of probe directions",
       "inputs": [
         "results/reference/evidence/ablations/d_trajectories.json",
         "results/reference/evidence/ablations/provenance.json"
@@ -147,7 +147,7 @@
       "labels": [
         "fig:sample_size"
       ],
-      "title": "sample size",
+      "title": "Number of sampled inputs",
       "inputs": [
         "results/reference/evidence/ablations/n_trajectories.json",
         "results/reference/evidence/ablations/provenance.json"
@@ -166,7 +166,7 @@
       "labels": [
         "fig:neighbor_count"
       ],
-      "title": "neighbor count",
+      "title": "Number of neighbors",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/neighbor_count.npz"
       ],
@@ -184,7 +184,7 @@
       "labels": [
         "fig:detached_attention"
       ],
-      "title": "detached attention",
+      "title": "Removing the derivative through attention",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/detached_attention.npz"
       ],
@@ -202,7 +202,7 @@
       "labels": [
         "fig:cohort_mlp"
       ],
-      "title": "cohort mlp",
+      "title": "MLP trajectories by activation",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/cohort_mlp.npz"
       ],
@@ -220,7 +220,7 @@
       "labels": [
         "fig:cohort_attention"
       ],
-      "title": "cohort attention",
+      "title": "Attention trajectories by task",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/cohort_attention.npz"
       ],
@@ -238,7 +238,7 @@
       "labels": [
         "fig:constant_attention"
       ],
-      "title": "uniform attention",
+      "title": "MLP coherence recovery with learned or uniform attention",
       "inputs": [
         "results/reference/source_data/reviewed_display_repairs/attention_controls.npz"
       ],
@@ -256,7 +256,7 @@
       "labels": [
         "fig:attention_maps"
       ],
-      "title": "attention maps",
+      "title": "Attention patterns at five checkpoints",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/attention_maps.npz"
       ],
@@ -274,7 +274,7 @@
       "labels": [
         "fig:matched_mlp"
       ],
-      "title": "matched mlp",
+      "title": "Parameter-count-matched MLP resets for each run",
       "inputs": [
         "results/reference/source_data/reviewed_appendix_figures/matched_mlp.npz"
       ],
@@ -292,7 +292,7 @@
       "labels": [
         "tab:diagnostics"
       ],
-      "title": "diagnostics",
+      "title": "Attention and MLP trajectory counts across model depths",
       "inputs": [
         "results/reference/primary/training_metrics.csv.gz",
         "results/reference/source_data/round12/schedule_protocol_per_run.csv",
@@ -314,7 +314,7 @@
       "labels": [
         "tab:joint_reference"
       ],
-      "title": "joint reference",
+      "title": "Trajectory counts under different references",
       "inputs": [
         "results/reference/source_data/round13/cross_seed_joint_per_pair.csv",
         "results/reference/source_data/round13/reference_joint_per_run.csv"
@@ -333,7 +333,7 @@
       "labels": [
         "tab:fixed_mlp_continuation"
       ],
-      "title": "fixed mlp continuation",
+      "title": "Continued learning with a fixed MLP",
       "inputs": [
         "results/reference/source_data/two_stage_freeze_20261103/per_run.csv",
         "results/reference/source_data/two_stage_freeze_20261103/provenance.json",
@@ -506,7 +506,7 @@
       "labels": [
         "tab:workflow_selection"
       ],
-      "title": "workflow selection",
+      "title": "Changes captured by selected windows on held-out runs",
       "inputs": [
         "results/reference/evidence/workflow/direct_j.csv",
         "results/reference/evidence/workflow/joined.csv.gz"
@@ -525,7 +525,7 @@
       "labels": [
         "tab:experiment_configs"
       ],
-      "title": "experiment configs",
+      "title": "Evidence sets, their scope and where they are reported",
       "inputs": [
         "results/reference/metadata/table05.json"
       ],
@@ -543,7 +543,7 @@
       "labels": [
         "tab:primary_saved_ranges"
       ],
-      "title": "primary saved ranges",
+      "title": "Recorded ranges for the 104 primary runs",
       "inputs": [
         "results/reference/source_data/round14/cohort_horizons.csv"
       ],
@@ -561,7 +561,7 @@
       "labels": [
         "tab:compute_cost"
       ],
-      "title": "compute cost",
+      "title": "Representative wall-clock times (single RTX 4090)",
       "inputs": [
         "results/reference/metadata/table07.json"
       ],
@@ -579,7 +579,7 @@
       "labels": [
         "tab:aggregation_cohort"
       ],
-      "title": "aggregation cohort",
+      "title": "Alternative aggregations across 35 one-layer runs",
       "inputs": [
         "results/reference/source_data/round12/schedule_protocol_per_run.csv",
         "results/reference/source_data/round13/aggregation_trajectories.csv"
@@ -598,7 +598,7 @@
       "labels": [
         "tab:trajectory_by_task"
       ],
-      "title": "trajectory by task",
+      "title": "Trajectory criteria by operation, pooled over one to three layers",
       "inputs": [
         "results/reference/primary/training_metrics.csv.gz",
         "results/reference/source_data/round12/schedule_protocol_per_run.csv",
@@ -619,7 +619,7 @@
       "labels": [
         "tab:null_baselines"
       ],
-      "title": "null baselines",
+      "title": "Null baselines for the 104-run schedule criteria (post hoc)",
       "inputs": [
         "results/reference/primary/training_metrics.csv.gz",
         "results/reference/source_data/round12/schedule_protocol_per_run.csv",
@@ -646,7 +646,7 @@
       "labels": [
         "tab:selector_replacement"
       ],
-      "title": "selector replacement",
+      "title": "Difference between attention and MLP reset costs for selected donors",
       "inputs": [
         "results/reference/evidence/mechanistic/donors.csv",
         "results/reference/evidence/mechanistic/dynamic.csv",
@@ -668,7 +668,7 @@
       "labels": [
         "tab:window_example"
       ],
-      "title": "window example",
+      "title": "Three selected windows in the same addition run",
       "inputs": [
         "results/reference/source_data/reviewed_window_example/cka_case_study_heads.csv",
         "results/reference/source_data/reviewed_window_example/cka_case_study_sites.csv",
@@ -691,7 +691,7 @@
       "labels": [
         "tab:window_sites"
       ],
-      "title": "window sites",
+      "title": "Operand-swap distances within the coherence window",
       "inputs": [
         "results/reference/source_data/reviewed_window_example/cka_case_study_heads.csv",
         "results/reference/source_data/reviewed_window_example/cka_case_study_sites.csv",
@@ -714,7 +714,7 @@
       "labels": [
         "tab:fourier_trend"
       ],
-      "title": "fourier trend",
+      "title": "Attention GCS and restricted Fourier progress before grokking",
       "inputs": [
         "results/reference/evidence/fourier/0/comparison_summary.csv",
         "results/reference/evidence/fourier/0/comparison_timeseries.csv",
@@ -741,7 +741,7 @@
       "labels": [
         "tab:intervention_summary_appendix"
       ],
-      "title": "intervention summary appendix",
+      "title": "Full and partial resets in 17 addition/multiplication runs",
       "inputs": [
         "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s123_surgery.csv",
         "results/reference/evidence/interventions/raw/donor_fixed08_cohort_20260419/gelu_add_s42_surgery.csv",
@@ -962,7 +962,7 @@
     {
       "id": "app_interventions",
       "kind": "appendix_analysis",
-      "title": "Recovery, donor, rescue-share and nine freeze arms",
+      "title": "Recovery, alternative donors, reverse-patching gap closure and nine fixed-component arms",
       "status": "verified_cached",
       "inputs": [
         "results/reference/evidence/interventions/p97_site_swap.csv",
@@ -1156,7 +1156,7 @@
     {
       "id": "app_reference_variants",
       "kind": "appendix_analysis",
-      "title": "Reference controls: prompt source, other-task, shuffled, earlier-layer and hybrid",
+      "title": "Input-source, other-task, shuffled, earlier-layer and hybrid reference controls",
       "status": "verified_cached",
       "inputs": [
         "results/reference/evidence/reference_variants/earlier/per_run_path_metrics.csv",

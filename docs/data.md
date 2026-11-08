@@ -15,12 +15,12 @@ Write new experiments under `data/` and generated figures or reports under `outp
 | Primary 104 | `manifests/primary_runs.json` | One/two/three-layer signature counts; actual observed horizons and GCS schedules |
 | One-layer 35 | Primary records filtered to depth 1 | Reference and aggregation controls |
 | Commutative 17 | `primary/surgery_stats.csv` and intervention per-run records | Resets, patching, recovery, nine freeze arms |
-| Held-out workflow 23/11 | `evidence/workflow/joined.csv.gz` | All eligible runs / commutative subset; seed 42 tuning is excluded |
-| Extended workflow 71/35 | `evidence/workflow/six_seed.csv.gz` | Six-seed all / commutative held-out cohorts |
+| Held-out window selection 23/11 | `evidence/workflow/joined.csv.gz` | All eligible runs / commutative subset; seed 42 tuning is excluded |
+| Extended window selection 71/35 | `evidence/workflow/six_seed.csv.gz` | Six-seed all / commutative held-out cohorts |
 | Mechanistic 11 | `evidence/mechanistic/windows.csv` | All-window donor replacement benchmark |
 | Fourier 5 | `evidence/fourier/0..4` | Includes the extended SiLU/add/seed-123 run, which is not a primary/intervention run |
-| Prompt-source pilot 12 × 3 | `evidence/prompt_sources` | Complete train/test/full-grid GCS trajectories, with per-run accuracy logs for the grok anchors |
-| Neighbor-label audit 3 | `evidence/reference_neighbors` | ReLU/GeLU/SiLU addition seed 777; 3,830 per-prompt fractions per model and saved random baselines |
+| Input-source pilot 12 × 3 | `evidence/prompt_sources` | Complete train/test/full-grid GCS trajectories, with per-run accuracy logs for the grok anchors |
+| Neighbor-label audit 3 | `evidence/reference_neighbors` | ReLU/GeLU/SiLU addition seed 777; 3,830 per-input fractions per model and saved random baselines |
 | Uniform-attention control 8 | `evidence/uniform_factorial` | Four seed-777 figure runs plus four targeted extensions; actual accuracy/GCS schedules and continuation metadata |
 | SiLU dimension/sample-size sweeps | `evidence/ablations` | Original Figure 6/7 trajectories, with six dimension settings and five sample sizes |
 | Architecture/group pilots | `evidence/narrative` | Separate LayerNorm, S5, cyclic, and dihedral cohorts |
@@ -33,7 +33,7 @@ Paths in this table are relative to `results/reference` unless starting with `ma
 
 Most CSV, JSON and NPZ files are copies of the original results. Training accuracy logs were exported to `primary/training_metrics.csv.gz`, and the example geometry was converted from pickle to numeric NPZ without changing its arrays. `svd_provenance.json` records the neighborhoods used for the independent SVD check. The checkpoint example's expected values come from the original scores and intervention record.
 
-The prompt-source inputs contain all 36 original trajectories and accuracy fields from 12 training logs. Their provenance file identifies the original inputs and generating scripts by hash. The reducer recomputes the grok anchors and path counts; historical directory strings join the exported records.
+The input-source pilot files contain all 36 original trajectories and accuracy fields from 12 training logs. Their provenance file identifies the original inputs and generating scripts by hash. The reducer recomputes the grok anchors and path counts; historical directory strings join the exported records.
 
 `configs/archive_protocols` preserves small original protocol documents and cohort manifests at their historical relative paths. The NKd manifest has an added `run_manifest.paths.json` that binds its original root to the unchanged CSV's SHA-256; the loader uses this metadata to relocate paths. These documents may describe archived experiments outside the verified execution set; they do not broaden this repository's verification claims.
 
@@ -52,7 +52,7 @@ All 2,424 GCS values match their original pickle values after JSON conversion. T
 
 ## Recovered neighbor and uniform-attention records
 
-The [neighbor records](../results/reference/evidence/reference_neighbors/records.json) contain all 11,490 original per-prompt same-answer fractions, their configs, the saved random baseline and original per-epoch summaries. Means and enrichment ratios are recomputed; the baseline is explicitly labeled as a saved scalar. The [provenance record](../results/reference/evidence/reference_neighbors/provenance.json) identifies the three source PKLs and the original generator. No neighbor indices or old random draws are represented as recovered.
+The [neighbor records](../results/reference/evidence/reference_neighbors/records.json) contain all 11,490 original per-input same-answer fractions, their configs, the saved random baseline and original per-epoch summaries. Means and enrichment ratios are recomputed; the baseline is explicitly labeled as a saved scalar. The [provenance record](../results/reference/evidence/reference_neighbors/provenance.json) identifies the three source PKLs and the original generator. No neighbor indices or old random draws are represented as recovered.
 
 The [uniform-attention records](../results/reference/evidence/uniform_factorial/records.json) preserve the eight original configs, selected accuracy fields, continuation metadata, all six available GCS trajectories and final saved checkpoint identities. The [provenance record](../results/reference/evidence/uniform_factorial/provenance.json) gives the original plotting and cohort specifications, source hashes, inclusion rules and missing-log boundaries. This is four seed-777 figure runs plus four targeted extensions, not a balanced twelve-run design. No extra checkpoint weights are bundled.
 
@@ -74,4 +74,4 @@ Larger checkpoint studies require training the relevant configurations or supply
 
 ## Manuscript version
 
-The [paper map](../manifests/paper_map.json) records manuscript SHA-256 `68e89c480607d5b6c9e7497800e145ae7805f4136d9ca0ffbb4736a4518ebd1a`, the text revision dated 5 November 2026. Its figure files, numerical inputs, and all 29 figure/table numbers and page references match the preceding final-round revision. Every reproduction report records the manuscript identity used for that run.
+Figure and table numbers, titles, page references and numerical targets in the [paper map](../manifests/paper_map.json) match the NeurIPS 2026 camera-ready PDF.

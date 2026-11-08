@@ -6,46 +6,46 @@ Forty targets are supported. The response-norm control remains incomplete: its h
 
 | ID | Paper result | Evidence level | Status |
 |---|---|---|---|
-| `fig01` | Path coherence and workflow overview | numeric recomputation | passed |
-| `fig02` | depth trajectories | numeric recomputation | passed |
-| `fig03` | checkpoint surgery | numeric recomputation | passed |
-| `fig04` | probe positions | numeric recomputation | passed |
-| `fig05` | reference trajectories | numeric recomputation | passed |
-| `fig06` | probe dimension | numeric recomputation | passed |
-| `fig07` | sample size | numeric recomputation | passed |
-| `fig08` | neighbor count | numeric recomputation | passed |
-| `fig09` | detached attention | numeric recomputation | passed |
-| `fig10` | cohort mlp | numeric recomputation | passed |
-| `fig11` | cohort attention | numeric recomputation | passed |
-| `fig12` | uniform attention | numeric recomputation | passed |
-| `fig13` | attention maps | numeric recomputation | passed |
-| `fig14` | matched mlp | numeric recomputation | passed |
-| `tab01` | diagnostics | numeric recomputation | passed |
-| `tab02` | joint reference | numeric recomputation | passed |
-| `tab03` | fixed mlp continuation | numeric recomputation | passed |
-| `tab04` | workflow selection | numeric recomputation | passed |
-| `tab05` | experiment configs | descriptive metadata | passed |
-| `tab06` | primary saved ranges | numeric recomputation | passed |
-| `tab07` | compute cost | descriptive metadata | passed |
-| `tab08` | aggregation cohort | numeric recomputation | passed |
-| `tab09` | trajectory by task | numeric recomputation | passed |
-| `tab10` | null baselines | numeric recomputation | passed |
-| `tab11` | selector replacement | numeric recomputation | passed |
-| `tab12` | window example | numeric recomputation | passed |
-| `tab13` | window sites | numeric recomputation | passed |
-| `tab14` | fourier trend | numeric recomputation | passed |
-| `tab15` | intervention summary appendix | numeric recomputation | passed |
+| `fig01` | The score and its trajectories | numeric recomputation | passed |
+| `fig02` | Attention and MLP trajectories across depths | numeric recomputation | passed |
+| `fig03` | Accuracy after activation patching and parameter resets | numeric recomputation | passed |
+| `fig04` | Changing the probed token position changes the measured response | numeric recomputation | passed |
+| `fig05` | Coherence trajectories with three references from the same run | numeric recomputation | passed |
+| `fig06` | Number of probe directions | numeric recomputation | passed |
+| `fig07` | Number of sampled inputs | numeric recomputation | passed |
+| `fig08` | Number of neighbors | numeric recomputation | passed |
+| `fig09` | Removing the derivative through attention | numeric recomputation | passed |
+| `fig10` | MLP trajectories by activation | numeric recomputation | passed |
+| `fig11` | Attention trajectories by task | numeric recomputation | passed |
+| `fig12` | MLP coherence recovery with learned or uniform attention | numeric recomputation | passed |
+| `fig13` | Attention patterns at five checkpoints | numeric recomputation | passed |
+| `fig14` | Parameter-count-matched MLP resets for each run | numeric recomputation | passed |
+| `tab01` | Attention and MLP trajectory counts across model depths | numeric recomputation | passed |
+| `tab02` | Trajectory counts under different references | numeric recomputation | passed |
+| `tab03` | Continued learning with a fixed MLP | numeric recomputation | passed |
+| `tab04` | Changes captured by selected windows on held-out runs | numeric recomputation | passed |
+| `tab05` | Evidence sets, their scope and where they are reported | descriptive metadata | passed |
+| `tab06` | Recorded ranges for the 104 primary runs | numeric recomputation | passed |
+| `tab07` | Representative wall-clock times (single RTX 4090) | descriptive metadata | passed |
+| `tab08` | Alternative aggregations across 35 one-layer runs | numeric recomputation | passed |
+| `tab09` | Trajectory criteria by operation, pooled over one to three layers | numeric recomputation | passed |
+| `tab10` | Null baselines for the 104-run schedule criteria (post hoc) | numeric recomputation | passed |
+| `tab11` | Difference between attention and MLP reset costs for selected donors | numeric recomputation | passed |
+| `tab12` | Three selected windows in the same addition run | numeric recomputation | passed |
+| `tab13` | Operand-swap distances within the coherence window | numeric recomputation | passed |
+| `tab14` | Attention GCS and restricted Fourier progress before grokking | numeric recomputation | passed |
+| `tab15` | Full and partial resets in 17 addition/multiplication runs | numeric recomputation | passed |
 | `app_scope` | Architecture and group scope pilots | aggregate per run metrics | passed |
 | `app_endpoints` | Truncated trajectories and non-grokking controls | aggregate per run metrics | passed |
 | `app_measurement` | Probe, SVD, Procrustes and detached-gradient checks | numeric recomputation | passed |
 | `app_order` | Signed order of attention and MLP upturns | numeric recomputation | passed |
 | `app_robustness` | Cluster bootstrap and leave-one-factor-out | numeric recomputation | passed |
 | `app_selectors` | Six-seed selection and reference/geometry controls | aggregate per run metrics | passed |
-| `app_interventions` | Recovery, donor, rescue-share and nine freeze arms | numeric recomputation | passed |
+| `app_interventions` | Recovery, alternative donors, reverse-patching gap closure and nine fixed-component arms | numeric recomputation | passed |
 | `app_uniform_graphs` | Uniform edge-weight sweeps over 35 saved graphs | numeric recomputation | passed |
-| `app_reference_variants` | Prompt-source, other-task, shuffled, earlier-layer and hybrid reference controls | aggregate per run metrics | passed |
+| `app_reference_variants` | Input-source, other-task, shuffled, earlier-layer and hybrid reference controls | aggregate per run metrics | passed |
 | `gap_jvp_norms` | 19,200 response-norm audit | missing original inputs | incomplete |
-| `gap_reference_sampling` | Reference-neighbor label enrichment | means from 11,490 saved per-prompt fractions; archived random baseline | passed |
+| `gap_reference_sampling` | Reference-neighbor label enrichment | means from 11,490 saved per-input fractions; archived random baseline | passed |
 | `gap_uniform_factorial` | Uniform-attention factorial control | eight runs; accuracy/GCS summaries with actual horizons and partial-log flags | passed |
 
 The machine-readable [registry](../manifests/paper_map.json) gives input paths and commands. Table 7 uses the recorded experiment timings; it does not benchmark your machine. The following keys locate additional paper results in the output JSON:
@@ -60,4 +60,4 @@ The machine-readable [registry](../manifests/paper_map.json) gives input paths a
 | Grok-free circular-shift null rates | `app_selectors.grok_free.null_rates` |
 | 36 planned endpoints, p97 counterexample and downstream sites | `app_interventions.task_algebra` |
 
-The registry is tied to manuscript SHA-256 `68e89c480607d5b6c9e7497800e145ae7805f4136d9ca0ffbb4736a4518ebd1a`. Each reproduction report records that identity.
+Figure and table numbers, titles, pages and values follow the NeurIPS 2026 camera-ready PDF.
