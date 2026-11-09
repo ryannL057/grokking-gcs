@@ -87,6 +87,18 @@ The saved results support 14 figures, 15 tables and eleven appendix analyses. Th
 
 One response-norm control remains incomplete: its historical summary is included, but the original 19,200 per-response values and generating code have not been located. The reported minimum of 0.135 is therefore not independently verified here. The full reproduction check reports **40 passed, one incomplete**. See [coverage and limitations](docs/known_gaps.md), [data provenance](docs/data.md), and the [verification record](verification/REPORT.md).
 
+## Open directions
+
+GCS was designed as a manifold version of the [linear mapping number](https://arxiv.org/abs/2310.05918): instead of testing linearity along straight lines between inputs, it compares local responses along tangent directions among neighboring inputs. Several parts of that extension remain open, and the bundled results are enough to start on most of them.
+
+- **Transport the probes.** Tangent directions are estimated from final-model block outputs but applied directly in input-embedding coordinates (Section 2.2). Pulling them back through the block, or estimating tangent spaces on the input side, would give a geometrically consistent probe. Probes are built in `src/gcs/analysis/reference_geometry.py`.
+- **Compare response subspaces without matching bases.** Probes at neighboring inputs are paired by singular-value rank. With Procrustes matching, none of eight pilot runs shows MLP recovery before grokking (Appendix B.3). Principal angles between the response subspaces at two inputs would remove the pairing step. Alignment scores are in `src/gcs/analysis/gmn_tsa.py` and the edge matrix in `src/gcs/analysis/batched_gcs.py`.
+- **Count distinct local maps.** GCS scores only neighbor edges, so the untrained network and a learned rule both score high (Figure 1a). Scoring all pairs and counting the effective number of distinct maps, as the linear mapping number does, should separate one map everywhere, one map per input and a few shared maps.
+- **Check against the known algorithm.** Attention coherence and restricted Fourier progress share a training trend, but their step-to-step changes correlate weakly (median 0.034, Table 14). Testing whether a count of local maps follows the key frequencies would show what the score measures. The five addition runs are in the `compare_gcs_nanda_measures` experiment.
+- **Use task-defined neighbors.** Final-model neighbors share the input's answer (Appendix B.5). Neighbors defined by the task itself, such as (a±1, b) and (a, b±1), would remove the dependence on a trained reference.
+- **Compare with tangent-kernel measures.** Component-resolved kernel–label alignment ([Baratin et al., 2021](https://arxiv.org/abs/2008.00938)) or within-class gradient agreement ([Fort et al., 2019](https://arxiv.org/abs/1901.09491)) has not been computed on the same checkpoints.
+- **Separate dependence from necessity.** In one-layer addition and multiplication runs, resetting attention to t⁻ costs the final model more accuracy than resetting the MLP, yet training with attention fixed at t⁻ still reaches 99% in 17/17 runs. Pairing endpoint resets with fixed-component continuation at the same stage applies to other components and tasks. Fixed MLPs receive no weight decay (Appendix D.4), which a decay-matched control should separate. Start with `scripts/intervene.py` and `scripts/freeze.py`.
+
 ## Citation and license
 
 ```bibtex
